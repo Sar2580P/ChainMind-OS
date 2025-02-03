@@ -1,14 +1,23 @@
-import Intro from "@/components/intro";
+"use client";
+import { use } from "react";
 import classes from "@/styles/page.module.css";
 
-export default function Home() {
+interface AgentIdPageProps {
+  params: Promise<{ id: string }>;
+}
+
+const AgentIdPage: React.FC<AgentIdPageProps> = ({ params }) => {
+  const { id } = use(params);
+
   return (
     <div className={classes["container"]}>
-      <Intro />
+      Agent Id: {id}
       <div className={classes["box"]}>
         <div className={classes["left"]}></div>
         <div className={classes["right"]}></div>
       </div>
     </div>
   );
-}
+};
+
+export default AgentIdPage;
