@@ -1,10 +1,9 @@
-import { Input } from "@/components/ui/input";
+import classes from "@/styles/page.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={classes["container"]}>
       <h1>ChainMind</h1>
-      <Input placeholder="Type something..." />
     </div>
   );
 }
