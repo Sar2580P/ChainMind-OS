@@ -1,16 +1,25 @@
 "use client";
-import classes from "./index.module.css";
-import AskQuestion from "./askQuestion";
 import Chats from "./chats";
 import Buttons from "./buttons";
+import AskQuestion from "./askQuestion";
+import { Card } from "@/components/ui/card";
 
-const ChatWorkFlow = () => {
+const ChatWorkFlow = ({ agent_id }: { agent_id: string }) => {
   return (
-    <div className={classes["container"]}>
-      <AskQuestion />
-      <Chats />
+    <Card
+      className="flex flex-col"
+      style={{
+        height: "calc(100lvh)",
+        backgroundColor: "transparent",
+        color: "#efeee7",
+        marginTop: "2px",
+        borderRadius: "5px",
+      }}
+    >
       <Buttons />
-    </div>
+      <Chats agent_id={agent_id} />
+      <AskQuestion />
+    </Card>
   );
 };
 

@@ -1,10 +1,10 @@
 const Providers = [
   {
-    value: "shivam6862",
-    placeholder: "Enter your username",
-    heading: "Write User Name",
-    type: "text-updater",
-    name: "Text Update",
+    id: "Agent 1",
+    about: "Blockchain for fee payments",
+    description: "Using blockchain for immutable and transparent fee payments.",
+    type: "new-agent",
+    name: "New Agent",
   },
 ];
 

@@ -5,16 +5,19 @@ import CodeWorkFlow from "./codeWorkFlow";
 import AgentWorkFlow from "./agentWorkFlow";
 
 const AgentComponents = ({ id }: { id: string }) => {
-  console.log(id);
-  const isAccessible = false;
+  const isAccessible = true;
 
   return (
     <div className={classes["container"]}>
       <div className={`${classes["chat-code-container"]} scrollbar-hide`}>
-        {isAccessible ? <CodeWorkFlow /> : <ChatWorkFlow />}
+        {isAccessible ? (
+          <CodeWorkFlow agent_id={id} />
+        ) : (
+          <ChatWorkFlow agent_id={id} />
+        )}
       </div>
       <div className={classes["agent-container"]}>
-        <AgentWorkFlow />
+        <AgentWorkFlow agent_id={id} />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import type { Metadata } from "next";
+import { Providers } from "./providers";
 import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -22,9 +23,11 @@ export default function RootLayout({
     <html lang="en" className="scrollbar-hide">
       <body className={inter.className}>
         <AppContextProvider>
-          <Header />
-          {children}
-          <Footer />
+          <Providers>
+            <Header />
+            {children}
+            <Footer />
+          </Providers>
         </AppContextProvider>
       </body>
     </html>

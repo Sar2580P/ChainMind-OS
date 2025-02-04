@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  z-index: 100000000;
+}
+
+.box {
+  /* height: 640px;
+  width: 262px; */
+  height: 107px;
+  width: 44px;
+  background-image: url("/robot/robot-animation.png");
+  background-size: auto 100%;
+  background-position: 0 0;
+  animation: Jump 1s steps(3) infinite;
+}
+
+@keyframes Jump {
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.provider-selector {
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+  transform: translateX(-50%);
+}

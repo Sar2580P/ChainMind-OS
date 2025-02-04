@@ -4,6 +4,7 @@ import classes from "./index.module.css";
 import HomeIcon from "./components/HomeIcon";
 import { usePathname } from "next/navigation";
 import AgentIcon from "./components/AgentIcon";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Header = () => {
   const path = usePathname().split("/")[1];
@@ -38,7 +39,9 @@ const Header = () => {
               Agents
             </span>
           </Link>
-          <div className={`${classes["icons"]}`}>Connect Wallet</div>
+          <div className={`${classes["icons"]}`}>
+            <ConnectButton />
+          </div>
         </div>
       </div>
     </div>

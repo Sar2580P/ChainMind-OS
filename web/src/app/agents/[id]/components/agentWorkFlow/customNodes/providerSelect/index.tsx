@@ -11,20 +11,20 @@ export default function ProviderSelect() {
 
   const onProviderClick = ({
     type,
-    value,
-    placeholder,
-    heading,
+    id,
+    about,
+    description,
   }: {
-    value: string;
-    placeholder: string;
-    heading: string;
     type: string;
+    id: string;
+    about: string;
+    description: string;
   }) => {
     setNodes((prevNodes) => [
       ...prevNodes,
       {
         id: `${new Date().getTime().toString()}`,
-        data: { value, placeholder, heading },
+        data: { id, about, description },
         type: type,
         position: {
           x: 10 + prevNodes.length * 30,

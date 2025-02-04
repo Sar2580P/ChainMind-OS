@@ -5,7 +5,7 @@ import classes from "./index.module.css";
 import React, { useCallback } from "react";
 import initialNodes from "./defaultData/Nodes";
 import initialEdges from "./defaultData/Edges";
-import TextUpdaterNode from "./customNodes/textUpdaterNode";
+import NewAgentNode from "./customNodes/newAgentNode";
 import {
   useNodesState,
   useEdgesState,
@@ -18,13 +18,13 @@ import {
 } from "@xyflow/react";
 
 const nodeTypes = {
-  "text-updater": TextUpdaterNode,
+  "new-agent": NewAgentNode,
 };
 const edgeTypes = {
   "custom-edge": CustomEdge,
 };
 
-const AgentWorkFlow = () => {
+const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
@@ -42,7 +42,7 @@ const AgentWorkFlow = () => {
   );
 
   return (
-    <div className={classes["container"]}>
+    <div className={classes["container"]} key={agent_id}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
