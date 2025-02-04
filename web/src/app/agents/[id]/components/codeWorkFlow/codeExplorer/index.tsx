@@ -36,7 +36,7 @@ const _FOLDER: FileNode = {
 };
 
 const FolderExplorer = ({ node }: { node: FileNode }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleOpen = () => {
     if (node.children) {

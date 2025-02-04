@@ -1,0 +1,6 @@
+[package]
+name = "onchain_ai_agents"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
