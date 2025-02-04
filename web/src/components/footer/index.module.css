@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+  border-top: 1px solid rgba(102, 205, 239, 0.5);
+  padding: 16px 16px 12px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: -webkit-fill-available;
+  max-width: 1300px;
+}
+
+.left,
+.right {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.left > span,
+.right > span {
+  color: rgba(102, 205, 239, 1);
+}

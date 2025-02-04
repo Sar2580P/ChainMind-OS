@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: -webkit-fill-available;
+}
+
+.chat-code-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  flex: 1;
+  position: relative;
+}
+
+.chat-code-container > svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: aliceblue;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.agent-container {
+  flex: 1;
+}

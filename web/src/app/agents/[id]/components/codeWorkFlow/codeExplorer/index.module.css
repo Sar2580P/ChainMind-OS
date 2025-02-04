@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+}
+
+.folder-item {
+  margin-left: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.folder-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.folder-name > svg {
+  width: 16px;
+  height: 16px;
+}
+
+.folder-children {
+  margin-left: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

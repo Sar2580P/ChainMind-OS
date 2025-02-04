@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  height: inherit;
+  z-index: 100;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  gap: 2rem;
+}
+
+.box > h1 {
+  background: radial-gradient(
+    70.54% 70.54% at 50% 50%,
+    #fff 0,
+    hsla(0, 0%, 100%, 0.57) 92.71%,
+    hsla(0, 0%, 100%, 0.6) 92.72%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 96px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.box > p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+  max-width: 720px;
+  text-align: center;
+}
+
+.box > a {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 255, 255, 0.4) 0.17%,
+    rgba(102, 205, 239, 0.4) 99.46%
+  );
+  transition: all 0.3s ease;
+  width: fit-content;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .box > h1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .box > p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box > h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .box > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .box > h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .box > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

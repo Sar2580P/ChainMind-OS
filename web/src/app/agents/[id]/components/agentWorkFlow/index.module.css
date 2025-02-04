@@ -1,0 +1,9 @@
+.container {
+  height: 100%;
+  width: 100%;
+  color: #000;
+  margin-top: 2px;
+  border: 1px solid #fff;
+  border-left: transparent;
+  border-radius: 5px;
+}

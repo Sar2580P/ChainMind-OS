@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+  border-bottom: 1px solid rgba(102, 205, 239, 0.5);
+  padding: 24px 24px 16px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  width: -webkit-fill-available;
+  background: rgba(15, 14, 13, 0.2);
+  backdrop-filter: blur(6px);
+  max-width: 1200px;
+}
+
+.container svg {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo > p {
+  letter-spacing: 4px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.logo > p > span {
+  color: rgba(102, 205, 239, 1);
+}
+
+.routes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
