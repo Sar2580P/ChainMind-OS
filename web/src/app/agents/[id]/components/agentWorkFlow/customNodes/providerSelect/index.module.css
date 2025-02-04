@@ -1,0 +1,47 @@
+.provider-select-container {
+  display: flex;
+}
+
+.provider-select-container > details {
+  position: relative;
+}
+
+.provider-select-container > details > summary {
+  cursor: pointer;
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.provider-select-container > details > summary > svg {
+  color: rgba(102, 205, 239, 1);
+}
+.provider-select-container > details > ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  width: max-content;
+  background-color: #fff;
+  border-radius: 0.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+.provider-select-container > details > ul > li {
+  font-size: 0.625rem;
+  padding: 4px 0.5rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.provider-select-container > details > ul > li:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+.provider-select-container > details > ul > li:hover {
+  background-color: rgba(102, 205, 239, 1);
+  color: #fff;
+}

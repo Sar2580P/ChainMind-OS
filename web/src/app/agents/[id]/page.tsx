@@ -1,17 +1,16 @@
-"use client";
-import { use } from "react";
+import AgentComponents from "./components";
 import classes from "@/styles/page.module.css";
 
 interface AgentIdPageProps {
   params: Promise<{ id: string }>;
 }
 
-const AgentIdPage: React.FC<AgentIdPageProps> = ({ params }) => {
-  const { id } = use(params);
+const AgentIdPage: React.FC<AgentIdPageProps> = async ({ params }) => {
+  const { id } = await params;
 
   return (
     <div className={classes["container"]}>
-      Agent Id: {id}
+      <AgentComponents id={id} />
       <div className={classes["box"]}>
         <div className={classes["left"]}></div>
         <div className={classes["right"]}></div>
