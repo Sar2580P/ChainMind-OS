@@ -10,11 +10,10 @@
   flex-direction: column;
   overflow-y: scroll;
   flex: 1;
-  position: relative;
 }
 
 .chat-code-container > svg {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   color: aliceblue;
