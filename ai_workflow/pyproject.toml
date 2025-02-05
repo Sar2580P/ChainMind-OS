@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chainmind-os"
+version = "0.1.0"
+description = "The is repo for orchestrated blockchain development"
+authors = ["Sar2580P <sporwal1818@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+groq = "^0.16.0"
+python-dotenv = "^1.0.1"
+pydantic-ai = "^0.0.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

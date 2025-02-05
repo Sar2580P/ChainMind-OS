@@ -1,0 +1,3 @@
+layer_0_params : 
+  llm_model : "llama-3.3-70b-versatile"
+  retries : 1
