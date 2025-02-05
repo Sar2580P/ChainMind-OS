@@ -55,6 +55,11 @@ const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
         selectionOnDrag
         minZoom={0.5}
         maxZoom={4}
+        defaultViewport={{
+          zoom: 0.8,
+          x: 50,
+          y: 0,
+        }}
       >
         <Controls />
         <MiniMap />
