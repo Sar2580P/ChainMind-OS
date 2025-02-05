@@ -1,6 +1,6 @@
 from ai_workflow.ai_agents.agentic_land.base_expert import BaseExpert
 from ai_workflow.return_schema import FullyDefinedObjective_Level2, DenseFiller_Level2, CodePlanner_Level3
-from pydantic_ai import RunContext, ModelRetry, Agent
+from pydantic_ai import RunContext, Agent
 from typing import Dict, ClassVar
 
 class NFTExpert(BaseExpert):

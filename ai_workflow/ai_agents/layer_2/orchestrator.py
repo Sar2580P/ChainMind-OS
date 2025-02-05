@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 from typing import List, Dict, Generator
 from ai_workflow.return_schema import (DenseFiller_Level2, FullyDefinedObjective_Level2, 
                                        ObjectiveExtraction_Level1, decorate)
-from ai_workflow.ai_agents.layer_2.base_expert import BaseExpert
+from ai_workflow.ai_agents.agentic_land.base_expert import BaseExpert
 from queue import Queue
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -84,18 +84,18 @@ class OrchestratorLevel2(BaseModel):
         expert_agent.create_fully_designed_objective(partial_design, user_guidance)
         return 
     
-    def planning_codebase_workflow(self) -> List[Queue[FullyDefinedObjective_Level2]]:
-        full_designed_objectives_list: List[Queue[FullyDefinedObjective_Level2]] = []
+    def planning_codebase_workflow(self) -> Dict[str, Queue[FullyDefinedObjective_Level2]]:
+        full_designed_objectives_list: Dict[str, Queue[FullyDefinedObjective_Level2]] = {}
         
         # Iterate over each registered expert agent
-        for _, expert_agent in self.registered_expert_agents.items():
+        for name, expert_agent in self.registered_expert_agents.items():
             while True:
                 remaining = expert_agent.planning_codebase_workflow()
                 if remaining == 0:
                     break
             
             # Collect the fully defined objectives queue for each expert agent
-            full_designed_objectives_list.append(expert_agent.get_fully_defined_objectives_queue())
+            full_designed_objectives_list[name] = expert_agent.get_fully_defined_objectives_queue()
         
         logging.info("Planning codebase workflow completed.")
         

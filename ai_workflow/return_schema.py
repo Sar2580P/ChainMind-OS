@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field, model_validator
 from typing import List, Set, Dict, Union
 from pydantic import BaseModel
 from typing import List, Dict
-
+import re
 from pydantic import BaseModel
 from typing import List, Dict
 
@@ -117,4 +117,19 @@ class CodePlanner_Level3(BaseModel):
                 f"Length mismatch: files({len(self.files)}) and code_instructions({len(self.code_instructions)}) must be the same."
             )
         return self  
-    
+
+class CodeBlock(BaseModel):
+    code: str = Field(..., description="Backtick-enclosed code with docs.")
+
+    # @model_validator(mode="after")
+    # def check_code_format(self):
+    #     """Ensures that the code is properly enclosed in backticks and contains documentation."""
+    #     # Check if the code is enclosed in backticks
+    #     if not self.code.startswith("```") or not self.code.endswith("```"):
+    #         raise ValueError("Code must be enclosed in triple backticks (```)...```.")
+
+    #     # Check for proper documentation: looking for at least one comment block in the code
+    #     if not re.search(r"#\s.*", self.code):
+    #         raise ValueError("Code must contain at least one comment (documentation).")
+
+    #     return self

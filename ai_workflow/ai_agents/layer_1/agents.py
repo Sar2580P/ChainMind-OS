@@ -18,7 +18,7 @@ def available_list_of_domain_experts(ctx: RunContext[str]) -> str:
 def instructions_regarding_planning(ctx: RunContext[str]) -> str:
     return f'''Here are the instructions to help you with the planning:
     1. Identify the set of objectives user expects to achieve.
-    2. Think about the set of experts needed to satisfy the objectives (at max 2 experts per objective).
+    2. Think about the set of experts needed to satisfy the objectives (allocate at max {ctx.deps['max_experts_per_objective']} experts per objective).
 '''
 
 @agent.system_prompt
@@ -36,7 +36,7 @@ salary disbursement, attendance tracking, report card verification, and a voting
 I want a step-by-step plan on how blockchain can help us, along with the required technology stack and execution plan.
 '''
 
-result = agent.run_sync(user_prompt=USER_PROMPT, 
-                        deps={"name": "Sarvagya", "domain_experts": ["DAO", "NFTs", "DID"]})
-print(result.data)
+# result = agent.run_sync(user_prompt=USER_PROMPT, 
+#                         deps={"name": "Sarvagya", "domain_experts": config['available_experts'], "max_experts_per_objective": config['max_experts_per_objective']})
+# print(result.data)
 

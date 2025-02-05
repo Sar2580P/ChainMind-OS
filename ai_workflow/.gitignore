@@ -1,2 +1,4 @@
 .env
 __pycache__
+generated_codes/
+sample_use_case
