@@ -2,6 +2,7 @@ from ai_workflow.ai_agents.agentic_land.base_expert import BaseExpert
 from ai_workflow.return_schema import FullyDefinedObjective_Level2, DenseFiller_Level2, CodePlanner_Level3
 from pydantic_ai import RunContext, Agent
 from typing import Dict, ClassVar
+import asyncio
 
 class NFTExpert(BaseExpert):
     role: ClassVar[str] = "You are an NFT expert. Use your expertise to design the solution."
@@ -43,6 +44,8 @@ class NFTExpert(BaseExpert):
                 - Objective: {ctx.deps['objective']}
                 - Context: {ctx.deps['context']}
         '''
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
         res = agent.run_sync(result_type=DenseFiller_Level2, user_prompt="",
                         deps={"role": self.role, "design_needs": self.design_needs, 
                               "default_design_needs": self.default_design_needs, 
@@ -69,6 +72,8 @@ class NFTExpert(BaseExpert):
             
             You need to create a full design config from the partial design config, using user guidance (default fallback options can be used if necessary).
         '''
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
         res = agent.run_sync(result_type=FullyDefinedObjective_Level2,user_prompt="",
                         deps={"role": self.role, "partial_design": partial_design, 
                               "default_design_needs": self.default_design_needs, 
@@ -107,7 +112,8 @@ class NFTExpert(BaseExpert):
                 
                 SOLUTION DESIGN CONFIG: {ctx.deps['full_defined_obj'].solution_design_config}
             '''
-            
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
             res = agent.run_sync(result_type=CodePlanner_Level3, user_prompt="",
                         deps={"role": role, "full_defined_obj": obj})
             self.code_planner_queue.put(res.data)

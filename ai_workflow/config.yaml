@@ -13,4 +13,4 @@ coder_params :
   llm_model : "llama-3.3-70b-versatile"
   retries : 2
   max_parallel_coders : 2
-  save_dir : "ai_workflow/generated_codes"
+  save_dir : "database"

@@ -54,7 +54,7 @@ class SM_CODER(BaseModel):
         
 
     def generate_code_for_file(self, full_file_path: str, global_objective: str, 
-                               expert_signature: str, code_instructions: str):
+                               expert_signature: str, code_instructions: str , agent_id:str):
         """
         Generate code for a given file based on the instructions.
         The generated code is saved as a JSON with 'full_file_path' and 'full_code' as keys.
@@ -87,6 +87,8 @@ class SM_CODER(BaseModel):
         You are expert **Software Developer** specializing in **Smart Contracts** development.
         You need to implement the code for smart_contracts in solidity from the viewpoint of expert_signature.
         '''
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
         response = coder.run_sync( user_prompt="Generate code...", 
                                 deps={"role": role, "global_objective": global_objective, 
                                       "full_file_path": full_file_path,
@@ -101,7 +103,7 @@ class SM_CODER(BaseModel):
             "objective_served" : global_objective
         }
         updated_file_name = "_".join(full_file_path.split(":")).split('.')[0]+'.json'
-        save_path = os.path.join(self.save_dir, updated_file_name)
+        save_path = os.path.join(self.save_dir, agent_id, "generated_codes", updated_file_name)
 
         # Save the code data as a JSON file
         with open(save_path, 'w') as json_file:
@@ -117,7 +119,7 @@ class SM_CODER(BaseModel):
 
 
 
-    def generate_code_parallel(self, code_design: CodePlanner_Level3):
+    def generate_code_parallel(self, code_design: CodePlanner_Level3 , agent_id:str):
         """
         Generate code for all files in parallel using threading.
         """
@@ -133,7 +135,7 @@ class SM_CODER(BaseModel):
                 # Submit the task to the thread pool
                 tasks.append(
                     executor.submit(self.generate_code_for_file, file_path, code_design.global_objective, 
-                                    code_design.expert_signature, instruction)
+                                    code_design.expert_signature, instruction , agent_id)
                 )
             
             # Use tqdm to track the progress of the tasks

@@ -15,7 +15,6 @@ def get_api_key(idx:int=0):
     return api
 
 def get_llm(model_name="llama-3.3-70b-versatile" , idx=0):
-    print(model_name, get_api_key(idx), "***************************")
     llm = GroqModel(model_name=model_name, api_key=get_api_key(idx))
     return llm
 # load_dotenv()

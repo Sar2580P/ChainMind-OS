@@ -14,6 +14,7 @@ def decorate(obj: BaseModel):
     attributes = obj.model_fields  # This gives the field names as keys in Pydantic V2
     html_decorated_string = ""
     plain_decorated_string = ""
+    markdown_decorated_string = ""
 
     for attribute in attributes:
         value = getattr(obj, attribute)
@@ -23,20 +24,28 @@ def decorate(obj: BaseModel):
         
         # Create plain text formatted heading for the attribute
         plain_decorated_string += f"{attribute}:\n"
+        
+        # Create Markdown formatted heading for the attribute
+        markdown_decorated_string += f"## {attribute}\n\n"
 
         if isinstance(value, list):
             # Format list items as a bulleted list for both HTML and plain text
             value_html = "\n".join([f"• {item}" for item in value])
             value_plain = "\n".join([f"• {item}" for item in value])
+            value_markdown = "\n".join([f"- {item}" for item in value])
         else:
             value_html = value
             value_plain = value
+            value_markdown = str(value)
 
         # Append the value after the heading
         html_decorated_string += f"<p>{value_html}</p>\n"
         plain_decorated_string += f"{value_plain}\n\n"
+
+        # Append the value after the heading
+        markdown_decorated_string += f"{value_markdown}\n\n"
     
-    return html_decorated_string, plain_decorated_string
+    return markdown_decorated_string, plain_decorated_string
 
 
 

@@ -33,6 +33,6 @@ def unauthorized_response():
 
 def internal_server_error_response(message):
     return jsonify({
-        'message': 'Internal Server Error' + message,
+        'message': 'Internal Server Error, ' + message,
         'status_code': 500
     })
