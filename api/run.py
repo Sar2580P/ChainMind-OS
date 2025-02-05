@@ -1,7 +1,10 @@
 from src import create_app
+from flask_cors import CORS
 from src.utils.global_response import success_response ,not_found_response
 
 app = create_app()
+
+CORS(app, origins=["http://localhost:3000"]) 
 
 @app.route('/', methods=["GET"])
 def is_health():
@@ -14,3 +17,4 @@ def is_not_found_api(path):
 
 if __name__ == "__main__":
     app.run(debug=True , port=8080)
+
