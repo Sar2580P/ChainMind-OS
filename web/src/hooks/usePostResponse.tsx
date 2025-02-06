@@ -10,7 +10,7 @@ const usePostResponse = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/agent/${path}/`,
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/agents/${path}/`,
         {
           method: "POST",
           headers: {

@@ -12,8 +12,8 @@ const _DUMMY_USER: UserType = {
 
 interface ChatType {
   id: string;
-  question: string;
-  assistantAnswer: string;
+  isAgent : boolean;
+  message: string;
   createdAt: string;
 }
 

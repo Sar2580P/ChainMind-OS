@@ -13,18 +13,18 @@ export default function ProviderSelect() {
     type,
     id,
     about,
-    description,
+    metadata,
   }: {
     type: string;
     id: string;
     about: string;
-    description: string;
+    metadata: Record<string, string>;
   }) => {
     setNodes((prevNodes) => [
       ...prevNodes,
       {
         id: `${new Date().getTime().toString()}`,
-        data: { id, about, description },
+        data: { id, about, metadata },
         type: type,
         position: {
           x: 10 + prevNodes.length * 30,

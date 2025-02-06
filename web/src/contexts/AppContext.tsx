@@ -8,6 +8,7 @@ import {
   CodeType,
 } from "@/types";
 import React, { useState } from "react";
+import { Edge, Node } from "@xyflow/react";
 
 type AppContextType = {
   userData: UserType;
@@ -21,6 +22,9 @@ type AppContextType = {
     id: string
   ) => void;
   setNewAgentHandler: (agentId: string) => void;
+
+  agentCurrentNodeAndEdges: { Nodes: Node[]; Edges: Edge[] };
+  setAgentCurrentNodeAndEdgesHandler: (Nodes: Node[], Edges: Edge[]) => void;
 };
 
 const AppContext = React.createContext<AppContextType>({
@@ -30,6 +34,9 @@ const AppContext = React.createContext<AppContextType>({
   agentDatas: _DUMMY_AGENT_DATA,
   setAgentDatasHandler: () => {},
   setNewAgentHandler: () => {},
+
+  agentCurrentNodeAndEdges: { Nodes: [], Edges: [] },
+  setAgentCurrentNodeAndEdgesHandler: () => {},
 });
 
 type Props = {
@@ -92,6 +99,20 @@ export const AppContextProvider: React.FC<Props> = (props) => {
     });
   };
 
+  const [agentCurrentNodeAndEdges, setAgentCurrentNodeAndEdges] = useState<{
+    Nodes: Node[];
+    Edges: Edge[];
+  }>({
+    Nodes: [],
+    Edges: [],
+  });
+  const setAgentCurrentNodeAndEdgesHandler = (Nodes: Node[], Edges: Edge[]) => {
+    setAgentCurrentNodeAndEdges({
+      Nodes: Nodes,
+      Edges: Edges,
+    });
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -101,6 +122,9 @@ export const AppContextProvider: React.FC<Props> = (props) => {
         agentDatas,
         setAgentDatasHandler: setAgentDatasHandler,
         setNewAgentHandler: setNewAgentHandler,
+
+        agentCurrentNodeAndEdges,
+        setAgentCurrentNodeAndEdgesHandler: setAgentCurrentNodeAndEdgesHandler,
       }}
     >
       {props.children}

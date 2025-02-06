@@ -14,7 +14,7 @@ interface NewAgentNodeProps {
   data: {
     id: string;
     about: string;
-    description: string;
+    metadata: Record<string, string>;
   };
   isConnectable: boolean;
 }
@@ -51,19 +51,31 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
           <div className={classes["box"]}></div>
         </HoverCardTrigger>
         <HoverCardContent className="w-80">
-          <div className="flex justify-between space-x-4">
+          <div className="flex justify-start space-x-4">
             <Avatar>
               <AvatarImage src="/robot/logo.png" />
               <AvatarFallback>AG</AvatarFallback>
             </Avatar>
-            <div className="space-y-1">
+            <div className="space-y-1 max-h-20 overflow-scroll scrollbar-hide">
               <h4 className="text-sm font-semibold">@{data["id"]}</h4>
               <div className="flex items-center">
                 <span className="text-xs text-muted-foreground">
                   {data["about"]}
                 </span>
               </div>
-              <p className="text-sm">{data["description"]}</p>
+              <div className="flex flex-col space-y-1 justify-start align-top">
+                {Object.keys(data["metadata"]).map((key) => (
+                  <div
+                    key={key}
+                    className="flex items-start justify-start flex-col"
+                  >
+                    <span className="font-bold capitalize text-xs">{key}</span>
+                    <span className="text-xs text-muted-foreground pl-1">
+                      {data["metadata"][key]}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </HoverCardContent>

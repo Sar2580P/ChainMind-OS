@@ -1,8 +1,12 @@
+import { v4 } from "uuid";
 const Providers = [
   {
-    id: "Agent 1",
+    id: v4(),
     about: "Blockchain for fee payments",
-    description: "Using blockchain for immutable and transparent fee payments.",
+    metadata: {
+      description:
+        "Using blockchain for immutable and transparent fee payments.",
+    },
     type: "new-agent",
     name: "New Agent",
   },

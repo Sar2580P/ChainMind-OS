@@ -1,18 +1,11 @@
 "use client";
-import { useState } from "react";
 
 const usePolling = () => {
-  const [loading, setLoading] = useState(false);
-  const [isPolling, setIsPolling] = useState(true);
-
   const polling = async (data: Record<string, unknown>, path: string) => {
-    if (!isPolling) return;
-
     console.log(data);
     try {
-      setLoading(true);
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/agent/${path}/`,
+        `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/agents/${path}/`,
         {
           method: "POST",
           headers: {
@@ -24,33 +17,16 @@ const usePolling = () => {
       );
       const responsedata = await response.json();
       console.log(responsedata);
-
-      if (responsedata.status_code !== 200) {
-        setLoading(false);
-        return null;
-      }
-
-      setLoading(false);
-
-      setTimeout(() => polling(data, path), 10000);
-
-      return responsedata.data;
+      if (responsedata.status_code !== 200) return null;
+      if (responsedata.data) return responsedata.data;
+      return null;
     } catch (err) {
-      setLoading(false);
       console.log(err);
       return null;
     }
   };
 
-  const startPolling = () => {
-    setIsPolling(true);
-  };
-
-  const stopPolling = () => {
-    setIsPolling(false);
-  };
-
-  return { polling, loading, startPolling, stopPolling };
+  return { polling };
 };
 
 export default usePolling;

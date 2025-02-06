@@ -1,11 +1,4 @@
 "use client";
-import "@xyflow/react/dist/style.css";
-import CustomEdge from "./customEdge";
-import classes from "./index.module.css";
-import React, { useCallback } from "react";
-import initialNodes from "./defaultData/Nodes";
-import initialEdges from "./defaultData/Edges";
-import NewAgentNode from "./customNodes/newAgentNode";
 import {
   useNodesState,
   useEdgesState,
@@ -16,6 +9,15 @@ import {
   Background,
   Connection,
 } from "@xyflow/react";
+import "@xyflow/react/dist/style.css";
+import CustomEdge from "./customEdge";
+import classes from "./index.module.css";
+import React, { useCallback } from "react";
+import { useContext, useEffect } from "react";
+import initialNodes from "./defaultData/Nodes";
+import initialEdges from "./defaultData/Edges";
+import AppContext from "@/contexts/AppContext";
+import NewAgentNode from "./customNodes/newAgentNode";
 
 const nodeTypes = {
   "new-agent": NewAgentNode,
@@ -25,9 +27,9 @@ const edgeTypes = {
 };
 
 const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+  const { agentCurrentNodeAndEdges } = useContext(AppContext);
 
   const onConnect = useCallback(
     (connection: Connection) => {
@@ -40,6 +42,13 @@ const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
     },
     [setEdges]
   );
+
+  useEffect(() => {
+    if (agentCurrentNodeAndEdges.Nodes.length === 0) return;
+    setNodes(agentCurrentNodeAndEdges.Nodes);
+    setEdges(agentCurrentNodeAndEdges.Edges);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [agentCurrentNodeAndEdges.Nodes, agentCurrentNodeAndEdges.Edges]);
 
   return (
     <div className={classes["container"]} key={agent_id}>

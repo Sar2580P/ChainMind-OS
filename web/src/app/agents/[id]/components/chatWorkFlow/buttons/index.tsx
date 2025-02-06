@@ -18,7 +18,7 @@ const Buttons = ({ agent_id }: { agent_id: string }) => {
       </div>
       <div className="flex flex-row space-x-2 text-gray-900">
         <Button onClick={() => {}} variant="outline">
-          Start Agent
+          Deploy Agent
         </Button>
       </div>
     </CardHeader>

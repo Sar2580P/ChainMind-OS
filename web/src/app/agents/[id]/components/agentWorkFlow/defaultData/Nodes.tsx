@@ -1,23 +1,6 @@
 import { Node, Position } from "@xyflow/react";
-const _ALL_TAIL_ID = [
-  "tail_1",
-  "tail_2",
-  "tail_3",
-  "tail_4",
-  "tail_5",
-  "tail_6",
-];
-const _ALL_AGENT_ID = [
-  "agent_1_1_1",
-  "agent_1_2_1",
-  "agent_1_3_1",
-  "agent_2_1_1",
-  "agent_2_1_2",
-  "agent_2_2_1",
-  "agent_2_3_1",
-  "agent_2_3_2",
-  "agent_2_3_3",
-];
+const _ALL_TAIL_ID = ["tail_1"];
+const _ALL_AGENT_ID = ["agent_1_1_1", "agent_2_1_1"];
 
 const groupAgentsByLayer = (allAgentIds: string[]) => {
   const layerMap: Record<number, string[]> = {};
@@ -55,8 +38,10 @@ const MakeGraphNodes: (
         data: {
           id: agentId.toUpperCase(),
           about: "Blockchain for fee payments",
-          description:
-            "Using blockchain for immutable and transparent fee payments.",
+          metadata: {
+            description:
+              "Using blockchain for immutable and transparent fee payments.",
+          },
         },
         position: { x: x_cord, y: 150 + (layer - 1) * 200 },
       });
