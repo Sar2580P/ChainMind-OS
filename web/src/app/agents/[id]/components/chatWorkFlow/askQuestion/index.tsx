@@ -58,7 +58,7 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
       "layer_1_objective_identification"
     );
     if (response_layer_1) {
-      const { Nodes, Edges } = CreateNodeAndEdges(response_layer_1);
+      const { Nodes, Edges } = CreateNodeAndEdges(response_layer_1, agent_id);
       setAgentCurrentNodeAndEdgesHandler(Nodes, Edges);
       const agent_answer_id = v4();
       setAgentDatasHandler(

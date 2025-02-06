@@ -98,14 +98,16 @@ const MakeGraphNodes: (
   _AGENT_ID_AOUT_AND_DESC: Record<
     string,
     { about: string; description: string }
-  >
+  >,
+  agent_id: string
 ) => Node[] = (
   allTailIds: string[],
   allAgentIds: string[],
   _AGENT_ID_AOUT_AND_DESC: Record<
     string,
     { about: string; description: string }
-  >
+  >,
+  agent_id: string
 ) => {
   const nodes = [];
   nodes.push({
@@ -121,17 +123,18 @@ const MakeGraphNodes: (
     const layer = parseInt(layerStr);
     const agentsInLayer = layerMap[layer];
     const layerWidth = agentsInLayer.length * 170;
-    agentsInLayer.forEach((agentId, index) => {
+    agentsInLayer.forEach((nodeId, index) => {
       const x_cord = 500 - layerWidth / 2 + index * 170;
       nodes.push({
-        id: agentId,
+        id: nodeId,
         type: "new-agent",
         data: {
-          id: agentId.toUpperCase(),
-          about: _AGENT_ID_AOUT_AND_DESC[agentId].about,
+          id: nodeId.toUpperCase(),
+          about: _AGENT_ID_AOUT_AND_DESC[nodeId].about,
           metadata: {
-            description: _AGENT_ID_AOUT_AND_DESC[agentId].description,
+            description: _AGENT_ID_AOUT_AND_DESC[nodeId].description,
           },
+          agent_id: agent_id,
         },
         position: { x: x_cord, y: 150 + (layer - 1) * 200 },
       });
@@ -150,18 +153,22 @@ const MakeGraphNodes: (
   return nodes;
 };
 
-const CreateNodeAndEdges = (data: {
-  objectives: string[];
-  brief_context_on_each_objective: string[];
-  tech_experts_for_objectives: string[][];
-}) => {
+const CreateNodeAndEdges = (
+  data: {
+    objectives: string[];
+    brief_context_on_each_objective: string[];
+    tech_experts_for_objectives: string[][];
+  },
+  agent_id: string
+) => {
   const { _GRAPH_EDGES, _ALL_TAIL_ID, _ALL_AGENT_ID, _AGENT_ID_AOUT_AND_DESC } =
     CreateNodeAndEdgesData(data);
   const Edges = MakeGraphEdges(_GRAPH_EDGES);
   const Nodes = MakeGraphNodes(
     _ALL_TAIL_ID,
     _ALL_AGENT_ID,
-    _AGENT_ID_AOUT_AND_DESC
+    _AGENT_ID_AOUT_AND_DESC,
+    agent_id
   );
   return { Edges, Nodes };
 };

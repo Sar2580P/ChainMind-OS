@@ -5,6 +5,7 @@ import {
 } from "@/components/ui/hover-card";
 import classes from "./index.module.css";
 import { useEffect, useRef } from "react";
+import AgentsButtons from "./AgnetsButtons";
 import ProviderSelect from "../providerSelect";
 import { Handle, Position, useReactFlow } from "@xyflow/react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -15,6 +16,7 @@ interface NewAgentNodeProps {
     id: string;
     about: string;
     metadata: Record<string, string>;
+    agent_id: string;
   };
   isConnectable: boolean;
 }
@@ -39,6 +41,8 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
     };
   }, [id, setNodes]);
 
+  const layer_id = data["id"].split("_")[1];
+
   return (
     <div className={classes["container"]} ref={containerRef} tabIndex={0}>
       <Handle
@@ -56,7 +60,7 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
               <AvatarImage src="/robot/logo.png" />
               <AvatarFallback>AG</AvatarFallback>
             </Avatar>
-            <div className="space-y-1 max-h-20 overflow-scroll scrollbar-hide">
+            <div className="space-y-1">
               <h4 className="text-sm font-semibold">@{data["id"]}</h4>
               <div className="flex items-center">
                 <span className="text-xs text-muted-foreground">
@@ -78,6 +82,9 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
               </div>
             </div>
           </div>
+          {layer_id == "2" && (
+            <AgentsButtons id={data["id"]} agent_id={data["agent_id"]} />
+          )}
         </HoverCardContent>
       </HoverCard>
       <Handle

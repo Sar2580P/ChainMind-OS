@@ -30,18 +30,19 @@ const MakeGraphNodes: (
     const layer = parseInt(layerStr);
     const agentsInLayer = layerMap[layer];
     const layerWidth = agentsInLayer.length * 170;
-    agentsInLayer.forEach((agentId, index) => {
+    agentsInLayer.forEach((nodeId, index) => {
       const x_cord = 500 - layerWidth / 2 + index * 170;
       nodes.push({
-        id: agentId,
+        id: nodeId,
         type: "new-agent",
         data: {
-          id: agentId.toUpperCase(),
+          id: nodeId.toUpperCase(),
           about: "Blockchain for fee payments",
           metadata: {
             description:
               "Using blockchain for immutable and transparent fee payments.",
           },
+          agent_id: "new",
         },
         position: { x: x_cord, y: 150 + (layer - 1) * 200 },
       });
