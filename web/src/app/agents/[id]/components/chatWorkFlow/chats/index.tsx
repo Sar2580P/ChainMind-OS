@@ -3,6 +3,7 @@ import Chat from "../chat";
 import { ChatType } from "@/types";
 import AppContext from "@/contexts/AppContext";
 import { CardContent } from "@/components/ui/card";
+import usePostResponse from "@/hooks/usePostResponse";
 import React, { useEffect, useRef, useContext, useMemo } from "react";
 
 interface ChatsProps {
@@ -10,7 +11,8 @@ interface ChatsProps {
 }
 
 const Chats = ({ agent_id }: ChatsProps) => {
-  const { agentDatas } = useContext(AppContext);
+  const { postResponse } = usePostResponse();
+  const { agentDatas, setAgentDatasHandler } = useContext(AppContext);
   const chats = useMemo(
     () =>
       (agentDatas.find((agent) => agent.agentId === agent_id) || { chats: [] })
@@ -25,6 +27,17 @@ const Chats = ({ agent_id }: ChatsProps) => {
         chatContainerRef.current.scrollHeight;
     }
   }, [chats]);
+
+  useEffect(() => {
+    const fetchChats = async () => {
+      const response = await postResponse({ agent_id }, "get_chat_history");
+      if (response) {
+        setAgentDatasHandler(agent_id, "chats", response);
+      }
+    };
+    fetchChats();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <CardContent className="space-y-2 h-full overflow-y-scroll scrollbar-hide pb-3">

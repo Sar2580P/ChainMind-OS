@@ -38,17 +38,14 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
     const question_id = v4();
     const curr_user_question = textareaRef.current.value;
     textareaRef.current.value = "";
-    setAgentDatasHandler(
-      agent_id,
-      "chats",
+    setAgentDatasHandler(agent_id, "chats", [
       {
         id: question_id,
         isAgent: false,
         message: curr_user_question,
         createdAt: new Date().toISOString(),
       },
-      question_id
-    );
+    ]);
     handleTextAreaSize();
     const response_layer_1 = await postResponse(
       {
@@ -61,9 +58,7 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
       const { Nodes, Edges } = CreateNodeAndEdges(response_layer_1, agent_id);
       setAgentCurrentNodeAndEdgesHandler(Nodes, Edges);
       const agent_answer_id = v4();
-      setAgentDatasHandler(
-        agent_id,
-        "chats",
+      setAgentDatasHandler(agent_id, "chats", [
         {
           id: agent_answer_id,
           isAgent: true,
@@ -71,8 +66,7 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
             "Layer 1 Objective Identification had been sent and all the agent needs to do is to respond from the user's end",
           createdAt: new Date().toISOString(),
         },
-        agent_answer_id
-      );
+      ]);
       setLoading(false);
       setIsLayer1ORFeedback(false);
       startPolling();
@@ -91,6 +85,8 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
           intervalRef.current = null;
         }
       }
+    } else {
+      setLoading(false);
     }
     console.log(response_layer_1);
   };
@@ -109,17 +105,14 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
         if (response) {
           console.log(response);
           const question_id = v4();
-          setAgentDatasHandler(
-            agent_id,
-            "chats",
+          setAgentDatasHandler(agent_id, "chats", [
             {
               id: question_id,
               isAgent: true,
               message: response,
               createdAt: new Date().toISOString(),
             },
-            question_id
-          );
+          ]);
         }
       }, 7000);
     } else if (intervalRef.current) {
@@ -143,17 +136,14 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
     const question_id = v4();
     const curr_user_question = textareaRef.current.value;
     textareaRef.current.value = "";
-    setAgentDatasHandler(
-      agent_id,
-      "chats",
+    setAgentDatasHandler(agent_id, "chats", [
       {
         id: question_id,
         isAgent: false,
         message: curr_user_question,
         createdAt: new Date().toISOString(),
       },
-      question_id
-    );
+    ]);
     handleTextAreaSize();
     await postResponse(
       {

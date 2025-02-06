@@ -18,8 +18,7 @@ type AppContextType = {
   setAgentDatasHandler: (
     agentId: string,
     key: "chats" | "codes",
-    value: ChatType | CodeType,
-    id: string
+    value: ChatType[] | CodeType[]
   ) => void;
   setNewAgentHandler: (agentId: string) => void;
 
@@ -59,30 +58,18 @@ export const AppContextProvider: React.FC<Props> = (props) => {
   const setAgentDatasHandler = (
     agentId: string,
     key: "chats" | "codes",
-    value: ChatType | CodeType,
-    id: string
+    value: ChatType[] | CodeType[]
   ) => {
     setAgentDatas((prevState) => {
-      const agentIndex = prevState.findIndex(
-        (agent) => agent.agentId === agentId
-      );
-      if (agentIndex === -1) return prevState;
-      const agent = prevState[agentIndex];
-      const data = agent[key];
-      const dataIndex = data.findIndex((d) => d.id === id);
-      if (dataIndex === -1) {
-        return [
-          ...prevState.slice(0, agentIndex),
-          { ...agent, [key]: [...data, value] },
-          ...prevState.slice(agentIndex + 1),
-        ];
-      }
-      data[dataIndex] = value;
-      return [
-        ...prevState.slice(0, agentIndex),
-        { ...agent, [key]: data },
-        ...prevState.slice(agentIndex + 1),
-      ];
+      return prevState.map((agent) => {
+        if (agent.agentId === agentId) {
+          return {
+            ...agent,
+            [key]: [...agent[key], ...value],
+          };
+        }
+        return agent;
+      });
     });
   };
   const setNewAgentHandler = (agentId: string) => {
