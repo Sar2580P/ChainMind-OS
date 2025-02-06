@@ -1,11 +1,13 @@
 "use client";
 import { useState } from "react";
-import { toast } from "sonner";
 
-const usePostResponse = () => {
+const usePolling = () => {
   const [loading, setLoading] = useState(false);
+  const [isPolling, setIsPolling] = useState(true);
 
-  const postResponse = async (data: Record<string, unknown>, path: string) => {
+  const polling = async (data: Record<string, unknown>, path: string) => {
+    if (!isPolling) return;
+
     console.log(data);
     try {
       setLoading(true);
@@ -22,39 +24,33 @@ const usePostResponse = () => {
       );
       const responsedata = await response.json();
       console.log(responsedata);
+
       if (responsedata.status_code !== 200) {
         setLoading(false);
-        toast("Failed to post response", {
-          description: responsedata.message,
-          action: {
-            label: "Delete",
-            onClick: () => console.log("Delete"),
-          },
-        });
-        setTimeout(() => {
-          toast.dismiss();
-        }, 2000);
         return null;
       }
+
       setLoading(false);
+
+      setTimeout(() => polling(data, path), 10000);
+
       return responsedata.data;
     } catch (err) {
       setLoading(false);
       console.log(err);
-      toast("Server Error", {
-        description: "Failed to post response",
-        action: {
-          label: "Delete",
-          onClick: () => console.log("Delete"),
-        },
-      });
-      setTimeout(() => {
-        toast.dismiss();
-      }, 2000);
       return null;
     }
   };
-  return { postResponse, loading };
+
+  const startPolling = () => {
+    setIsPolling(true);
+  };
+
+  const stopPolling = () => {
+    setIsPolling(false);
+  };
+
+  return { polling, loading, startPolling, stopPolling };
 };
 
-export default usePostResponse;
+export default usePolling;

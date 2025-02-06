@@ -24,7 +24,7 @@ const useGetResponse = () => {
       if (responsedata.status_code !== 200) {
         return null;
       }
-      return responsedata.response;
+      return responsedata.data;
     } catch (err) {
       console.log(err);
       setLoading(false);

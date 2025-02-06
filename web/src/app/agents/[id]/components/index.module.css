@@ -22,6 +22,19 @@
   height: 24px;
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.scroll-to-top > svg {
+  width: 28px;
+  height: 28px;
+}
+
 .agent-container {
   flex: 1;
 }
