@@ -37,7 +37,7 @@ const usePostResponse = () => {
         return null;
       }
       setLoading(false);
-      return responsedata.response;
+      return responsedata.data;
     } catch (err) {
       setLoading(false);
       console.log(err);

@@ -1,7 +1,9 @@
+import { v4 } from "uuid";
 import Link from "next/link";
 import classes from "./index.module.css";
 
 const Intro = () => {
+  const newAgentId = v4();
   return (
     <div className={classes["container"]}>
       <div className={classes["box"]}>
@@ -10,7 +12,7 @@ const Intro = () => {
           The future of agents is here! Create your own agent and start your
           journey to the top.
         </p>
-        <Link href="/agents/new">Create Agent </Link>
+        <Link href={`/agents/${newAgentId}`}>Create Agent </Link>
       </div>
     </div>
   );

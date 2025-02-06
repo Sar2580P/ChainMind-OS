@@ -16,9 +16,9 @@ const ChatWorkFlow = ({ agent_id }: { agent_id: string }) => {
         borderRadius: "5px",
       }}
     >
-      <Buttons />
+      <Buttons agent_id={agent_id} />
       <Chats agent_id={agent_id} />
-      <AskQuestion />
+      <AskQuestion agent_id={agent_id} />
     </Card>
   );
 };
