@@ -1,0 +1,46 @@
+train_params: 
+  Episode_length : 200
+  N_episodes : 20
+  epsilon: 0.1
+  alpha: 0.1
+  gamma: 0.99
+
+action_count_buyer : 7
+action_count_seller : 12
+
+state_dim_sellers : 
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+
+state_dim_buyers :
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+
+Num_sellers : 2
+Num_buyers : 2
+
+buyers_config:
+  - BuyerID: 0
+    AvailableFunds: 10
+    total_rewards_achieved: 0
+  
+  - BuyerID: 1
+    AvailableFunds: 100
+    total_rewards_achieved: 0
+
+sellers_config:
+  - NFT_config:
+      NFT_params:
+        nft_artwork_id: 0
+        BasePrice: 10
+        CurrPrice: 10
+        RarityScore: 3
+        TimeListed: 0
+        SellerID: 0
+    SellerID: 0

@@ -3,9 +3,8 @@ from sortedcontainers import SortedDict
 from typing import Dict, Set
 import random  # To simulate gas fee changes over time
 import heapq
-import random
 
-NFT_MARKET: Dict[str, Set[BaseModel]] = {}
+NFT_MARKET: Dict[int, Set[BaseModel]] = {}
 
 class NFTArtwork(BaseModel):
     nft_artwork_id: int
@@ -116,8 +115,3 @@ class Buyer(BaseModel):
             return True  # Indicating successful purchase
         else:
             return False  # Not enough funds to buy the NFT
-
-# Function to simulate gas fee changes over time
-def get_gas_fees(curr_gas_fees:float):
-    """Returns a simulated gas fee value (changes dynamically)."""
-    return round(random.uniform(0.001, 0.02), 5)  # Simulated between 0.001 and 0.02 ETH
