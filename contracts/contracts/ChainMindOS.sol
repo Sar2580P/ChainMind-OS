@@ -7,14 +7,33 @@ contract ChainMindOS {
     mapping(uint => AiAgent) public aiAgents;
 
     struct AiAgent {
-        uint id;
-        string name;
+        string id;
         address owner;
+        string[] agentObjectives;
+        string[] briefContextOnEachObjective;
+        string[] techExpertise;
+        string[][] files;
+        string[][] instructions;
     }
 
-    function createAiAgent(string memory _name) public {
+    function createAiAgent(
+        string memory _id,
+        string[] memory _agentObjectives,
+        string[] memory _briefContextOnEachObjective,
+        string[] memory _techExpertise,
+        string[][] memory _files,
+        string[][] memory _instructions
+    ) public {
         aiAgentCount++;
-        aiAgents[aiAgentCount] = AiAgent(aiAgentCount, _name, msg.sender);
+        aiAgents[aiAgentCount] = AiAgent(
+            _id,
+            msg.sender,
+            _agentObjectives,
+            _briefContextOnEachObjective,
+            _techExpertise,
+            _files,
+            _instructions
+        );
     }
 
     function getAiAgentCount() public view returns (uint) {
@@ -33,18 +52,27 @@ contract ChainMindOS {
         return result;
     }
 
-    function updateAiAgentName(uint _id, string memory _name) public {
-        AiAgent storage aiAgent = aiAgents[_id];
-        require(
-            aiAgent.owner == msg.sender,
-            "You are not the owner of this AI Agent"
-        );
-        aiAgent.name = _name;
-    }
-
-    function getAiAgentById(uint _id) public view returns (AiAgent memory) {
-        AiAgent memory aiAgent = aiAgents[_id];
-        return aiAgent;
+    function getAiAgentById(
+        string memory _id
+    ) public view returns (AiAgent memory) {
+        for (uint i = 1; i <= aiAgentCount; i++) {
+            if (
+                keccak256(abi.encodePacked(aiAgents[i].id)) ==
+                keccak256(abi.encodePacked(_id))
+            ) {
+                return aiAgents[i];
+            }
+        }
+        return
+            AiAgent(
+                "",
+                address(0),
+                new string[](0),
+                new string[](0),
+                new string[](0),
+                new string[][](0),
+                new string[][](0)
+            );
     }
 
     function getAllAiAgents() public view returns (AiAgent[] memory) {

@@ -1,0 +1,251 @@
+{
+  "contractAddress": {
+    "localhost": "0x_YOUR_CONTRACT_ADDRESS"
+  },
+  "abi": [
+    {
+      "inputs": [],
+      "name": "aiAgentCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "aiAgents",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "id",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_id",
+          "type": "string"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_agentObjectives",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_briefContextOnEachObjective",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_techExpertise",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[][]",
+          "name": "_files",
+          "type": "string[][]"
+        },
+        {
+          "internalType": "string[][]",
+          "name": "_instructions",
+          "type": "string[][]"
+        }
+      ],
+      "name": "createAiAgent",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_id",
+          "type": "string"
+        }
+      ],
+      "name": "getAiAgentById",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "id",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "string[]",
+              "name": "agentObjectives",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "briefContextOnEachObjective",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "techExpertise",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[][]",
+              "name": "files",
+              "type": "string[][]"
+            },
+            {
+              "internalType": "string[][]",
+              "name": "instructions",
+              "type": "string[][]"
+            }
+          ],
+          "internalType": "struct ChainMindOS.AiAgent",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAiAgentCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAllAiAgentOfUser",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "id",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "string[]",
+              "name": "agentObjectives",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "briefContextOnEachObjective",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "techExpertise",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[][]",
+              "name": "files",
+              "type": "string[][]"
+            },
+            {
+              "internalType": "string[][]",
+              "name": "instructions",
+              "type": "string[][]"
+            }
+          ],
+          "internalType": "struct ChainMindOS.AiAgent[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAllAiAgents",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "id",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "internalType": "string[]",
+              "name": "agentObjectives",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "briefContextOnEachObjective",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[]",
+              "name": "techExpertise",
+              "type": "string[]"
+            },
+            {
+              "internalType": "string[][]",
+              "name": "files",
+              "type": "string[][]"
+            },
+            {
+              "internalType": "string[][]",
+              "name": "instructions",
+              "type": "string[][]"
+            }
+          ],
+          "internalType": "struct ChainMindOS.AiAgent[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}

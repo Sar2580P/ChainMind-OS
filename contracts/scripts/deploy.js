@@ -3,7 +3,9 @@ const hre = require("hardhat");
 async function main() {
   const ChainMindOS = await hre.ethers.deployContract("ChainMindOS");
   await ChainMindOS.waitForDeployment();
-  console.log(` deployed to ${ChainMindOS}`);
+  console.log(ChainMindOS);
+  const contractAddress = await ChainMindOS.getAddress();
+  console.log(`Contract deployed to: ${contractAddress}`);
 }
 
 main().catch((error) => {
