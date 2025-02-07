@@ -3,7 +3,7 @@ import threading
 from pydantic import BaseModel, Field
 from typing import List, Dict, Generator
 from ai_workflow.return_schema import (DenseFiller_Level2, FullyDefinedObjective_Level2, 
-                                       ObjectiveExtraction_Level1, decorate)
+                                       ObjectiveExtraction_Level1, CodePlanner_Level3, decorate)
 from ai_workflow.ai_agents.agentic_land.base_expert import BaseExpert
 from queue import Queue
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -21,6 +21,7 @@ class OrchestratorLevel2(BaseModel):
     registered_expert_agents: Dict[str, "BaseExpert"] = Field({}, description="Dictionary of registered expert agents.")
     partial_design_bubble_count: Dict[str, int] = Field(default={}, description="Count of partial design bubbles for each expert.")
     IS_PARTIAL_STAGE_COMPLETED: bool = Field(default=False, description="Flag to check if partial stage is completed.")
+    initial_plan: ObjectiveExtraction_Level1 = Field(default=None, description="Initial plan from level-1 agent.")
     
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -70,10 +71,9 @@ class OrchestratorLevel2(BaseModel):
         """Generator that yields FullyDefinedObjective_Level2 objects from expert agents' queues."""
         
         for expert_agent_name, expert_agent in self.registered_expert_agents.items():
-            partial_bubbles: Queue = expert_agent.get_partially_designed_objective_queue()
-
-            while not partial_bubbles.empty():
-                content =  partial_bubbles.get()  # Yields one object per function call
+            partial_bubbles: Dict = expert_agent.get_partially_designed_objective_queue()
+            print(partial_bubbles, "*******************************")
+            for key, content in partial_bubbles.items():
                 yield decorate(content), expert_agent_name
         self.IS_PARTIAL_STAGE_COMPLETED = True
         logging.info("All missing design parameters have been filled.")
@@ -84,19 +84,15 @@ class OrchestratorLevel2(BaseModel):
         expert_agent.create_fully_designed_objective(partial_design, user_guidance)
         return 
     
-    def planning_codebase_workflow(self) -> Dict[str, Queue[FullyDefinedObjective_Level2]]:
-        full_designed_objectives_list: Dict[str, Queue[FullyDefinedObjective_Level2]] = {}
+    def planning_codebase_workflow(self, objective, assigned_expert_name) -> CodePlanner_Level3:
+        # full_designed_objectives_list: Dict[str, Queue[FullyDefinedObjective_Level2]] = {}
         
-        # Iterate over each registered expert agent
-        for name, expert_agent in self.registered_expert_agents.items():
-            while True:
-                remaining = expert_agent.planning_codebase_workflow()
-                if remaining == 0:
-                    break
-            
-            # Collect the fully defined objectives queue for each expert agent
-            full_designed_objectives_list[name] = expert_agent.get_fully_defined_objectives_queue()
+        expert_agent = self.registered_expert_agents[assigned_expert_name]
+        plan = expert_agent.planning_codebase_workflow(objective)
+        
+        # # Collect the fully defined objectives queue for each expert agent
+        # full_designed_objectives_list[assigned_expert_name] = expert_agent.get_fully_defined_objectives_queue()
         
         logging.info("Planning codebase workflow completed.")
         
-        return full_designed_objectives_list
+        return plan

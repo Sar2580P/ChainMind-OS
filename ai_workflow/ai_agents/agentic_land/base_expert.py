@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pydantic import BaseModel, Field
-from queue import Queue
 from pydantic_ai.models.groq import GroqModel
+from typing import Dict
 
 class BaseExpert(BaseModel, ABC):
     """Abstract base class for all agent models."""
@@ -9,11 +9,11 @@ class BaseExpert(BaseModel, ABC):
         "arbitrary_types_allowed": True
     }
     # Abstract class variables (queues) that must be defined in child classes
-    partially_designed_objective_queue: Queue[BaseModel] = Field(default=Queue())
-    fully_defined_objectives_queue: Queue[BaseModel] = Field(default=Queue())
-    code_planner_queue: Queue[BaseModel] = Field(default=Queue())
+    partially_designed_objective: Dict[str, BaseModel] = Field(default={})
+    fully_defined_objectives: Dict[str, BaseModel] = Field(default={})
+    code_planner: Dict[str, BaseModel] = Field(default={})
     llm: GroqModel
-    retries: int = 2
+    retries: int = 4
 
 
     @abstractmethod
@@ -38,10 +38,10 @@ class BaseExpert(BaseModel, ABC):
         '''
         pass
 
-    def get_fully_defined_objectives_queue(self) -> Queue[BaseModel]:
-        """Getter method for fully_defined_objectives_queue."""
-        return self.fully_defined_objectives_queue
+    def get_fully_defined_objectives_queue(self) -> Dict[str, BaseModel]:
+        """Getter method for fully_defined_objectives."""
+        return self.fully_defined_objectives
     
-    def get_partially_designed_objective_queue(self) -> Queue[BaseModel]:
-        """Getter method for partially_designed_objective_queue."""
-        return self.partially_designed_objective_queue
+    def get_partially_designed_objective_queue(self) -> Dict[str, BaseModel]:
+        """Getter method for partially_designed_objective."""
+        return self.partially_designed_objective

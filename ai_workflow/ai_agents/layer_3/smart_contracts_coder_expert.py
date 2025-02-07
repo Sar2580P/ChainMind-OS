@@ -18,6 +18,19 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
+
+def save_file_as_json_generated_codes(file_name,agent_id, data):
+    if isinstance(data, BaseModel):
+        data = data.model_dump()
+        
+    curr_dir = os.getcwd()
+    if not os.path.exists(os.path.join(curr_dir, "database" , agent_id , "generated_codes")):
+        os.makedirs(os.path.join(curr_dir, "database" , agent_id , "generated_codes"))
+    full_path = os.path.join(curr_dir, "database" , agent_id,"generated_codes", file_name)
+    with open(full_path, 'w') as f:
+        f.write(json.dumps(data, indent=4)) 
+        
 class SM_CODER(BaseModel):
     save_dir: str
     retries: int = 2
@@ -103,18 +116,7 @@ class SM_CODER(BaseModel):
             "objective_served" : global_objective
         }
         updated_file_name = "_".join(full_file_path.split(":")).split('.')[0]+'.json'
-        save_path = os.path.join(self.save_dir, agent_id, "generated_codes", updated_file_name)
-
-        # Save the code data as a JSON file
-        with open(save_path, 'w') as json_file:
-            json.dump(code_data, json_file, indent=4)
-        
-        logger.info(f"Code for {full_file_path} saved to {save_path}.")
-            
-        # except Exception as e:
-        #     logger.error(f"Error generating code for {full_file_path}: {e}")
-        
-        # Add the coder back to the available coders
+        save_file_as_json_generated_codes(updated_file_name, agent_id, code_data)
         self.available_parallel_coders.add(coder_idx)
 
 

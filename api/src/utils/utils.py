@@ -40,10 +40,14 @@ def update_json_file(agent_id, new_data):
     if not os.path.exists(file_path):
         print("file_path", file_path)
         with open(file_path, 'w') as file:
+            print("------------------use cha-----------------------")
+            print(new_data)
             json.dump([new_data], file)
         return True
     else:
         with open(file_path) as file:
+            print("------------------use cha-----------------------")
+            print(new_data)
             data = json.load(file)
             data.append(new_data)
         with open(file_path, 'w') as file:

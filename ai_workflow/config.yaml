@@ -1,16 +1,16 @@
 layer_0_params : 
   llm_model : "llama-3.3-70b-versatile"
-  retries : 1
-  max_experts_per_objective : 1
+  retries : 2
+  max_experts_per_objective : 2
 
 available_experts: 
   - DAO_expert
-  # - DID_expert
-  # - DeFi_expert
-  # - NFT_expert
+  - DID_expert
+  - DeFi_expert
+  - NFT_expert
 
 coder_params : 
   llm_model : "llama-3.3-70b-versatile"
-  retries : 2
+  retries : 4
   max_parallel_coders : 2
   save_dir : "database"

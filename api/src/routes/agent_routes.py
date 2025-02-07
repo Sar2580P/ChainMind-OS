@@ -31,11 +31,14 @@ def layer_1_objective_identification_route():
 def layer_feedback_objective_design_route():
     try:
         print("Calling by api layer_feedback_objective_design")
-        user_objectives_json = str(request.json.get("user_objectives_json"))
+        user_objectives_json = request.json.get("user_objectives_json")
         agent_id = request.json.get("agent_id")
         response = layer_feedback_objective_design(user_objectives_json, agent_id)
+        print("End of layer_feedback_objective_design")
         return success_response(response, "Successfully designed objectives")
     except Exception as e:
+        print("Error in layer_feedback_objective_design")
+        print(e)
         return internal_server_error_response(str(e))
 
 @bp.route("check_layer_feedback_objective_design/", methods=["POST"])
@@ -44,6 +47,8 @@ def check_layer_feedback_objective_design_route():
         print("Calling by api check_layer_feedback_objective_design")
         agent_id = request.json.get("agent_id")
         response = read_file_as_str('layer_feedback_objective_design.txt', agent_id)
+        print("------------------33333333333333333333333----------------------")
+        print(response)
         if response is not None:
             update_json_file(agent_id, {"id" : generate_random_id_from_uuid() , "isAgent" :True, "message" : response , "createdAt" : get_current_time()})
         return success_response(response, "Successfully checked layer feedback objective design")
@@ -69,7 +74,7 @@ def layer_2_agent_work_planning_route():
         print("Calling by api layer_2_agent_work_planning")
         agent_id = request.json.get("agent_id")
         id = request.json.get("id")
-        response = layer_2_agent_work_planning(agent_id)
+        response = layer_2_agent_work_planning(agent_id,id)
         return success_response(response, "Successfully planned codebase workflow")
     except Exception as e:
         return internal_server_error_response(str(e))

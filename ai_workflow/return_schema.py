@@ -20,32 +20,34 @@ def decorate(obj: BaseModel):
         value = getattr(obj, attribute)
         
         # Create HTML formatted heading for the attribute
-        html_decorated_string += f"<h2 style='font-size: 20px; font-weight: bold;'>{attribute}:</h2>"
+        html_decorated_string += f"<h2 style='font-size: 20px; font-weight: bold;'>{attribute}:</h2>\n"
         
         # Create plain text formatted heading for the attribute
-        plain_decorated_string += f"{attribute}:\n"
+        plain_decorated_string += f"{attribute}:\n\n"
         
         # Create Markdown formatted heading for the attribute
         markdown_decorated_string += f"## {attribute}\n\n"
 
         if isinstance(value, list):
             # Format list items as a bulleted list for both HTML and plain text
-            value_html = "\n".join([f"• {item}" for item in value])
-            value_plain = "\n".join([f"• {item}" for item in value])
-            value_markdown = "\n".join([f"- {item}" for item in value])
+            value_html = "\n".join([f"• {item}" for item in value]) + "\n"
+            value_plain = "\n".join([f"• {item}" for item in value]) + "\n"
+            value_markdown = "\n".join([f"- {item}" for item in value]) + "\n"
         else:
-            value_html = value
-            value_plain = value
-            value_markdown = str(value)
+            value_html = str(value) + "\n"
+            value_plain = str(value) + "\n"
+            value_markdown = str(value) + "\n"
 
         # Append the value after the heading
         html_decorated_string += f"<p>{value_html}</p>\n"
-        plain_decorated_string += f"{value_plain}\n\n"
+        plain_decorated_string += f"{value_plain}\n"
+        markdown_decorated_string += f"{value_markdown}\n"
+        
+    markdown_decorated_string = markdown_decorated_string.strip("\n")
+    markdown_decorated_string = markdown_decorated_string.strip()
 
-        # Append the value after the heading
-        markdown_decorated_string += f"{value_markdown}\n\n"
-    
     return markdown_decorated_string, plain_decorated_string
+
 
 
 
@@ -53,7 +55,7 @@ def decorate(obj: BaseModel):
 class ObjectiveExtraction_Level1(BaseModel):
     objectives: List[str] = Field(..., description="List of objectives to be achieved.")
     brief_context_on_each_objective: List[str] = Field(..., description="Brief context for each objective.")
-    tech_experts_for_objectives: List[Set[str]] = Field(..., description="Experts relevant to each objective.")
+    tech_experts_for_objectives: List[List[str]] = Field(..., description="Experts relevant to each objective.")
 
     @model_validator(mode="after")
     def check_list_lengths(self):

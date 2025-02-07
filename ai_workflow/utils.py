@@ -17,20 +17,4 @@ def get_api_key(idx:int=0):
 def get_llm(model_name="llama-3.3-70b-versatile" , idx=0):
     llm = GroqModel(model_name=model_name, api_key=get_api_key(idx))
     return llm
-# load_dotenv()
-# client = Groq(
-#     api_key=os.getenv("GROQ_API_KEY_0"),
-# )
-
-# chat_completion = client.chat.completions.create(
-#     messages=[
-#         {
-#             "role": "user",
-#             "content": "Write a stuti in hindi in lotusfeet of Sri Radha and Krishna",
-#         }
-#     ],
-#     model="llama-3.3-70b-versatile",
-# )
-
-# print(chat_completion.choices[0].message.content)
 
