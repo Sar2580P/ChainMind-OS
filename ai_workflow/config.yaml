@@ -12,5 +12,5 @@ available_experts:
 coder_params : 
   llm_model : "llama-3.3-70b-versatile"
   retries : 4
-  max_parallel_coders : 2
+  max_parallel_coders : 3
   save_dir : "database"

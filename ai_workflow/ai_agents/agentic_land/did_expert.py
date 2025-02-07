@@ -54,7 +54,7 @@ class DIDExpert(BaseExpert):
                               "default_design_needs": self.default_design_needs, 
                               "objective": objective, "context": context})
         
-        self.partially_designed_objective_queue.put(res.data)
+        self.partially_designed_objective[objective] = res.data
         return
     
     def create_fully_designed_objective(self, partial_design, user_guidance):
@@ -80,41 +80,37 @@ class DIDExpert(BaseExpert):
                         deps={"role": self.role, "partial_design": partial_design, 
                               "default_design_needs": self.default_design_needs, 
                               "user_guidance": user_guidance})
-        self.fully_defined_objectives_queue.put(res.data)
+        self.fully_defined_objectives[res.data.objective] = res.data
         return
     
-    def planning_codebase_workflow(self)->int:
-        if self.fully_defined_objectives_queue.empty():
-            return 0
-        else:
-            obj = self.fully_defined_objectives_queue.get()
-            role = '''
-            You are an expert **Software Architecture Planner** specializing in **DID (Decentralized Identifier) smart contracts** and **document verification** systems.
-            Your task is to plan the entire codebase, ensuring modularity, clarity, and separation of concerns.
-            ----------------
-            INSTRUCTIONS:
-            - The rule for creating a file is-> separate dir using colon(:) --> `directory:subdirectory:filename.extension`
-            - Maintain a clean separation between **core contracts, metadata management, scripts, and utilities**.
-            - Utilize **interfaces** where necessary for enforcing standard interactions across contracts.
-            - Ensure **modular** design for scalability and maintainability, especially for DID creation, document verification, and cryptographic operations.
+    def planning_codebase_workflow(self, objective:str)->CodePlanner_Level3:
+        obj = self.fully_defined_objectives[objective]
+        role = '''
+        You are an expert **Software Architecture Planner** specializing in **DID (Decentralized Identifier) smart contracts** and **document verification** systems.
+        Your task is to plan the entire codebase, ensuring modularity, clarity, and separation of concerns.
+        ----------------
+        INSTRUCTIONS:
+        - The rule for creating a file is-> separate dir using colon(:) --> `directory:subdirectory:filename.extension`
+        - Maintain a clean separation between **core contracts, metadata management, scripts, and utilities**.
+        - Utilize **interfaces** where necessary for enforcing standard interactions across contracts.
+        - Ensure **modular** design for scalability and maintainability, especially for DID creation, document verification, and cryptographic operations.
 
-            '''
-            agent = Agent(model=self.llm, retries=self.retries, result_type=CodePlanner_Level3)
+        '''
+        agent = Agent(model=self.llm, retries=self.retries, result_type=CodePlanner_Level3)
+        
+        @agent.system_prompt
+        def plan_codebase(ctx:RunContext[Dict[str, str]])->str:
+            return f'''
+            ROLE: {ctx.deps['role']}
             
-            @agent.system_prompt
-            def plan_codebase(ctx:RunContext[Dict[str, str]])->str:
-                return f'''
-                ROLE: {ctx.deps['role']}
-                
-                GLOBAL OBJECTIVE: {ctx.deps['full_defined_obj'].objective}
-                CONTEXT :{ctx.deps['full_defined_obj'].brief_context_on_objective}
-                
-                SOLUTION DESIGN CONFIG: {ctx.deps['full_defined_obj'].solution_design_config}
-            '''
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            res = agent.run_sync(result_type=CodePlanner_Level3, user_prompt="",
-                        deps={"role": role, "full_defined_obj": obj})
-            self.code_planner_queue.put(res.data)
-            self.fully_defined_objectives_queue.task_done()
-            return self.fully_defined_objectives_queue.qsize()
+            GLOBAL OBJECTIVE: {ctx.deps['full_defined_obj'].objective}
+            CONTEXT :{ctx.deps['full_defined_obj'].brief_context_on_objective}
+            
+            SOLUTION DESIGN CONFIG: {ctx.deps['full_defined_obj'].solution_design_config}
+        '''
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        res = agent.run_sync(result_type=CodePlanner_Level3, user_prompt="",
+                    deps={"role": role, "full_defined_obj": obj})
+        self.code_planner[objective] = res.data
+        return res.data
