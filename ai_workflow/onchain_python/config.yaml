@@ -8,15 +8,29 @@ train_params:
 action_count_buyer : 7
 action_count_seller : 12
 
+gas_fees_params: 
+  - initial_gas_fees: 1.4
+  - ceiling_gas_fees: 4
+  - floor_gas_fees: 1.4
+  - congestion_factor : 0.1
+
+nft_volume_params: 
+  initial_nft_volumes:   # Initial NFT volumes for rarity scores (1-5)
+    - 40
+    - 20
+    - 20
+    - 10
+    - 100
+  volatility : 0.1
+  shock_prob : 0.1
+
 state_dim_sellers : 
-  - 5
   - 5
   - 5
   - 5
   - 5
 
 state_dim_buyers :
-  - 5
   - 5
   - 5
   - 5
@@ -42,5 +56,19 @@ sellers_config:
         CurrPrice: 10
         RarityScore: 3
         TimeListed: 0
-        SellerID: 0
-    SellerID: 0
+      SellerID: 0
+      pricing_variability_level : 5
+      max_percentage_change : 20
+      reward : 0
+  - NFT_config:
+      NFT_params:
+        nft_artwork_id: 0
+        BasePrice: 10
+        CurrPrice: 10
+        RarityScore: 3
+        TimeListed: 0
+      SellerID: 0
+      pricing_variability_level : 4
+      max_percentage_change : 20
+      reward : 0
+

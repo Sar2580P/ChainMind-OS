@@ -1,8 +1,9 @@
 from pydantic import BaseModel, Field
 from sortedcontainers import SortedDict
-from typing import Dict, Set
+from typing import Dict, Set, List
 import random  # To simulate gas fee changes over time
 import heapq
+import numpy as np
 
 NFT_MARKET: Dict[int, Set[BaseModel]] = {}
 
@@ -12,7 +13,7 @@ class NFTArtwork(BaseModel):
     CurrPrice: float = Field(..., gt=0, description="Current market price of the NFT.")
     RarityScore: int = Field(..., ge=1, le=5, description="NFT rarity level (1-5).")
     TimeListed: int = Field(..., ge=0, description="Number of time-steps the NFT has been listed.")
-    SellerID: int = Field(..., description="ID of the seller currently owning this NFT.")
+    SellerID: int = Field(default=0, description="ID of the seller currently owning this NFT.")
 
     def update_price(self, new_price: float):
         """Update NFT price and maintain the global market listing."""
@@ -67,6 +68,21 @@ class Seller(BaseModel):
     def update_reward(self, reward: float):
         """Update the seller's reward by adding the specified amount."""
         self.reward += reward
+        
+    def get_curr_state(self, gas_fees:float) -> np.ndarray:
+        continuous_states = [gas_fees , self.nft.TimeListed, self.nft.RarityScore, self.nft.CurrPrice]
+        return np.array(continuous_states)
+    
+    def get_action_name(self, action: int) -> str:
+        if action<5:
+            return "increment"
+        elif action<10:
+            return "decrement"
+        elif action==10:
+            return "hold"
+        elif action==11:
+            return "accept"
+        raise ValueError("Invalid action index provided.")
 
 
 
@@ -115,3 +131,30 @@ class Buyer(BaseModel):
             return True  # Indicating successful purchase
         else:
             return False  # Not enough funds to buy the NFT
+        
+    def get_curr_state(self, gas_fees:float, rarityScore: int , current_price:float) -> np.ndarray:
+        continuous_states = [gas_fees, rarityScore, self.AvailableFunds, current_price]
+        return np.array(continuous_states)
+
+
+
+
+def calculate_seller_reward(seller:Seller, curr_gas_fees:float, transaction_occurred:bool, final_price:float=10)-> float:
+    """Calculate the reward for the seller based on the transaction outcome."""
+    if transaction_occurred:
+        # Reward the seller with a fraction of the current gas fees
+        return -1e-2 * seller.nft.TimeListed  # 0.01% of the current gas fees as reward
+    else:
+        # Penalize the seller for not making a transaction
+        return (final_price-seller.nft.BasePrice) - 1e-2 * seller.nft.TimeListed - 1e-2 * curr_gas_fees  - 1e-2 * seller.nft.RarityScore 
+
+def calculate_buyer_reward(buyer_bid_price:float , curr_gas_fees, RarityScore, rarity_volume)-> float:
+    resale_price = get_resale_price(RarityScore, rarity_volume)
+    return (resale_price - buyer_bid_price) - 1e-2 * curr_gas_fees
+
+def get_resale_price(RarityScore, rarity_volume):
+    '''
+    I want it as a function of rarityScore and the volume traded for that rarityScore...
+    Volume traded can also be a simulation, like that of gas fees
+    '''
+    return rarity_volume * RarityScore

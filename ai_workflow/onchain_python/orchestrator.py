@@ -1,13 +1,12 @@
 import random
 from typing import List, Tuple, Dict
-from ai_workflow.onchain_python.members import Buyer, Seller, NFTArtwork
-from ai_workflow.onchain_python.utils import (get_gas_price, calculate_buyer_reward, 
-                                              calculate_seller_reward)
+from ai_workflow.onchain_python.members import Buyer, Seller, NFTArtwork , calculate_buyer_reward, calculate_seller_reward
 
 class Orchestrator:
     @staticmethod
     def step(buyers: List[Tuple[float, 'Buyer']], seller: 'Seller', 
-             nft: 'NFTArtwork', action: Dict[str, int]) -> Tuple[List[float], float]:
+             nft: 'NFTArtwork', action: Dict[str, int], 
+             curr_gas_fees:float, current_rarity_volume:float) -> Tuple[List[float], float]:
                                                                 
         """
         Simulates one step of interaction between a list of buyers and a seller for a particular NFT.
@@ -23,9 +22,6 @@ class Orchestrator:
         - Tuple of buyer rewards (list), seller reward (float), updated NFT price (float)
         """
         
-        # Fetch gas price
-        gas_price = get_gas_price()
-
         # Initialize rewards
         buyer_rewards = []
         for _, buyer_instance in buyers:
@@ -33,15 +29,15 @@ class Orchestrator:
         seller_reward = 0.0
 
         # Handle Seller's "hold" action:
-        if "hold" in action:
-            seller_reward = calculate_seller_reward(seller, gas_price, False)
+        if "hold" in action.keys():
+            seller_reward = calculate_seller_reward(seller, curr_gas_fees, False)
             seller.reward += seller_reward
 
             # No price change for "hold" action, no transaction happens
             return buyer_rewards, seller_reward
 
         # Handle Seller's "increase" or "decrease" actions:
-        if "increment" in action:
+        elif "increment" in action:
             percentage_change = action["increment"]
             seller.increase_price(percentage_change)
         elif "decrement" in action:
@@ -62,9 +58,10 @@ class Orchestrator:
             # Process the transaction with the highest bidder
             idx, buyer_bid_price, buyer_instance = max_bidder
             buyer_instance.AvailableFunds -= buyer_bid_price  # Deduct buyer funds
-            buyer_reward = calculate_buyer_reward(buyer_instance, buyer_bid_price, gas_price, nft.RarityScore)
+            buyer_reward = calculate_buyer_reward(buyer_bid_price, curr_gas_fees, 
+                                                  nft.RarityScore, current_rarity_volume)
             buyer_rewards[idx] = buyer_reward
-            seller_reward = calculate_seller_reward(seller, gas_price, True)
+            seller_reward = calculate_seller_reward(seller, curr_gas_fees, True , buyer_bid_price)
 
             # Update the market and reward (if needed)
             Orchestrator.update_market_state(nft)
