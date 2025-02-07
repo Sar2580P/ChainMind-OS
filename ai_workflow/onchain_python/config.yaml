@@ -1,6 +1,6 @@
 train_params: 
-  Episode_length : 100
-  N_episodes : 10
+  Episode_length : 10
+  N_episodes : 2
   epsilon: 0.1
   alpha: 0.1
   gamma: 0.99

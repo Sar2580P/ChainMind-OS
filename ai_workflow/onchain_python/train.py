@@ -131,11 +131,11 @@ def train(config_path:str):
                             buyer_rewards[key] = 0
                         buyer_rewards['Buyer_'+str(buyer.BuyerID)] += buyer.total_rewards_achieved
                         if key not in episode_tracker.buyer_rewards.keys():
-                            episode_tracker.seller_rewards[key] = []
-            episode_tracker.buyer_rewards[key].append(rewards_buyers[idx])
+                            episode_tracker.buyer_rewards[key] = []
+                        episode_tracker.buyer_rewards[key].append(rewards_buyers[idx])
             
-            episode_tracker.gas_fees.append(curr_gas_fees)
-            episode_tracker.rarity_volume_traded.append(curr_nft_volume)     
+            episode_tracker.gas_fees.append(float(curr_gas_fees))
+            episode_tracker.rarity_volume_traded.append(curr_nft_volume.tolist())     
                    
             # Log the rewards of the agents
             seller_rewards_ = ", ".join([f"{k}: {v}" for k, v in seller_rewards.items()])
