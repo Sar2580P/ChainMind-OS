@@ -1,13 +1,17 @@
 .container {
   display: flex;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(102, 205, 239, 0.3) 0,
+    rgba(158, 110, 230, 0) 100%
+  );
+  height: 100%;
 }
 
 .folder-item {
   margin-left: 4px;
   cursor: pointer;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  user-select: none;
 }
 
 .folder-name {
@@ -16,9 +20,6 @@
   justify-content: flex-start;
   gap: 4px;
   user-select: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .folder-name > svg {
@@ -28,7 +29,4 @@
 
 .folder-children {
   margin-left: 4px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }

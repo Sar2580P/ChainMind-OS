@@ -42,6 +42,11 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
   }, [id, setNodes]);
 
   const layer_id = data["id"].split("_")[1];
+  const images = [
+    "/robot/robot-left.png",
+    "/robot/robot-center.png",
+    "/robot/robot-right.png",
+  ];
 
   return (
     <div className={classes["container"]} ref={containerRef} tabIndex={0}>
@@ -52,7 +57,18 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
       />
       <HoverCard>
         <HoverCardTrigger asChild>
-          <div className={classes["box"]}></div>
+          {layer_id == "1" ? (
+            <div
+              className={classes["url_fixed_box"]}
+              style={{
+                backgroundImage: `url(${
+                  images[Math.floor(Math.random() * images.length)]
+                })`,
+              }}
+            ></div>
+          ) : (
+            <div className={classes["box"]}></div>
+          )}
         </HoverCardTrigger>
         <HoverCardContent className="w-80">
           <div className="flex justify-start space-x-4">

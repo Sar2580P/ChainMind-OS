@@ -1,18 +1,25 @@
 .container {
   display: flex;
   z-index: 100000000;
+  animation: fadeIn 0.5s;
+}
+
+.url_fixed_box {
+  height: 128px;
+  width: 53px;
+  background-size: auto 100%;
+  background-position: 0 0;
 }
 
 .box {
   /* height: 640px;
   width: 262px; */
-  height: 107px;
-  width: 44px;
+  height: 128px;
+  width: 53px;
   background-image: url("/robot/robot-animation.png");
   background-size: auto 100%;
   background-position: 0 0;
   animation: Jump 1s steps(3) infinite;
-  animation: fadeIn 1s;
 }
 
 @keyframes Jump {

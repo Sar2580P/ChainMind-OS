@@ -12,7 +12,7 @@ const _DUMMY_USER: UserType = {
 
 interface ChatType {
   id: string;
-  isAgent : boolean;
+  isAgent: boolean;
   message: string;
   createdAt: string;
 }
@@ -23,6 +23,7 @@ interface CodeType {
   language: string;
   fileName: string;
   code: string;
+  path: string;
 }
 
 interface AgentDataTypes {

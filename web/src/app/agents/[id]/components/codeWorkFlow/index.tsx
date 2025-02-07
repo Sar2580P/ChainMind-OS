@@ -16,7 +16,7 @@ const CodeWorkFlow: React.FC<{ agent_id: string }> = ({ agent_id }) => {
           <CodeExplorer agent_id={agent_id} />
         </ResizablePanel>
         <ResizableHandle />
-        <ResizablePanel defaultSize={80} className="p-2">
+        <ResizablePanel defaultSize={80} className="p-0">
           <CodeEditor agent_id={agent_id} />
         </ResizablePanel>
       </ResizablePanelGroup>
