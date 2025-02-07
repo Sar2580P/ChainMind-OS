@@ -8,6 +8,14 @@ from ai_workflow.onchain_python.utils import discretize
 
 NFT_MARKET: Dict[int, List[BaseModel]] = {}
 
+class Episode_Stats(BaseModel):
+    episode_num: int = Field(..., ge=0, description="Episode number.")
+    seller_rewards: Dict[str, List] = Field(default_factory=dict, description="Rewards earned by sellers.")
+    buyer_rewards: Dict[str, List] = Field(default_factory=dict, description="Rewards earned by sellers.")
+    gas_fees: List = Field(default_factory=[] , description="Gas Fees variation")
+    rarity_volume_traded: List[List] = Field(default_factory=[] , description="Gas Fees variation")
+    
+    
 class NFTArtwork(BaseModel):
     nft_artwork_id: int
     BasePrice: float = Field(..., gt=0, description="Original listing price of the NFT.")

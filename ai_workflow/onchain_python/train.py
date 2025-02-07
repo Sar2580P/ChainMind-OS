@@ -1,10 +1,11 @@
 from tqdm import tqdm
 from typing import List, Tuple, Dict
-from ai_workflow.onchain_python.members import Buyer, Seller, NFTArtwork, NFT_MARKET
+from ai_workflow.onchain_python.members import Buyer, Seller, NFTArtwork, NFT_MARKET, Episode_Stats
 from ai_workflow.onchain_python.rl_updation_rule import learn, take_action
 from ai_workflow.onchain_python.orchestrator import Orchestrator
 from ai_workflow.onchain_python.utils import (create_q_table, get_gas_fee, read_yaml,
                                               get_current_rarity_volume)
+import json
 
 def initialize_players(config:dict)-> Tuple[List[Buyer], List[Seller]]:
     buyers: List[Buyer] = []
@@ -43,6 +44,7 @@ def train(config_path:str):
                                         action_count=config['action_count_buyer']) for _ in range(config['Num_buyers'])]
 
     train_config = config['train_params']
+    episode_tracks = [] 
     for episode in tqdm(range(train_config['N_episodes']), desc="Training Progress"):
         # Initialize Sellers, Buyers, and NFTs
         config = read_yaml(config_path)
@@ -54,17 +56,22 @@ def train(config_path:str):
             if price not in NFT_MARKET:
                 NFT_MARKET[price] = []
             NFT_MARKET[price].append(seller.nft)
-            
+        
+        episode_tracker = Episode_Stats(episode_num=episode)    
         gas_config = config['gas_fees_params']
         curr_gas_fees = gas_config['initial_gas_fees']
         
         vol_config = config['nft_volume_params']
         curr_nft_volume = vol_config['initial_nft_volumes']
+        
+        episode_tracker.gas_fees.append(curr_gas_fees)
+        episode_tracker.rarity_volume_traded.append(curr_nft_volume)
 
         for step in range(train_config['Episode_length']):
             # Update gas fees
             curr_gas_fees = get_gas_fee(curr_price=curr_gas_fees, floor=gas_config['floor_gas_fees'], 
-                                        ceiling=gas_config['ceiling_gas_fees'], congestion_factor=gas_config['congestion_factor'])
+                                        ceiling=gas_config['ceiling_gas_fees'], 
+                                        congestion_factor=gas_config['congestion_factor'])
             curr_nft_volume = get_current_rarity_volume(curr_nft_volume, volatility=vol_config['volatility'], 
                                                         shock_prob=vol_config['shock_prob'])
             
@@ -77,7 +84,8 @@ def train(config_path:str):
                     
                     # Get the current state of the seller and buyers
                     curr_seller_state = seller.get_curr_state(gas_fees=curr_gas_fees, config=config)
-                    curr_buyers_states = [buyer.get_curr_state(curr_gas_fees, nft.RarityScore , nft.CurrPrice, config) for buyer in buyers]
+                    curr_buyers_states = [buyer.get_curr_state(curr_gas_fees, nft.RarityScore , nft.CurrPrice, config) 
+                                          for buyer in buyers]
                     
                     # STEP-1 : let buyers take action
                     buyer_bids = [(take_action(buyers_q_table[buyer.BuyerID], curr_buyers_states[buyer.BuyerID],
@@ -89,10 +97,12 @@ def train(config_path:str):
                     # STEP-3 : interact via Orchestrator
                     rarity_volume = curr_nft_volume[nft.RarityScore]
                     rewards_buyers, reward_seller = Orchestrator.step(buyer_bids, seller, nft, action, 
-                                                                      curr_gas_fees=curr_gas_fees, current_rarity_volume=rarity_volume)
+                                                                      curr_gas_fees=curr_gas_fees, 
+                                                                      current_rarity_volume=rarity_volume)
                     
                     # STEP-4 : Update Q-tables using SARSA
                     for idx, (buyer, reward) in enumerate(zip(buyers, rewards_buyers)):
+                        buyer.total_rewards_achieved += reward
                         new_buyer_state = buyer.get_curr_state(curr_gas_fees, nft.RarityScore , nft.CurrPrice, config)
                         action_taken = buyer_bids[buyers.index(buyer)][0]
                         next_action = take_action(buyers_q_table[buyer.BuyerID], new_buyer_state, train_config['epsilon'])
@@ -103,16 +113,30 @@ def train(config_path:str):
                     action_taken = seller_action
                     new_seller_state = seller.get_curr_state(gas_fees=curr_gas_fees, config=config)
                     next_action = take_action(sellers_q_table[nft.SellerID], new_seller_state, train_config['epsilon'])
-                    learn(sellers_q_table[nft.SellerID], curr_seller_state, action_taken, reward_seller, new_seller_state, next_action, 
+                    seller.reward += reward_seller
+                    learn(sellers_q_table[nft.SellerID], curr_seller_state, action_taken, 
+                          reward_seller, new_seller_state, next_action, 
                           train_config['alpha'], train_config['gamma'])
                     
                     # log rewards of the agents
-                    seller_rewards['Seller_'+str(nft.SellerID)] = reward_seller
+                    key = 'Seller_'+str(nft.SellerID)
+                    seller_rewards[key] = reward_seller
+                    if key not in episode_tracker.seller_rewards.keys():
+                        episode_tracker.seller_rewards[key] = []
+                    episode_tracker.seller_rewards[key].append(reward_seller)
+                    
                     for idx, buyer in enumerate(buyers):
-                        if 'Buyer_'+str(buyer.BuyerID) not in buyer_rewards:
-                            buyer_rewards['Buyer_'+str(buyer.BuyerID)] = 0
+                        key = 'Buyer_'+str(buyer.BuyerID)
+                        if key not in buyer_rewards:
+                            buyer_rewards[key] = 0
                         buyer_rewards['Buyer_'+str(buyer.BuyerID)] += buyer.total_rewards_achieved
-                        
+                        if key not in episode_tracker.buyer_rewards.keys():
+                            episode_tracker.seller_rewards[key] = []
+            episode_tracker.buyer_rewards[key].append(rewards_buyers[idx])
+            
+            episode_tracker.gas_fees.append(curr_gas_fees)
+            episode_tracker.rarity_volume_traded.append(curr_nft_volume)     
+                   
             # Log the rewards of the agents
             seller_rewards_ = ", ".join([f"{k}: {v}" for k, v in seller_rewards.items()])
             buyer_rewards_ = ", ".join([f"{k}: {v}" for k, v in buyer_rewards.items()])
@@ -121,7 +145,11 @@ def train(config_path:str):
         print(f"Episode {episode + 1}/{train_config['N_episodes']} completed", "_"*10)
         print("\n\n")
         
+        episode_tracks.append(episode_tracker.model_dump())
         
+    # saving the results to json
+    with open("on_chain_.json", "w") as f:
+        json.dump(episode_tracks, f, indent=4)  # indent=4 makes it more readable
     print("Training completed!")
 
 # if __name__=="__main__":
