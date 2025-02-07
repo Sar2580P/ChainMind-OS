@@ -1,0 +1,2041 @@
+Episode: 1, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.07964386 17.00058055 19.39638836  9.33881975 91.69250865]
+Episode: 1, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 56.55098988  16.98062383  19.27574921  10.52353177 105.99858135]
+Episode: 1, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 60.10655107  15.67690448  17.80010122  11.47298073 109.36642948]
+Episode: 1, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [51.61077493 12.85171424 16.97233675  9.3078946  94.64713008]
+Episode: 1, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.16886443  13.30238166  16.27719832  11.19529717 103.18658917]
+Episode: 1, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [57.28466357 12.14291043 17.2140623  11.7494902  96.96321814]
+Episode: 1, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 62.86201173  13.25481246  20.21235167  12.33961576 107.83827804]
+Episode: 1, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [60.47652044 12.7791738  17.76655898 11.67779626 98.52465012]
+Episode: 1, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [57.01830152 10.70223091 17.18737294 10.71229226 87.68127186]
+Episode: 1, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [47.75399016  9.86400413 15.1765371  10.72029512 81.74914363]
+Episode: 1, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 48.80356886   9.7986644   14.26594159   9.58068971 111.70264756]
+Episode: 1, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 50.66977783   9.07281329  13.67912593  10.06007213 105.63846797]
+Episode: 1, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [50.32076348  7.71774295 14.70582392  9.55668948 98.06598069]
+Episode: 1, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.64465472  8.32272728 13.98061265  8.06627226 96.52526924]
+Episode: 1, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.53721175  7.83350142 14.02864722  5.43249263 83.29054559]
+Episode: 1, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.74927292 10.44508226 13.8881648   5.50069853 83.83697315]
+Episode: 1, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [43.68267018  9.23170653 13.60260662  4.06019574 40.95280274]
+Episode: 1, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [39.67131322  8.70917831 12.1105581   3.69836936 35.56575904]
+Episode: 1, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [35.74617291  8.78832078 11.96932559  3.48909919 36.85810069]
+Episode: 1, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.24959183  9.76028029  6.34971735  3.28620223 35.48286575]
+Episode: 1, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.43881169  9.62492425  6.91187166  3.23182582 37.5896844 ]
+Episode: 1, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.30577258  9.3937692   6.13573037  3.14872888 50.44902725]
+Episode: 1, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.53021627 10.41226299  6.7419367   3.37913339 54.38548662]
+Episode: 1, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.51434509  9.3843239   6.23774565  3.21796055 56.65019502]
+Episode: 1, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.22079647  9.47809088  5.41940291  2.93747218 55.1842728 ]
+Episode: 1, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.15416504  8.7303492   5.03224627  2.95226928 51.71250108]
+Episode: 1, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.93936867  8.53936592  5.32116278  2.95933866 53.48378103]
+Episode: 1, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.5627491   9.78928941  5.97013895  3.3043138  59.55436468]
+Episode: 1, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.96197914  9.22319834  6.10713488  2.91281003 63.47966418]
+Episode: 1, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.4515492  10.16030458  6.69296092  2.86949871 98.96554641]
+Episode: 1, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 24.78170395  10.29415986   7.22400303   3.07826258 107.71286637]
+Episode: 1, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.51105853  11.198636     7.33421722   3.24192407 122.6562926 ]
+Episode: 1, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.04029206  13.17561291   8.4217427    3.28045424 132.11647416]
+Episode: 1, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.51851114 12.61835237  7.87361459  3.11229977 85.82961993]
+Episode: 1, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.02072981 11.05686319  7.58300083  2.81086388 94.29554183]
+Episode: 1, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.34145522 10.91418417  6.28346958  3.04615318 99.18913118]
+Episode: 1, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.4014501  10.15340917  3.32583772  2.90043205 95.55694369]
+Episode: 1, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.70447466  9.34666033  3.41281623  2.49877605 86.75604832]
+Episode: 1, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.98641318 10.33752539  3.67291931  2.50242694 85.73953422]
+Episode: 1, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.61369621  9.60109811  3.50832285  2.02675664 89.79046502]
+Episode: 1, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.11867737  8.58061016  3.14266696  1.70041186 85.34721778]
+Episode: 1, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.14711363  8.80025546  3.18700393  1.69258781 90.61525519]
+Episode: 1, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.03475621  8.93097889  2.02998459  1.49221081 81.36722646]
+Episode: 1, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.86515284  9.30204212  2.11883476  1.51540547 83.05197074]
+Episode: 1, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [35.63829624  8.68960681  2.51564302  1.75019705 95.17815738]
+Episode: 1, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.55424528   9.87988968   2.9819694    1.91719041 105.63199132]
+Episode: 1, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.0009665   8.67215178  2.94832006  1.75404143 92.49729031]
+Episode: 1, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.26903083  8.31657643  2.99331935  1.66878291 83.10755649]
+Episode: 1, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 39.89421043   9.05272235   2.11989098   1.59488557 100.20722238]
+Episode: 1, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [38.24318648  8.72168246  2.16899608  1.39668215 85.77315024]
+Episode: 1, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.58300146  8.47940705  2.03863014  1.40348499 90.04522319]
+Episode: 1, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [35.21714081  8.25609856  2.50217234  1.30783814 95.19021601]
+Episode: 1, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.78431843   9.20008847   2.96243692   1.31526017 108.94066297]
+Episode: 1, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.59662067  8.34092181  2.77850341  1.24698524 98.36948356]
+Episode: 1, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.27289999   7.44970698   2.85103963   1.19017392 127.32867021]
+Episode: 1, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.48382213   7.64004493   2.97536842   1.25515901 135.32100482]
+Episode: 1, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.79821659   6.85328143   3.86995565   1.29403677 123.56997049]
+Episode: 1, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.81508289   6.90289826   3.52833458   1.68007237 117.91264223]
+Episode: 1, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.20158445   7.30861256   3.6715821    1.94360683 111.70137703]
+Episode: 1, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [49.86028737  7.50819635  3.83316707  1.8625144  79.93055711]
+Episode: 1, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [47.65132315  7.42025728  3.86836307  1.69725913 70.60541024]
+Episode: 1, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [51.73311855  8.85688359  3.9980645   1.97943098 80.92798339]
+Episode: 1, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [53.37515559  9.98370513  4.50486243  2.086992   86.65145942]
+Episode: 1, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [58.15933502 10.4324068   4.23309608  2.23128781 94.1609275 ]
+Episode: 1, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 60.08275482   9.46370089   3.7561551    2.08712273 100.34360939]
+Episode: 1, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [64.99777655  9.33184548  3.72052949  1.99078715 90.75985148]
+Episode: 1, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [68.17707765  9.17423472  4.30418053  1.71696377 99.12897795]
+Episode: 1, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [60.20988047  7.65136337  5.09493583  1.62597737 95.1348805 ]
+Episode: 1, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [61.87874873  6.57237128  4.40714542  1.538773   96.58365186]
+Episode: 1, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 65.85821745   7.43659575   4.98306484   1.51014999 130.31921015]
+Episode: 1, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 64.066631     7.01858582   4.90349593   1.55917773 129.97416123]
+Episode: 1, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 56.62598432   6.80791388   4.77063432   1.43752163 115.19627047]
+Episode: 1, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 64.71013666   5.76949955   4.74787787   1.6070253  122.32550206]
+Episode: 1, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 62.58563123   4.24653926   2.53829494   1.3982819  119.34794017]
+Episode: 1, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 55.61540256   4.32843349   2.61893131   1.31728332 114.65409657]
+Episode: 1, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.32907611   4.17756967   2.39331864   1.22646676 100.24247265]
+Episode: 1, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [45.80122507  3.53223293  1.33628678  1.15507208 80.37997501]
+Episode: 1, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [45.10387923  3.53934389  1.503508    1.14701673 83.95200583]
+Episode: 1, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.22817059  3.39888419  1.34712452  1.13475477 75.1020172 ]
+Episode: 1, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.56525274  3.1924178   1.21723288  1.39300029 76.11548166]
+Episode: 1, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.64699648  2.9447708   1.27794415  1.52211983 86.26744249]
+Episode: 1, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.60455828  3.40744912  1.2717136   1.78758783 95.63371873]
+Episode: 1, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [45.1754161   1.72827501  1.52504292  1.99868374 94.69792004]
+Episode: 1, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.01332958  1.50833165  1.47363238  1.78483581 84.91812741]
+Episode: 1, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [45.439002    1.62098838  1.49262055  1.57757282 72.61062437]
+Episode: 1, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.87569996  1.5487449   1.40750833  1.31462536 68.39536065]
+Episode: 1, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [50.1374717   1.13857695  1.50536123  1.49192819 64.21970242]
+Episode: 1, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [55.39746739  1.01231551  1.65883508  1.79000679 76.48251977]
+Episode: 1, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [63.55027553  0.86317234  0.91168145  1.98917812 78.59257528]
+Episode: 1, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [61.86052739  0.81536562  0.81842725  2.07583707 55.60865098]
+Episode: 1, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [71.41377517  0.79965073  0.89343207  2.19697376 66.26218699]
+Episode: 1, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [74.22611029  0.79772591  0.89476786  2.10942667 66.33710354]
+Episode: 1, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [75.66963494  0.95261824  0.87512374  2.01464919 75.43024284]
+Episode: 1, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [86.75546922  1.04509576  0.90037715  2.26884208 80.55093028]
+Episode: 1, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [83.78094184  0.98576833  0.7452812   2.56162933 84.78027225]
+Episode: 1, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 93.03233489   1.16220447   0.77683375   3.05794784 106.66598888]
+Episode: 1, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 94.97764248   1.2699888    0.83251444   3.27979309 101.98805386]
+Episode: 1, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [91.13918567  1.14584346  0.86580089  3.19448401 97.43821051]
+Episode: 1, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [107.64828754   1.24236174   0.92206995   3.67161922 102.75090211]
+Episode: 1, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [121.22320359   1.45026489   1.04109039   4.02658813 110.79052122]
+Episode 1/10 completed __________
+
+
+
+Episode: 2, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [34.61434217 20.51220126 20.11333755  9.29151855 92.26468193]
+Episode: 2, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.37653098 21.06263614 21.62391617  8.13107947 90.65442319]
+Episode: 2, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 34.95065501  20.14907735  24.93724395   9.0495079  104.83852593]
+Episode: 2, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.86353358 17.13948254 21.54386775  8.71269552 86.05601535]
+Episode: 2, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.78066697 17.61151    19.71549926  7.92446743 84.91980427]
+Episode: 2, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.39948627 17.94239137 18.6803706   8.52981065 85.24560419]
+Episode: 2, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.59358086 16.36233892 18.44066866  7.91048454 79.24953756]
+Episode: 2, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.71939007 15.88512471 21.17712908  8.70233634 79.03490157]
+Episode: 2, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.10706156 14.71567184 19.20789916  8.49324758 67.96766807]
+Episode: 2, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.19324471 17.24987695 18.85020332  8.54722411 73.22335214]
+Episode: 2, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.557825   17.17283989 20.78013156  6.06440904 78.14536412]
+Episode: 2, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.65230257 17.95118108 21.64194268  5.58536611 74.61084811]
+Episode: 2, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.4199024  17.26786037 17.79505172  5.33414261 71.04834523]
+Episode: 2, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.10501005 17.50781759 18.68054465  5.02110292 70.18356445]
+Episode: 2, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.42931684 17.4851173  16.15406244  5.17465862 62.88687579]
+Episode: 2, Step: 16, Seller_0: -0.030279999999999998, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.30900312 18.26024516 18.36081876  7.25079697 72.53690733]
+Episode: 2, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [39.08311879 17.68686599 16.82828337  7.90617328 71.77078876]
+Episode: 2, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.01849016 16.52307291 14.27816785  6.74872585 88.51757478]
+Episode: 2, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [38.36368423 17.33211706 15.64850467  6.68653427 79.84784671]
+Episode: 2, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [39.62140059  9.28435488 16.48342444  6.30939216 74.03166331]
+Episode: 2, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.36621954  8.06225509 14.79543257  5.62841615 67.38366971]
+Episode: 2, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.74044177  8.21930178 14.19304536  6.15243128 43.68154557]
+Episode: 2, Step: 23, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.60061632  7.73719483 13.03876142  6.06167135 41.3519705 ]
+Episode: 2, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.36211446  7.96407024 11.62787236  6.09588907 42.20568313]
+Episode: 2, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.20539842  8.25912999 12.55151619  6.50468129 43.6015216 ]
+Episode: 2, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.28037784  7.66643525 11.0213518   6.02910731 44.52042064]
+Episode: 2, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.63235077  7.40866407 10.03339715  6.85502443 24.78083398]
+Episode: 2, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.69151376  6.6073655   9.40562911  6.60460853 23.02488098]
+Episode: 2, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.7906531   6.37884791  9.24673674  6.83675597 28.85323414]
+Episode: 2, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.7755851   6.49841855  8.12540229  6.58966798 28.57625432]
+Episode: 2, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.3671011   6.37952856  8.65863169  5.90833306 30.97911846]
+Episode: 2, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [34.73985483  7.15959065  8.56468166  6.21071109 27.89613062]
+Episode: 2, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.4255773   6.86798722  8.16825902  6.04003655 17.22414047]
+Episode: 2, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.05172291  8.64515557  6.87669764  5.61957943 17.9144703 ]
+Episode: 2, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.0189564   8.47373977  6.48553988  5.38238076 15.49732513]
+Episode: 2, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.10922778  5.21865238  6.83783256  5.43578924 15.9009893 ]
+Episode: 2, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.46022549  4.65938698  6.68253201  5.25132839 13.98002329]
+Episode: 2, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.31945477  3.88248315  6.5116887   5.43413628 13.64161178]
+Episode: 2, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.25361147  4.11648358  6.37250864  4.89713641 12.06473554]
+Episode: 2, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.38003285  3.64143129  6.23539837  4.30380703 11.53163102]
+Episode: 2, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.76701381  3.33911483  5.97431508  4.37508982 12.61407401]
+Episode: 2, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.51331483  3.2000817   5.73812898  3.70806768 12.43758668]
+Episode: 2, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [34.34834417  3.09125814  5.6314022   3.82785992 12.74591529]
+Episode: 2, Step: 44, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.73053539  2.78791072  4.98473604  3.9217796  12.81644976]
+Episode: 2, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.44749353  2.96067594  5.88443195  4.58084313 15.07398797]
+Episode: 2, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.35130489  2.68153252  5.31797467  4.20599139 13.13370084]
+Episode: 2, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.20542409  2.67762615  3.91245398  4.23246279 13.65096182]
+Episode: 2, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.59805628  2.61670599  3.69469509  4.37503417 14.4687724 ]
+Episode: 2, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.30950723  2.70004564  3.38502539  4.24510783 12.61517763]
+Episode: 2, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.56914335  2.98871732  3.63296511  4.66654764 12.6907551 ]
+Episode: 2, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.98321602  2.79441206  3.2494099   4.30932584 12.18220644]
+Episode: 2, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.42876894  2.77621704  2.09594638  3.62225536 10.15734764]
+Episode: 2, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.38270937  2.50530886  1.91084626  3.47010505  9.11881819]
+Episode: 2, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.02397637  1.55476819  1.54290536  2.81152799  7.82987276]
+Episode: 2, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.99535935  1.48393686  1.43663333  2.61740133  7.38800942]
+Episode: 2, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.39956062  1.49106306  1.38077393  2.58457859  7.61494838]
+Episode: 2, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.00545064  1.6513873   1.54861986  2.77386944  9.02221735]
+Episode: 2, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.78428491  1.64944312  1.72005533  3.39170476 10.28210317]
+Episode: 2, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.35768073  1.538377    1.47410491  2.87050805  9.27499039]
+Episode: 2, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.82625949  1.34447678  1.47753747  2.86842586  8.72686775]
+Episode: 2, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.40517213  1.25110678  1.33269656  2.94445376  8.7818385 ]
+Episode: 2, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.68644137  1.22463106  1.29654072  1.64984324  9.41277865]
+Episode: 2, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.06288531  1.0511008   1.09850792  1.58039254  8.97027158]
+Episode: 2, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.28393777  0.98082407  1.10221372  1.6845005   5.91937479]
+Episode: 2, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.45581744  1.04412079  1.24766944  1.69511883  6.0659724 ]
+Episode: 2, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.87587251  1.62142764  0.84154426  2.02458167  6.87968634]
+Episode: 2, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.77406919  1.54323447  0.81765466  2.18847468  6.30484349]
+Episode: 2, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.19832431  1.52881971  0.9206483   2.41890706  9.35822668]
+Episode: 2, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.65105219  1.52797698  0.87020674  2.43377276 10.05560766]
+Episode: 2, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.75463396  1.70621697  1.29972002  2.38499088 10.61072651]
+Episode: 2, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.58025065  1.70921179  1.20969246  2.67381818 11.35382124]
+Episode: 2, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.5603932   1.95541123  1.39661238  2.59433575 13.73676683]
+Episode: 2, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.55804492  2.26668565  1.42808114  2.5293056  12.81378211]
+Episode: 2, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.26991349  2.42063546  1.62934078  2.67702783 14.03108705]
+Episode: 2, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.12387724  2.47065569  1.68418666  2.85333355 15.41835934]
+Episode: 2, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.51892425  2.40955142  1.82905298  2.79591605 15.82095535]
+Episode: 2, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.77035884  2.46908598  1.81686711  2.76303411 15.40980407]
+Episode: 2, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.40698524  2.74036809  1.88064269  2.8111709  24.20550911]
+Episode: 2, Step: 79, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.72615629  3.14454931  1.94722882  3.05664636 24.07232362]
+Episode: 2, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.38456352  2.95154708  1.97297666  4.05552963 27.20196538]
+Episode: 2, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.47994405  2.69965404  1.62979779  3.91976157 27.53185019]
+Episode: 2, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.23103013  2.48119798  1.69320007  3.77399001 31.55724397]
+Episode: 2, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.25621703  2.5673699   1.7654685   4.15585356 30.03490521]
+Episode: 2, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.58911975  2.79798485  1.66706971  3.86124821 30.90703101]
+Episode: 2, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.4554285   2.96085116  1.67210806  4.20437056 27.80801388]
+Episode: 2, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.22522675  2.7163089   1.61531573  3.75418506 24.12827686]
+Episode: 2, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.34160696  2.47611043  1.58835843  3.90773423 23.76206125]
+Episode: 2, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.64359655  2.22248146  1.50776276  4.02242053 21.38048842]
+Episode: 2, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.85877895  2.10924637  1.50512603  3.58459148 18.09641166]
+Episode: 2, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.52566577  2.13864428  1.58086566  3.49126584 17.36163444]
+Episode: 2, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.10991582  2.16796722  1.83423834  3.6736587  19.84883009]
+Episode: 2, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.2262354   2.16327651  1.68204245  3.4803544  20.18442902]
+Episode: 2, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.79393929  2.12211342  1.23720868  3.6561752  20.75063935]
+Episode: 2, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.79949845  2.10946595  1.2152618   3.88239466 21.80534202]
+Episode: 2, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 7.57327073  2.30620138  1.39343896  2.82008316 23.72151548]
+Episode: 2, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.97581833  1.4144764   0.80426471  2.62368251 13.81252551]
+Episode: 2, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.52694077  1.48432409  0.80066559  2.46614295 15.04803391]
+Episode: 2, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.43569484  1.51844334  0.68106282  2.39839231 16.0285971 ]
+Episode: 2, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 7.68168809  1.47686988  0.62035132  2.34513213 15.3511575 ]
+Episode: 2, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.07435228  1.40269061  0.9809912   2.28766594 15.9053045 ]
+Episode 2/10 completed __________
+
+
+
+Episode: 3, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.52716448 17.93736461 18.76078006 10.11987262 94.19100981]
+Episode: 3, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.58298357 15.95601688 16.41316936  8.55497165 83.25568531]
+Episode: 3, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [43.4146122  15.26155003 16.47646726  7.9493201  87.83202456]
+Episode: 3, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [42.60305098 15.23553144 15.80362708  9.5209273  72.3302324 ]
+Episode: 3, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.82165707 14.16759951 14.31299284  9.81027898 76.46439352]
+Episode: 3, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.81556157 13.93088815 15.16783661 10.15635628 79.06364001]
+Episode: 3, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [54.93688961 13.74768412 17.6138781   5.74945472 80.37143194]
+Episode: 3, Step: 8, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [53.66698369 15.3145642  20.53172657  5.76959124 82.64927025]
+Episode: 3, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.94104336 13.25434127 21.11986858  5.24794339 87.54766637]
+Episode: 3, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.62993453 12.55548522 21.62630217  7.95978269 86.73414848]
+Episode: 3, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [52.5271904  14.3364356  21.79650098  9.4738883  90.1535482 ]
+Episode: 3, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [56.56739599 12.45754684 20.91999427  9.0816664  91.54093771]
+Episode: 3, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [65.43785602 12.53081029 22.36136385 10.08651556 99.21574783]
+Episode: 3, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 57.64926147  11.66503998  24.87197779  10.68602026 104.3875452 ]
+Episode: 3, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [55.0150597  10.47739898 22.39996188 10.6903503  99.07374835]
+Episode: 3, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [50.26875763 10.68285082 22.49204973  9.5947685  88.61397156]
+Episode: 3, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [46.84869365 11.64784972 23.5477419   9.61578478 93.11584864]
+Episode: 3, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 54.16625125  13.78028339  26.15121709   9.77771032 105.56685555]
+Episode: 3, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 57.59945998  13.43559091  23.36312498   9.85733957 100.36826444]
+Episode: 3, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [57.2977198  11.60577962 22.71885541  9.70118675 90.81800552]
+Episode: 3, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [54.46115243 11.82167138 23.20520298  8.68987603 81.5423163 ]
+Episode: 3, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [59.60275305 13.33340993 24.28617436 13.18431927 91.97751858]
+Episode: 3, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 65.65286392  13.76762798  23.35701568  14.56318833 102.25006401]
+Episode: 3, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 66.7718867   12.34948109  17.20505548  13.09533887 106.29271613]
+Episode: 3, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [62.28732557 12.57523663 16.14028415 11.1932976  94.01866893]
+Episode: 3, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [50.40546094 11.44084873 13.74830522 10.6300688  94.81644164]
+Episode: 3, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.25347905  12.39890027  20.25859839  12.05529846 100.31727784]
+Episode: 3, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 40.17760662  11.44014593  15.99679126  13.15992594 100.59570366]
+Episode: 3, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 39.87632308  12.89661438  16.24359823  13.82733315 108.63614688]
+Episode: 3, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 43.63112521  13.54222924  14.69114244  13.3158813  102.99402948]
+Episode: 3, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 35.99343218  12.92597108  14.9797561   13.61070144 111.17233756]
+Episode: 3, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [34.28188965 13.71935936 14.73375071 13.26436882 56.43666827]
+Episode: 3, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.36427001 12.70215292 15.59071678 11.84893429 51.48057986]
+Episode: 3, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.52492622  8.56365655 16.97829237 11.39132366 50.49480755]
+Episode: 3, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.0536969  10.43345562 18.12422176 12.30081207 56.55549491]
+Episode: 3, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.56763373 11.42335348 15.85883921 11.67616258 55.76581424]
+Episode: 3, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.50673945 10.23945459 15.02594774 10.77870817 54.52241021]
+Episode: 3, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.21466981 11.64813352 17.48597716 12.81511603 60.99145195]
+Episode: 3, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.97630138 13.76480268 19.05135378 20.41212312 66.33280854]
+Episode: 3, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.7411212  10.12812007 18.26175728 20.55859817 70.49854207]
+Episode: 3, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.37579044  9.05390105 11.33628049 18.48045284 62.78062459]
+Episode: 3, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.38003375  8.68949902 11.90672916 23.79799568 62.04157023]
+Episode: 3, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.20582228  8.6814851  11.76451289 23.15931597 55.86790051]
+Episode: 3, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.64031776  8.08554397 11.83614463 21.22634012 58.38311196]
+Episode: 3, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [21.24410998  7.11529041 11.58863098 18.31389895 55.29962177]
+Episode: 3, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.12593407  7.94923983 13.24415355 17.39744989 59.8308117 ]
+Episode: 3, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.56328481  7.7558733  13.66583021 17.38699586 54.33211469]
+Episode: 3, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.66135653  6.8740674  13.28706132 18.57518328 58.51371428]
+Episode: 3, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.74247766  6.64160918 13.2187118  18.14999121 65.72722609]
+Episode: 3, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.14964986  7.38247329 13.41573777 11.41603521 61.72451957]
+Episode: 3, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.55909258  7.36035047 13.07465194 10.32276962 62.64598053]
+Episode: 3, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.09856901  6.53487076 11.65307064 10.08228674 56.11484981]
+Episode: 3, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.42469428  5.49216772 10.1830711   8.53960316 56.91174445]
+Episode: 3, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.08998414  5.21917083 10.80697178  8.10004302 55.54459214]
+Episode: 3, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.10656756  5.57526513 12.44833096  8.73325012 56.13979633]
+Episode: 3, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.5457883   6.06942742 13.44078027  9.85896799 63.83423162]
+Episode: 3, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.04621804  6.31184155 13.34115699 10.96882225 70.51875843]
+Episode: 3, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.71031829  5.87028592 13.559187   11.52624847 64.14372279]
+Episode: 3, Step: 59, Seller_0: -0.030279999999999998, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.72859005  5.4775321  15.62075355 11.36816913 64.34856179]
+Episode: 3, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.35517186  5.05736414 15.68133622  9.56982869 78.17053739]
+Episode: 3, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.23857873  4.67755554 13.77726502  8.15731272 67.96431608]
+Episode: 3, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.63661192  5.03655776 14.65926259  8.06731473 73.75191341]
+Episode: 3, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.62142994  4.84171109 14.97573588  9.38726197 64.40390748]
+Episode: 3, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.84898997  4.99252405 14.37135836  9.68626335 61.19856185]
+Episode: 3, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.08992068  4.84052095 16.30727503 10.00016583 62.39421927]
+Episode: 3, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.70986338  4.85544    13.3871727   7.2192467  55.11921808]
+Episode: 3, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.47596777  5.42812915 14.19090805  7.05909091 51.58663636]
+Episode: 3, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.14486609  5.55153371 15.89756982  7.40118278 56.99024537]
+Episode: 3, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.25644931  5.57487006 14.2321065   7.63037003 53.81157414]
+Episode: 3, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 7.26726528  5.58596488 14.16265496  7.84478822 55.49717659]
+Episode: 3, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 6.97472696  5.30778069 13.11494703  6.6560896  53.97610129]
+Episode: 3, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.87808262  5.1037572  12.62020902  6.49640548 49.38069044]
+Episode: 3, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.38550005  5.13377972  7.03084267  6.19756348 48.58352934]
+Episode: 3, Step: 74, Seller_0: -0.030279999999999998, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.16953348  5.71605561  6.16284334  6.55636172 39.28819834]
+Episode: 3, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.32604618  6.96045998  6.10549642  7.0342555  42.52192577]
+Episode: 3, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.32791925  6.53894658  5.32336372  6.61905838 37.48892346]
+Episode: 3, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.3919085   6.45006929  8.2870825   9.35584937 36.94439008]
+Episode: 3, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.72082669  6.13267744  8.48244586  7.77468409 34.61008977]
+Episode: 3, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.34131325  5.86577394  8.56948376  8.27078945 36.51336127]
+Episode: 3, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.31232022  5.83153383  8.75412578  8.40707848 38.37763215]
+Episode: 3, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.85457596  6.19108931  8.91680449  8.94029616 20.41433829]
+Episode: 3, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.21060813  5.62622329  8.71672874  8.10646028 22.32542423]
+Episode: 3, Step: 83, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.5606484   5.5209219   7.14779048  6.7409385  22.90062023]
+Episode: 3, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.22733417  6.09026849  7.38464291  6.70381575 23.40321776]
+Episode: 3, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.20800988  5.09241443  6.68995854  4.60069226 21.45732598]
+Episode: 3, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.07980439  4.23629545  6.78283727  4.16934767 20.77939595]
+Episode: 3, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.80061832  4.23241532  5.6620493   4.44884924 26.35520926]
+Episode: 3, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.13985823  4.43376297  5.67633781  4.72741148 28.36378679]
+Episode: 3, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.51068229  4.23941558  5.74448854  5.04737109 32.64770118]
+Episode: 3, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.11231895  4.47740281  5.75625691  5.63002529 33.06587202]
+Episode: 3, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 6.22160073  4.87034199  8.86137871  6.35842912 38.6094732 ]
+Episode: 3, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.79042221  4.23303627  8.9802026   6.0277299  34.29915534]
+Episode: 3, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.20823428  3.86733874  9.00943852  4.22381532 39.73767488]
+Episode: 3, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.70572857  3.59105049  8.87828625  4.51881034 39.22830202]
+Episode: 3, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.47303955  3.14821923  8.65828703  4.12684737 39.82104895]
+Episode: 3, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.95301761  2.68017933  7.54850156  3.61537123 33.18807072]
+Episode: 3, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.8125961   2.57071451  7.20701514  3.71345908 31.21840275]
+Episode: 3, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.53330479  2.49799708  6.99098981  3.48723306 29.3248027 ]
+Episode: 3, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.287309    2.65606858  6.95281064  3.87468254 31.13114154]
+Episode: 3, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.76795041  2.9453002   6.8223221   3.49421537 32.04308142]
+Episode 3/10 completed __________
+
+
+
+Episode: 4, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [39.33752713 19.874944   18.00778987  8.88906038 88.74295986]
+Episode: 4, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [35.57134128 19.66375332 15.58641769  6.27589178 84.85082682]
+Episode: 4, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.04873411 18.30454269 15.21741222  6.87280944 88.31698244]
+Episode: 4, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [34.46752938 19.29544823 13.64588032  6.09833112 77.42494835]
+Episode: 4, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.28414504 17.79623703 11.85259733  5.74348192 69.81454039]
+Episode: 4, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.41396132 21.29815696 12.95068327  5.62276252 74.79286458]
+Episode: 4, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.2254055  23.71915799 12.74570211  5.80152143 78.56928892]
+Episode: 4, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.92190899 26.21334857 14.42607738  3.20659672 75.3702272 ]
+Episode: 4, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.74225548 24.01875005  9.43406311  3.09872036 70.78017645]
+Episode: 4, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.11355008 22.48156065  8.17007477  3.47631196 61.66725389]
+Episode: 4, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.87773666 20.1743152   7.60297356  2.96459531 61.45337339]
+Episode: 4, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.39902472 31.64019477  7.55972148  2.92768202 69.14872298]
+Episode: 4, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [43.51187028 38.1847186   8.32654125  2.92561645 83.45748428]
+Episode: 4, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.41262396 36.17260828  7.93603863  2.60793947 81.25901351]
+Episode: 4, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.53020921 39.24167673  8.05003872  2.41468779 90.68663066]
+Episode: 4, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.85794164 40.24279985  8.70707075  2.35650714 97.19185224]
+Episode: 4, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.10331162  47.06139293   7.83591614   2.85832993 104.06095628]
+Episode: 4, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.66031728  44.02982994   8.35430761   2.9309139  110.83675463]
+Episode: 4, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.95879408  48.10344102   8.51679551   2.98178552 145.345437  ]
+Episode: 4, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 59.94295927  45.7165171    9.29735346   3.4603418  152.90427209]
+Episode: 4, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 56.61830975  44.4970069    8.28388731   3.10331919 159.352389  ]
+Episode: 4, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 56.93132185  48.33065695   8.83330502   3.3918002  156.59363814]
+Episode: 4, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 64.07674573  48.82981266   9.04966642   3.44529381 159.01637996]
+Episode: 4, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 68.80096817  38.51558413   9.15974346   2.8478911  158.04400543]
+Episode: 4, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 62.60634606  36.23430661   9.37422803   2.94883956 147.65222697]
+Episode: 4, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 44.06489396  25.10855217   9.28433473   3.23781376 151.77718254]
+Episode: 4, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.02233657  27.04967436   8.82738014   3.0534941  166.10352894]
+Episode: 4, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 50.39684123  28.91430765   9.85692211   3.01015557 195.65652902]
+Episode: 4, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 50.19810691  28.49231399   9.42825078   3.27918755 188.8782607 ]
+Episode: 4, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.46318028  31.10648401  10.78426302   3.80804695 216.57257922]
+Episode: 4, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.01900017  26.0945605   10.26006484   2.50550948 204.93141086]
+Episode: 4, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 55.23297507  24.35496649  11.20394022   2.42543404 213.06883684]
+Episode: 4, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 55.45637387  11.55057774   9.62661083   2.06265488 199.83535179]
+Episode: 4, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 54.60658553  14.09138977  11.62773401   2.17670741 190.51502275]
+Episode: 4, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.82790798  11.75996324  11.36279343   2.02956835 177.81278758]
+Episode: 4, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 54.94845038  13.01177967  12.14689679   2.27065744 178.12663972]
+Episode: 4, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 58.8989288   15.20759046  12.95682955   2.19609008 177.81261095]
+Episode: 4, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 58.18895     14.51620373  10.03297416   2.3729761  200.43205252]
+Episode: 4, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.12220316  15.9401148   12.25113798   2.82980731 219.26251838]
+Episode: 4, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 40.19236606  15.0229843   11.03016253   2.77534952 223.52874232]
+Episode: 4, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.37348022  16.27758515  12.31778179   2.89743669 254.64261779]
+Episode: 4, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 44.06466133  15.82259656  13.2558357    3.15028051 268.14694267]
+Episode: 4, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.14602683  13.88856526  13.74445984   3.29763062 256.39581305]
+Episode: 4, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 39.42541983  12.69607332   6.47386682   3.06942684 245.74276313]
+Episode: 4, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.92262622  15.08876507   7.41251744   3.03159461 262.74090092]
+Episode: 4, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.7204082   14.89663669   8.30663444   2.78724204 254.71474521]
+Episode: 4, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 52.34115655  11.02608997   9.12542709   3.02964537 267.03757056]
+Episode: 4, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 48.62366664   5.63208472   8.44233588   2.57979665 232.70070338]
+Episode: 4, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 52.16940772   5.70266266   8.71095915   2.37293029 203.55047233]
+Episode: 4, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.08196041   5.78914232   8.42565659   1.60376116 195.55206246]
+Episode: 4, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 50.54376477   4.87685543   7.57633877   1.51481005 192.87199873]
+Episode: 4, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 43.83616844   4.3038993    7.55562218   1.23495664 184.93544435]
+Episode: 4, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 40.72280242   3.83495162   7.46660621   0.62127795 188.15549518]
+Episode: 4, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 44.31998227   4.00210107   4.73662409   0.61584272 198.31133246]
+Episode: 4, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.17557651   3.76295788   4.39092217   0.62409204 187.8238611 ]
+Episode: 4, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.41941311   3.92315846   4.68862907   0.64337746 193.63786239]
+Episode: 4, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.87544478   4.10377737   5.18648635   0.57593456 182.5515727 ]
+Episode: 4, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.53405362   4.51384452   5.84227806   0.65581303 214.17944202]
+Episode: 4, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 58.49527515   4.13205627   5.62278881   0.55717549 215.29265771]
+Episode: 4, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 58.08807555   3.69751674   5.19522858   0.52321553 246.13050625]
+Episode: 4, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 50.39170617   3.16998688   4.62085849   0.42385704 210.42336775]
+Episode: 4, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.35804598   3.02388899   5.62461316   0.40513668 227.5751881 ]
+Episode: 4, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.35845602   3.29283821   6.19572848   0.45997895 278.16703857]
+Episode: 4, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.66182507   3.82881645   7.45837646   0.53422029 297.66386752]
+Episode: 4, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 62.19765921   4.12566093   7.06081488   0.56359767 297.18064133]
+Episode: 4, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 69.8696081    3.9626984    6.22209009   0.56114516 280.02384254]
+Episode: 4, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 70.63330104   3.63940173   5.29069023   0.53075346 291.09642869]
+Episode: 4, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 64.35500892   3.20349069   5.08060802   0.5718712  309.69793213]
+Episode: 4, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 57.95605042   3.66661836   5.87597689   0.6159391  350.54381523]
+Episode: 4, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.29649649   3.72524246   5.66476682   0.56638004 320.33985897]
+Episode: 4, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 50.58905869   3.71177583   6.14676105   0.60535225 345.37812148]
+Episode: 4, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.86690128   1.77752686   5.17640232   0.62346903 329.59898822]
+Episode: 4, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.65098638   1.66880312   4.6475279    0.5819996  324.70372971]
+Episode: 4, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 43.07412248   1.58178821   4.54783218   0.61146483 379.36499392]
+Episode: 4, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.27677629   1.6213372    5.13489255   0.59013155 362.16623856]
+Episode: 4, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 43.71773504   1.76603727   5.9527593    0.62911847 324.33485966]
+Episode: 4, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.32844391   1.86590124   5.9510366    0.71631356 345.93442555]
+Episode: 4, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 48.23127484   1.67619138   5.67818779   0.76506369 370.95340629]
+Episode: 4, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 44.89311284   1.71557877   4.98914623   0.84925267 402.82187345]
+Episode: 4, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.752408     1.63706307   5.11824941   0.74602423 391.16449285]
+Episode: 4, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 35.78872108   1.66111601   5.48577473   0.76724787 418.38112039]
+Episode: 4, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 39.99848402   1.85428554   5.70418541   0.85323839 480.28390767]
+Episode: 4, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 43.81117489   2.00297139   6.09221026   0.91947545 507.50854205]
+Episode: 4, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 74.88814383   2.00835943   7.14893553   0.9516756  505.41001881]
+Episode: 4, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 80.58613976   2.44407068   8.27904969   1.09929646 621.06241451]
+Episode: 4, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 84.75075039   2.64566146   8.4928162    1.05125964 586.01844503]
+Episode: 4, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 75.23350901   2.59047331   8.64084924   1.03075731 508.61771743]
+Episode: 4, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 68.5998013    3.49950545   8.05348819   0.96344218 454.5078506 ]
+Episode: 4, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 75.25563076   3.71390194   8.61978867   0.91589    474.31067816]
+Episode: 4, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 73.62714158   1.63190645   8.21903483   0.91497577 457.44502387]
+Episode: 4, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 73.86264756   1.76139256   8.81527358   0.95401136 458.10413284]
+Episode: 4, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 66.88496724   1.5779073    8.44262505   0.82815656 470.22048776]
+Episode: 4, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 78.15952633   1.56138795   9.16219316   0.85499098 525.90200047]
+Episode: 4, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 72.17699644   1.68754275   8.96644447   0.84975041 512.6803927 ]
+Episode: 4, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 80.12065542   1.58295842   9.95666616   0.91583062 505.26176605]
+Episode: 4, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 85.1106183    1.89899665  10.18331953   0.94027626 748.21407056]
+Episode: 4, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 80.08816718   1.61325487   7.47973475   0.83713954 683.4690721 ]
+Episode: 4, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 76.09650464   1.95668839   7.23342958   0.84080321 710.90477491]
+Episode: 4, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 74.02087591   1.91405068   8.1743722    0.91849367 725.11705347]
+Episode: 4, Step: 100, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 89.8696439    2.02353408   9.67527586   0.95539345 818.05006228]
+Episode 4/10 completed __________
+
+
+
+Episode: 5, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.27586141  22.52844183  21.11016521  10.62188348 107.73898095]
+Episode: 5, Step: 2, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.37277592  25.46957723  19.47165558  11.62077221 116.52926676]
+Episode: 5, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.52644108  18.37817882  21.06968121  12.59783522 111.75562322]
+Episode: 5, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 55.87085588  19.90181671  21.19390432  13.12784543 161.33189463]
+Episode: 5, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 63.52780906  23.31212355  23.27032678  18.03069178 192.40628134]
+Episode: 5, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.73848566  21.36149799  19.49716482  16.38052634 193.3422854 ]
+Episode: 5, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.95081227  23.59772267  22.18253154  15.49599025 177.04047683]
+Episode: 5, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.42712032  21.87239876  22.01730447  15.90775086 149.72706315]
+Episode: 5, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.65254672  10.97867373  21.48945858  15.04596167 170.96382726]
+Episode: 5, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.49365577   9.52973258  18.99721024  15.21955122 164.3665394 ]
+Episode: 5, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 35.39133523   8.88453571  19.2289028   16.26776239 160.60054896]
+Episode: 5, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.25695481   9.68913585  21.76976741  17.54959091 163.26345231]
+Episode: 5, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.43932416   9.54254793  20.48436088  19.12102142 176.90702982]
+Episode: 5, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 30.60571228   9.30018571  20.65636653  17.71923246 149.71125091]
+Episode: 5, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 31.98727985  10.10256395  23.97570885  16.92485538 154.34595084]
+Episode: 5, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.72063841   9.92549786  23.00294242  13.74706903 138.80727876]
+Episode: 5, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.85699496   8.56927086  22.97967617  12.86947062 129.46539789]
+Episode: 5, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.30699059   8.29307459  22.03525973  11.75883494 127.9813544 ]
+Episode: 5, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.11162957   7.89828466  19.66395209  11.81655556 125.22533903]
+Episode: 5, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 19.41286922   7.4310282   16.75403478  11.22393904 124.08280246]
+Episode: 5, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.58026685   8.10365693  16.53156379  11.92668148 123.37123831]
+Episode: 5, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.40242775   8.61881582  16.22770438  11.84566135 130.96536151]
+Episode: 5, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.0614254    7.40328881  14.99312153  10.37299905 132.07439081]
+Episode: 5, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 31.63933359   7.38255162  15.22866784  11.2477301  132.64145889]
+Episode: 5, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.38555181   7.28306435  13.27393564   9.38678606 127.81941001]
+Episode: 5, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 24.07595      5.76370498  11.36393226   7.66269762 113.38429204]
+Episode: 5, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.70539164   5.68313014  10.72470916   7.61409601 111.5033034 ]
+Episode: 5, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.05806868  5.75902253  6.00765078  8.26463133 97.89099901]
+Episode: 5, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.48493709  7.32226743  6.78156352  9.93595509 97.77628225]
+Episode: 5, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.67438121   7.15470887   6.42411788   8.59714751 119.68625208]
+Episode: 5, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.2347146    6.8291309    6.7774381    7.65179205 126.98635612]
+Episode: 5, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 24.83064901   6.01215484   6.57884002   6.9188757  110.86593593]
+Episode: 5, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.60651374   5.42865594   6.24893176   6.56896955 104.73077995]
+Episode: 5, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.5651188    5.39055283   6.12732266   5.9320751  112.10021321]
+Episode: 5, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.56627433   5.6492527    6.66786719   6.09257077 120.52370245]
+Episode: 5, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.36778083   5.47746147   6.34951045   6.74774124 118.59323701]
+Episode: 5, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.28024631   5.35710119   5.92797265   5.95100986 103.27689927]
+Episode: 5, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.77994049   6.05699079   6.95342278   5.98233397 112.02269165]
+Episode: 5, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.37877654  5.32558821  6.45760206  5.34308335 95.61198653]
+Episode: 5, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.6873061   5.34946236  6.73433964  4.7993181  98.70227941]
+Episode: 5, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.18530963   4.95995114   6.3930449    4.65404519 127.89260459]
+Episode: 5, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.90431053   5.40197008   7.43580349   4.87865908 130.02866443]
+Episode: 5, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.48063111   5.55808069   8.94239742   5.19259595 151.09280826]
+Episode: 5, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.23997834   6.56743041   9.51948332   6.004405   171.36602864]
+Episode: 5, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.39111235   6.6459055    9.05360906   6.8130164  178.07034393]
+Episode: 5, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.72296472   6.59122852  10.55069926   7.66474421 173.01967846]
+Episode: 5, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.64456798   6.34846376   9.7341895   10.46382113 150.65995187]
+Episode: 5, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.29948731   5.30679604   9.74347816  10.28005995 130.02472826]
+Episode: 5, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 29.68430332   5.14464095   9.32775902   9.69875548 125.09767199]
+Episode: 5, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.95139213   5.36339842   8.98888286   8.75364894 123.80215545]
+Episode: 5, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.9219636    4.49233856   7.58105095   7.12250588 105.38292037]
+Episode: 5, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.63901189   4.62712454   7.5557958    8.63588551 110.89370362]
+Episode: 5, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.52532338  4.21748588  5.72727236  7.27410769 97.96644353]
+Episode: 5, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 17.9692367    4.17190137   4.95743366   6.24008904 100.53675381]
+Episode: 5, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.57983758  4.10463501  4.5984058   6.49253008 96.13992908]
+Episode: 5, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.18497632  4.53440681  5.15932762  7.20811668 93.87168137]
+Episode: 5, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 17.26337985   4.57554122   5.30516365   8.46426812 112.82013345]
+Episode: 5, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.0287292   3.89781468  5.20624948  7.00213435 97.41345031]
+Episode: 5, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 15.67291201   3.87495607   5.02169599   6.37989749 108.52896487]
+Episode: 5, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 14.10423918   3.75623256   4.9198571    5.1936043  111.2572868 ]
+Episode: 5, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 16.9414817    3.77895921   4.00016886   5.68672368 114.0198133 ]
+Episode: 5, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 15.55445726   4.2740709    4.65008915   5.87565917 117.97825147]
+Episode: 5, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 11.6360117    3.5766282    5.11316805   5.53147105 139.85764843]
+Episode: 5, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.89894384   3.92686389   5.05061741   7.30182772 152.40131444]
+Episode: 5, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.07561299   3.97033977   4.90126587   6.92027606 137.78581081]
+Episode: 5, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.0411976    4.71012083   5.46865476   7.01606223 132.72565381]
+Episode: 5, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.10326779   4.55509837   5.25265577   7.49084132 133.74437217]
+Episode: 5, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.33366697   4.32419525   5.16449463   6.81787519 130.21554254]
+Episode: 5, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  9.48127168   3.50047916   4.48973881   5.89738668 111.61492342]
+Episode: 5, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.65132724  1.94056047  6.04416567  6.40424742 98.44303557]
+Episode: 5, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 9.04022796  1.98120237  4.11986157  6.83150653 99.13808883]
+Episode: 5, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.25949245  1.77953244  3.82197711  6.1283901  97.07676238]
+Episode: 5, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.08818887  1.79701293  3.70531605  6.0780202  95.18970592]
+Episode: 5, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.01946191  1.79816717  3.33217009  5.52528935 96.19876445]
+Episode: 5, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 7.52872088  1.80547384  3.11707905  4.90166782 95.26541144]
+Episode: 5, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.00022958  1.51727978  2.78323192  3.33777936 91.20195837]
+Episode: 5, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  9.64807144   1.70280092   3.14235506   3.58990151 104.61315759]
+Episode: 5, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  9.82143893   1.71362933   3.01244609   3.48248976 113.69688444]
+Episode: 5, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 13.25311099   1.66983458   3.02390642   3.31367223 114.88967091]
+Episode: 5, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 13.09685246   1.60439945   2.87213244   3.48246912 108.93722487]
+Episode: 5, Step: 81, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 14.66514053   1.56653636   2.85805026   3.51506476 123.48918431]
+Episode: 5, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 15.86972718   1.65215313   2.98014896   4.70448019 137.03536679]
+Episode: 5, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 17.04140014   1.75551279   3.0806915    4.93096461 145.70372928]
+Episode: 5, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 17.08264815   1.73347597   3.48503599   5.48978765 167.62555699]
+Episode: 5, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 18.21370527   1.68065207   3.58341028   5.28220797 187.59102829]
+Episode: 5, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 15.84287314   1.638024     3.13638618   5.14230826 173.44504603]
+Episode: 5, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.61271567  1.62749661  3.08465644  5.12636488 98.20440875]
+Episode: 5, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.59884406  1.56844228  2.55191405  5.5315891  99.80187281]
+Episode: 5, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.2608178   1.45631395  2.42061353  4.57242321 80.03282157]
+Episode: 5, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.95425432  1.3072962   2.64508665  4.54738733 73.54931787]
+Episode: 5, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.4510014   1.15996891  2.71431955  2.54383446 64.39567271]
+Episode: 5, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.01005403  1.16673389  3.03641319  2.61024848 74.61058706]
+Episode: 5, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 9.79648442  1.06658005  3.30931601  2.63420222 70.78827442]
+Episode: 5, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.18588619  1.0663982   3.10123824  2.36676969 64.30860012]
+Episode: 5, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 8.70410188  1.06653386  2.89880478  2.56120669 59.10905872]
+Episode: 5, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 9.80453811  1.13136211  3.03422847  2.82054178 77.61699967]
+Episode: 5, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 9.97559751  1.24865828  3.32852572  3.18225786 91.70545422]
+Episode: 5, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  9.25142266   1.27401735   3.83587705   3.30367562 102.67160933]
+Episode: 5, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  9.26325482   1.46109377   4.3632771    3.50262964 105.58035668]
+Episode: 5, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.16664779   1.36954682   4.44389209   3.61595339 100.99439263]
+Episode 5/10 completed __________
+
+
+
+Episode: 6, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [38.73998957 18.40091016 19.00817573  8.84770033 94.13469357]
+Episode: 6, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.44767425 15.64880095 18.04700049  8.59386718 92.37076085]
+Episode: 6, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.21650999 16.34191251 19.73377656  9.41720357 91.0879338 ]
+Episode: 6, Step: 4, Seller_0: -0.030279999999999998, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.46086317  16.07728713  21.11375065   9.38917701 104.74582559]
+Episode: 6, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.30195716  17.9242804   22.62467965  10.30246442 100.01934266]
+Episode: 6, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.39566088  20.85173363  23.7989306   11.67803139 112.77426953]
+Episode: 6, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.1893164   22.52403513  27.49404669  12.49116767 141.19304929]
+Episode: 6, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.04417755  20.12044901  32.57045368  11.88345978 147.3599528 ]
+Episode: 6, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.16214645  18.98957529  32.4301515   14.57363992 141.54049893]
+Episode: 6, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.07077763  18.80288835  27.44490531  12.46761417 150.09697898]
+Episode: 6, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.13468922  16.32505963  26.30642336  11.74560429 144.49075631]
+Episode: 6, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.80248006  17.49010526  27.24724645  13.38053651 157.88551947]
+Episode: 6, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.09536698  15.57406851  28.91174958  12.42928667 142.55373012]
+Episode: 6, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.63844071  15.41478584  34.99808158  13.02918273 149.31928967]
+Episode: 6, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.12667831  15.18661544  35.78189502  12.1296229  156.22684122]
+Episode: 6, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.64903393  14.65783171  36.44226135  13.30286766 172.01754628]
+Episode: 6, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.57299711  15.89055874  37.33357164  14.41702867 179.46355388]
+Episode: 6, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.24431264  16.5940954   33.96511751  13.86887102 261.37256234]
+Episode: 6, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.47904918  15.55275645  28.57278671  11.77961863 227.89515746]
+Episode: 6, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.17653028  13.65427073  30.34295345  10.12604433 208.61806991]
+Episode: 6, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.41725278  12.80268256  29.37246647   8.21495226 177.99610377]
+Episode: 6, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.44626356  12.78580012  34.65439038   8.34364751 212.94151699]
+Episode: 6, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.75531535  12.96222205  32.20182593   7.44345471 211.61277498]
+Episode: 6, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.04711004  12.6239562   30.46399881   6.11523132 189.93450056]
+Episode: 6, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.53221591  12.37006533  32.98029827   4.81308175 208.40429852]
+Episode: 6, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.24150444  15.01556371  37.39178519   5.45398764 241.26648374]
+Episode: 6, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.10661158  15.21054731  50.37748505   5.33342039 255.19305925]
+Episode: 6, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.43317063  15.93314108  50.78583788   5.15494964 280.0816077 ]
+Episode: 6, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.00823171  13.90831839  55.23735155   5.0367088  311.90922765]
+Episode: 6, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 29.79779372  13.86695311  38.07732101   4.47955235 324.96799239]
+Episode: 6, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 30.6880422   15.60419264  43.27174215   4.78908905 357.15714948]
+Episode: 6, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 32.36805226  18.70651751  47.50237747   5.02948583 383.97720367]
+Episode: 6, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.09637768  20.86387074  46.55521812   4.91393648 440.7207772 ]
+Episode: 6, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 30.16793053  18.22271471  41.09728519   4.61664006 420.97843163]
+Episode: 6, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 31.46905981  20.24646016  46.43700751   5.19144111 631.83781292]
+Episode: 6, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 30.43941877  17.52850674  44.60254826   5.17309295 576.32330858]
+Episode: 6, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 30.9977104   19.18722559  46.03278344   5.11250799 607.13360737]
+Episode: 6, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.50388906  18.9858803   52.87994373   3.15981495 593.89983186]
+Episode: 6, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.01373476  22.88708958  56.67178307   3.40200986 598.78971148]
+Episode: 6, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.02717845  20.57142849  63.49198827   3.07576838 627.44128249]
+Episode: 6, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 31.40159478  22.48546444  63.6716761    3.32530757 660.00648686]
+Episode: 6, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.66611035  23.4775217   67.99388274   3.14699248 744.31226753]
+Episode: 6, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.8427057   21.82200607  84.10386168   3.64729623 747.97800409]
+Episode: 6, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 31.71732578  21.06655721  78.73688797   3.15932637 834.60679867]
+Episode: 6, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 34.81666705  31.34173251  77.27669181   3.23427862 948.95797003]
+Episode: 6, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.5113134   29.72681892  64.16525769   3.0860177  827.04208742]
+Episode: 6, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 32.80175661  20.49138119  65.95673137   3.43310515 931.06387295]
+Episode: 6, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 40.48734572  18.73619241  61.66947483   3.36136883 738.32825962]
+Episode: 6, Step: 49, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 32.32011065  18.9291366   71.39658504   3.55133464 874.29047439]
+Episode: 6, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.35088219  17.70764295  72.52002782   3.51751742 875.3653527 ]
+Episode: 6, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 36.8159619   15.5391022   74.08708952   3.39298367 821.98720556]
+Episode: 6, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.40645631  16.76818737  72.84021824   2.95990371 834.6036002 ]
+Episode: 6, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.09455359  15.29137639  75.75989995   2.93340513 897.75581051]
+Episode: 6, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.40135083  14.39423363  81.48428847   2.8944743  932.55639212]
+Episode: 6, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.9571103   21.60478934  82.63620831   3.03760279 941.73416048]
+Episode: 6, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.54574451  23.35629276  78.636565     2.93275727 923.74001325]
+Episode: 6, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.29796468  25.23211014  76.78646598   2.88777206 840.17849257]
+Episode: 6, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  27.09547911   28.86630357   86.12901889    3.08568597 1043.70357377]
+Episode: 6, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  26.06495722   32.95316192   50.4609394     2.49229735 1094.61900201]
+Episode: 6, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  23.40754275   33.82524919   36.93210724    2.37489491 1031.24182527]
+Episode: 6, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  22.39502551   31.51078509   34.14456149    2.51378492 1072.19171853]
+Episode: 6, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.74354894  28.36740122  33.34637106   2.1563426  952.11221637]
+Episode: 6, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.62309123  26.70127048  29.67302811   1.94148564 895.76165443]
+Episode: 6, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.06519321  27.27644789  34.30464976   2.06659147 974.36128319]
+Episode: 6, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  22.79480513   24.14967459   30.62598457    2.33407272 1063.76815731]
+Episode: 6, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  25.87489286   23.94304396   32.10019069    2.60030557 1232.78960137]
+Episode: 6, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  22.69025141   21.55250034   31.93164966    2.44578275 1123.87813028]
+Episode: 6, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.36471075  19.43965013  27.14848925   2.48157401 911.57771738]
+Episode: 6, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.57143262  20.09582366  31.76875211   2.72358098 948.90923732]
+Episode: 6, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 22.487287    19.12954074  26.97822824   2.51209425 797.3653367 ]
+Episode: 6, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 13.71075316  20.60028852  26.55173436   3.81055032 828.64965849]
+Episode: 6, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 14.92776276  30.14419933  29.8995221    3.06958708 949.46425966]
+Episode: 6, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  19.62316442   31.22492804   28.66571186    2.6612163  1015.20393615]
+Episode: 6, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  18.35781736   33.30371438   42.02670304    2.62106007 1010.2584403 ]
+Episode: 6, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 18.37727537  37.33174698  39.1586942    2.49265229 993.02850466]
+Episode: 6, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 19.10958538  37.64159704  41.39223426   2.57745294 952.36716971]
+Episode: 6, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 19.45353675  38.89290733  42.72517193   2.52201725 863.71959825]
+Episode: 6, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.79542082  47.07402142  47.5008515    2.78261622 849.26531447]
+Episode: 6, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.90276079  50.22164858  47.83981622   1.40469407 865.24154068]
+Episode: 6, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.46498943  49.26551156  43.40942548   1.34219495 835.68166883]
+Episode: 6, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.37922767  53.0145233   40.5128806    1.28390275 908.75260929]
+Episode: 6, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.58553772  47.81168136  40.27972658   1.13882564 810.67827089]
+Episode: 6, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.03219528  41.25283327  36.99842868   1.01980034 756.29611589]
+Episode: 6, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.26101167  39.08543869  38.67268063   0.97055926 802.85614482]
+Episode: 6, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.98407197  42.46963747  37.69285089   1.01863807 861.27576223]
+Episode: 6, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 20.91613786  41.8476814   40.79275925   1.08642428 961.27392856]
+Episode: 6, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  22.21502058   37.06356591   38.49308392    1.05472338 1025.91471663]
+Episode: 6, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  20.15481553   35.00760632   38.45238807    1.39123649 1050.7620939 ]
+Episode: 6, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  17.66769561   35.07141589   38.91483421    1.36066756 1106.66928391]
+Episode: 6, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  18.39562018   34.92576324   36.4027699     2.04553777 1143.96093596]
+Episode: 6, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  21.69215045   34.85001159   40.92008697    2.03896026 1296.58859886]
+Episode: 6, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  21.92547245   34.32973385   44.07745972    2.23404452 1382.01303073]
+Episode: 6, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  24.56539418   38.14342333   44.63157385    2.50841218 1513.60512438]
+Episode: 6, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  21.68592988   37.56413419   47.27641249    2.29656064 1313.79174624]
+Episode: 6, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  22.76477497   41.47803851   48.71953874    2.25745313 1371.56403076]
+Episode: 6, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  21.13998607   39.92614649   48.20980622    2.5638114  1445.28292743]
+Episode: 6, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  19.85367942   35.03436992   40.97690638    2.30097757 1189.85965489]
+Episode: 6, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  16.31848211   34.45934831   36.55536722    1.83177907 1059.96527482]
+Episode: 6, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  17.10511507   33.85141286   36.22918885    1.89939083 1026.14582399]
+Episode: 6, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [  19.85339689   33.80537451   38.68898148    1.7945091  1220.97216811]
+Episode 6/10 completed __________
+
+
+
+Episode: 7, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.01752785 21.21060806 21.1717363  10.47894428 85.58947601]
+Episode: 7, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.2122961  19.55758759 21.03637278  8.31963893 73.93498948]
+Episode: 7, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.41365452 19.89997414 19.91643727  8.28209047 86.56911138]
+Episode: 7, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.26517582 19.39992048 17.35206233  7.92220932 79.83817894]
+Episode: 7, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.72242817 21.36689209 10.23835884  7.4881146  82.20391322]
+Episode: 7, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.03325467 20.96206396  9.25139367  6.38793753 70.11698817]
+Episode: 7, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [21.75364249 24.07303632 10.29489748  6.49508681 79.76551725]
+Episode: 7, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.0780452  19.28390234  9.60630715  6.17582443 68.79574545]
+Episode: 7, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.26170613 19.88528851  8.79095233  6.21465916 57.96805899]
+Episode: 7, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.27078477 19.67526663  8.80132784  6.5543636  58.91996149]
+Episode: 7, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.77851498 21.15524635  9.02861956  8.10889894 62.20033214]
+Episode: 7, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.45613138 20.21112083  8.88539022  8.98109589 69.35867265]
+Episode: 7, Step: 13, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.35840006 20.37937596  8.11232996  8.80559753 42.4066806 ]
+Episode: 7, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.91349037 22.17524753  4.85432453  8.5840421  39.01495693]
+Episode: 7, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.77654516 27.58712405  5.3469183   7.67572911 41.64128755]
+Episode: 7, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.05526959 26.55626191  5.35399991  7.33827011 44.76889337]
+Episode: 7, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.116421   26.66893188  5.61893174  7.17582387 50.21483981]
+Episode: 7, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.0350667  27.55358313  5.77840868  6.51821717 43.88239811]
+Episode: 7, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.87059813 31.35255135  6.11361409  6.9782373  48.37545636]
+Episode: 7, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.27138797 27.73426779  6.01733096  7.38051046 42.75943696]
+Episode: 7, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.97914318 29.74505323  7.67725695  7.58289694 41.39610481]
+Episode: 7, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.55483273 24.95635322  6.55582822  7.6371989  43.60066098]
+Episode: 7, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.72228577 22.33039448  6.07945743  7.98193647 49.64829533]
+Episode: 7, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.32148394 22.10571792  5.9907946   8.98348255 52.9805185 ]
+Episode: 7, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.08633719 20.77800154  6.07393611 13.92480831 47.41096097]
+Episode: 7, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.13009179 20.20877456  5.5468258  14.40291427 43.81568952]
+Episode: 7, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.08899831 32.97978217  6.27095397 15.78525905 46.51183431]
+Episode: 7, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.65571049 33.49827405  6.83399763 18.06789777 73.46188391]
+Episode: 7, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.12226814 33.70486574  6.76215154 21.12707869 76.05617324]
+Episode: 7, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.92911176 29.99936282  7.64227112 18.61324948 72.3427489 ]
+Episode: 7, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.62944869 29.70824501  8.22377943 19.44597206 74.12566271]
+Episode: 7, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.51582192 37.89933934  8.02765752 16.24171425 77.79205125]
+Episode: 7, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.18186866 35.17108533  4.08474839 16.40800212 72.261328  ]
+Episode: 7, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.64428775 34.80300084  3.83948702 14.25433851 73.08174674]
+Episode: 7, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.51416297 38.12661309  4.03655591 15.09357568 72.58249566]
+Episode: 7, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.23080727 40.56841983  4.4809132  15.32211932 71.14377316]
+Episode: 7, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.33928909 40.76590169  4.49649227 13.7256384  70.9604652 ]
+Episode: 7, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [42.90936265 41.85263834  4.64352576 14.70633574 81.54353936]
+Episode: 7, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [65.42438296 43.52802023  4.23594933 12.0782267  87.10912701]
+Episode: 7, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [66.07441742 44.60690971  4.65469473 11.3740614  90.33057755]
+Episode: 7, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [63.51449115 42.3616645   5.10302975 11.85364551 98.22446217]
+Episode: 7, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [58.07977683 43.95225164  4.864177   10.32731019 81.56879584]
+Episode: 7, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [67.49168218 42.52897084  5.37946636 10.82219025 94.61246651]
+Episode: 7, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [63.62108616 38.17953981  4.74827841 10.28113388 86.81734582]
+Episode: 7, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [78.27327407 35.18674854  4.58967193  8.47304448 74.82635202]
+Episode: 7, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [82.30663568 40.35008177  5.10880362  8.16125022 83.36063189]
+Episode: 7, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [89.62467993 45.87768999  4.92576077  7.75835423 79.23959898]
+Episode: 7, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [103.37123717  50.0386991    5.69896807   8.55159727  94.772189  ]
+Episode: 7, Step: 49, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [91.09360381 46.60999497  5.47743362  7.05457872 92.35999777]
+Episode: 7, Step: 50, Seller_0: -0.030279999999999998, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [88.8112602  36.956224    4.60007271  5.91680119 79.79503609]
+Episode: 7, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [86.08905983 34.50954186  4.01411194  6.29208278 73.35945246]
+Episode: 7, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [86.60758779 36.83754322  4.31155125  6.46896006 79.7770093 ]
+Episode: 7, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [74.64129343 37.1374804   4.6605093   7.38163662 64.56879366]
+Episode: 7, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [59.27632177 37.45685782  4.30616944  6.34638179 60.57363901]
+Episode: 7, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [61.37293396 36.8008576   3.60356366  5.34902999 57.36061396]
+Episode: 7, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [67.72792159 44.12271666  3.65664518  5.92686674 60.31460079]
+Episode: 7, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [104.17192009  51.19509585   3.48260478   3.36805502  66.46072794]
+Episode: 7, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [91.64939719 49.77474067  3.25671888  3.13332281 55.42170254]
+Episode: 7, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [90.44920072 56.87951476  3.35703374  3.20492726 53.12280719]
+Episode: 7, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [88.44524187 51.82475792  3.23382628  3.21762871 53.44006083]
+Episode: 7, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [73.96949008 49.67635835  2.72311643  1.80938019 52.07747214]
+Episode: 7, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [66.75911882 45.46205718  2.42416933  1.47825074 46.50403595]
+Episode: 7, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [58.01352576 43.47367863  2.42954458  1.78023383 40.99853622]
+Episode: 7, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [58.41846929 49.01818528  2.68874517  2.36240149 48.55363283]
+Episode: 7, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [55.35318466 45.40606159  2.53270109  2.12455494 40.62621107]
+Episode: 7, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [59.17059856 43.34058215  2.29325267  1.08625332 42.33959724]
+Episode: 7, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [61.5154137  43.73925883  2.70077615  1.19442492 49.22882979]
+Episode: 7, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [63.66295762 45.25188723  2.92563298  1.33097565 66.75871826]
+Episode: 7, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [66.86735879 43.72032875  3.08154215  1.32838577 83.99381004]
+Episode: 7, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [67.57034376 39.70441317  2.85149633  1.51026626 78.093766  ]
+Episode: 7, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [62.2812878  34.44523347  2.62457303  1.56617431 71.95264213]
+Episode: 7, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [58.53879328 34.01977264  2.54443872  1.5891823  71.33232708]
+Episode: 7, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [57.99436814 33.69521914  2.68878763  1.64416483 72.94684939]
+Episode: 7, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [59.15511226 36.38327248  3.21495591  1.60993775 89.93799954]
+Episode: 7, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 58.6749194   35.03767876   3.3905042    1.56549247 105.16871809]
+Episode: 7, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 79.47633278  40.76435785   3.31564396   1.49412064 114.84655733]
+Episode: 7, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 86.43258053  44.11881234   3.35200186   1.6086103  126.86258167]
+Episode: 7, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 97.43587542  42.8946981    3.66205255   1.89816516 137.60103155]
+Episode: 7, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [107.60165247  45.39977659   3.7286655    2.33537839 149.19769014]
+Episode: 7, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [109.71957371  45.6759154    3.46268148   2.56037437 145.51506629]
+Episode: 7, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [102.36200951  39.23292582   3.06776652   2.13352684 135.78205525]
+Episode: 7, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [109.78214718  40.86554289   3.1153838    2.18572253 156.06037361]
+Episode: 7, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [106.93864026  41.23877323   3.18430345   2.42426068 178.98920368]
+Episode: 7, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [110.85967052  44.40067783   3.2824578    2.38827582 178.74286688]
+Episode: 7, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 59.49683565  54.57582438   3.48224576   2.19847516 187.07754643]
+Episode: 7, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 59.10869221  57.45644373   3.9036505    1.99898807 180.47374375]
+Episode: 7, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 61.0853384   60.66696131   4.18480599   1.75467074 175.98276039]
+Episode: 7, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 59.75073788  66.44111647   4.42438448   1.90416411 181.72920153]
+Episode: 7, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 52.05783724  54.90275487   3.73885168   1.80621972 168.46884609]
+Episode: 7, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.48187434  52.03112845   3.09074947   1.9031216  155.22794926]
+Episode: 7, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.71781397  50.90626647   2.71458963   1.2586624  136.348339  ]
+Episode: 7, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.28881979  48.63519805   2.72236634   1.34740882 166.87674397]
+Episode: 7, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.81249029  35.88685652   2.83871683   1.23862488 184.48530356]
+Episode: 7, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 48.08506248  33.63172592   3.33776607   1.30611106 189.97525454]
+Episode: 7, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.66076302  24.8096825    3.01743826   1.23711493 167.77072934]
+Episode: 7, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 46.47119978  28.38051168   3.43620844   1.20969334 190.89160973]
+Episode: 7, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.68967382  26.92673326   3.3834529    1.21779268 216.29448735]
+Episode: 7, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.94795182  24.5053502    3.02414127   1.62794683 195.83551812]
+Episode: 7, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 52.47214825  26.06704565   2.89250356   1.76807685 183.40282965]
+Episode: 7, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 49.12371017  26.79098034   2.91168966   2.00664161 162.99821577]
+Episode 7/10 completed __________
+
+
+
+Episode: 8, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.45725835 17.06698541 17.29290986  9.06124213 88.18547219]
+Episode: 8, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [31.5161613  15.34910797 15.13421893  8.50895309 81.20367115]
+Episode: 8, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.43960721 17.33020806 18.06088354  9.42961249 85.56717534]
+Episode: 8, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.05378327 17.60350661 16.88048036 11.11911055 90.01342255]
+Episode: 8, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [39.6466397  20.74679279 16.03710147 11.69513889 98.2307957 ]
+Episode: 8, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 34.23799227  20.59097207  17.88446421  11.44790323 106.01446175]
+Episode: 8, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.19306631  22.93418268  18.30913383  11.46355748 115.55124995]
+Episode: 8, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 24.71533411  20.94241598  17.90358466  10.32509999 100.39077601]
+Episode: 8, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.33288854 21.58560225 19.04683008 10.29545436 93.78156774]
+Episode: 8, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.92752282 20.26632604 16.87643023 10.44542323 87.05749693]
+Episode: 8, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.8931276  25.42983823 16.97629652  8.71954448 79.45966215]
+Episode: 8, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.77900779 27.60592054 18.77994852  8.76794499 81.06924178]
+Episode: 8, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.56624711 30.55414512 20.3001656   8.09140932 91.26730465]
+Episode: 8, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.03170884 29.14692568 19.44958084  7.95365515 91.15484738]
+Episode: 8, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.4640798   26.14893356  18.17439387   7.62626253 122.9948908 ]
+Episode: 8, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.49722212  23.82014779  15.12718768   7.32530092 112.57071221]
+Episode: 8, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 19.114206    23.65747088  14.8480431    9.1008458  106.53554813]
+Episode: 8, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 21.02148678  23.90000571  15.56783675   9.72486881 121.6430083 ]
+Episode: 8, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 19.33660464  21.9041806   16.3085249    9.42263787 114.40110158]
+Episode: 8, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 13.81167355  20.53844975  16.16630656   8.18972545 113.28558964]
+Episode: 8, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 13.7289527   19.35537604  14.35709802   8.19299156 101.65884178]
+Episode: 8, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 11.88563961  17.30063981  12.68006761   7.0150615  139.77356422]
+Episode: 8, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 12.36056014  17.76730029  13.92597765   7.02643487 145.73360652]
+Episode: 8, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 12.47575872  16.83195599  15.1172378    7.17447821 138.16228816]
+Episode: 8, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.84845855  13.87938727   9.62448379   6.74837525 121.42456845]
+Episode: 8, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 11.24232791  12.1515046    9.55118946   6.73362243 128.33726459]
+Episode: 8, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 10.85924432  11.42804008   9.84803584   6.18831591 105.00553765]
+Episode: 8, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.30406052 10.30748901  8.88417033  6.46215885 93.74003921]
+Episode: 8, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.7757498   9.25710234  7.76323586  6.91694167 86.7364274 ]
+Episode: 8, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 9.94892726  9.45413849  8.09412139  8.3622625  83.68438325]
+Episode: 8, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 6.16768899  9.0975784   8.12987313  7.59462588 86.65478461]
+Episode: 8, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.26613597  9.06826849  8.31319315  7.875493   75.46456822]
+Episode: 8, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.73670803  9.07345568  7.80575027  7.9143005  81.50856768]
+Episode: 8, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.43774125  9.2255774   6.85116963  6.73073228 83.01850742]
+Episode: 8, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 7.00477991  5.43494715  8.31907917  7.72766138 80.01455554]
+Episode: 8, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 6.53262421  5.19325873  8.42212765  6.80918646 73.79868454]
+Episode: 8, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.49090573  4.73797498  7.89387576  5.83614229 65.88506996]
+Episode: 8, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 6.48330977  4.95395531  8.72977205  6.15909162 72.09954214]
+Episode: 8, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.51764654  4.36970713  4.82994192  5.62104402 69.07576098]
+Episode: 8, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 6.11420361  4.70037118  4.59404214  6.02211891 68.20141133]
+Episode: 8, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.38130347  3.89564917  3.90868479  5.42313966 63.4326232 ]
+Episode: 8, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.26202744  3.69416218  3.48707406  5.59720562 65.53233353]
+Episode: 8, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.61959794  3.80982355  3.35980474  6.36449466 68.50451964]
+Episode: 8, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.90082219  4.01699512  2.42101267  7.23226633 60.80881047]
+Episode: 8, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.03109752  4.216769    2.7230657   8.36066    55.53514483]
+Episode: 8, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.43771281  4.83289459  2.66899423  8.03831408 61.14208576]
+Episode: 8, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.30911112  3.61493507  2.43548825  8.84164264 58.15367279]
+Episode: 8, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.8983782   4.04148372  2.76871041  9.6210078  63.01787562]
+Episode: 8, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.26082474  3.78366557  2.42920366  8.71421149 65.59537108]
+Episode: 8, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 5.63074317  4.36657074  2.45373437  9.14281228 89.22129651]
+Episode: 8, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.34996742  4.22319865  2.47558892 11.03351201 89.59040259]
+Episode: 8, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.8086123   6.18849148  2.43997188 11.42016869 92.70986017]
+Episode: 8, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.09753177  4.87244971  2.02908519  9.84892005 45.00494277]
+Episode: 8, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.85834298  4.9108239   1.98699911 12.85756472 45.58977279]
+Episode: 8, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.94242446  5.87660882  1.99831549 13.57187991 45.28251909]
+Episode: 8, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.40628173  5.09224666  1.94718571 13.77378872 41.63883648]
+Episode: 8, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.78366879  5.3215464   2.10972771 14.08520967 51.22277273]
+Episode: 8, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.07732548  4.57712145  2.01383487 14.63471231 51.16534886]
+Episode: 8, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.23081156  4.85878849  1.96690761 14.39643769 51.16313699]
+Episode: 8, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.88640367  4.58462166  2.03638761 12.89472449 45.51194063]
+Episode: 8, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.05918441  4.86793326  2.82088746 11.82222764 49.57390398]
+Episode: 8, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.28941614  5.25491385  2.62950403 14.05065931 57.28531991]
+Episode: 8, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.57367037  5.16859472  2.55898902 15.37285276 57.4909384 ]
+Episode: 8, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.00845912  5.67835145  1.99246464 16.09587463 57.87452655]
+Episode: 8, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.89197131  6.7855575   1.99904751 18.88689311 58.51584684]
+Episode: 8, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.14891788  6.78225225  2.19321246 20.83349542 63.89671118]
+Episode: 8, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.32780217  6.34450729  1.3489379  29.87570216 58.96063111]
+Episode: 8, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 4.1615499   5.45975192  1.34159481 28.89115911 52.70616628]
+Episode: 8, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.84331568  5.03952919  1.90492979 27.07574687 56.89419886]
+Episode: 8, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.85462212  5.2897434   2.06770077 25.57520912 56.99731686]
+Episode: 8, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.72913644  4.80964571  2.0643282  27.11602841 53.32622396]
+Episode: 8, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 3.73810058  2.57062121  1.70819794 24.90924741 48.72332824]
+Episode: 8, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.44059301  2.48417538  1.88598133 28.70315829 46.03143233]
+Episode: 8, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.20174596  2.39067019  1.44134225 31.79711328 49.28809565]
+Episode: 8, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.19294319  2.60428541  1.71131824 36.97630759 48.45029822]
+Episode: 8, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.14845349  2.50378803  1.43957131 35.94709578 45.20992539]
+Episode: 8, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.87839977  2.45313063  1.18668719 34.03344145 38.11808695]
+Episode: 8, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.10570588  2.99406079  0.94592919 34.41952064 30.38864818]
+Episode: 8, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.14283054  3.36508837  0.93956469 35.8497751  19.48659197]
+Episode: 8, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.77630859  3.36485743  0.93491156 35.79715257 17.8436693 ]
+Episode: 8, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.79591961  3.25074581  0.90284125 34.04947149 17.81679982]
+Episode: 8, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.46991237  2.75868524  0.80997925 30.73297651 15.09290012]
+Episode: 8, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.67619185  2.59485009  0.86189437 30.20249593 16.69088228]
+Episode: 8, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.98740848  2.60103903  0.96662466 30.01148284 17.6410704 ]
+Episode: 8, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 2.04211527  2.56407425  0.97048862 16.20910077 18.09452779]
+Episode: 8, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.84380374  3.00628268  1.14699468 18.30334972 21.5163042 ]
+Episode: 8, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.59533403  2.49692977  1.16692284 18.07633057 19.06398408]
+Episode: 8, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.52599916  2.4344057   1.19296717 19.96717624 19.61286688]
+Episode: 8, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.07869769  2.36303958  1.23242306 20.01038326 19.71327352]
+Episode: 8, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 0.93262863  2.03009951  1.0652101  20.50126396 16.96934993]
+Episode: 8, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.31907601  1.8893388   1.0417528  18.74306037 14.98647976]
+Episode: 8, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.73174005  1.57684924  0.96737017 15.86456117 12.63371847]
+Episode: 8, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.50675644  1.56992803  0.81510272 14.76284857 10.86443737]
+Episode: 8, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.77783171  1.31330705  0.94147174 14.4671931  12.36202473]
+Episode: 8, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.91837184  1.23675518  1.06998443 14.96119549 12.00583572]
+Episode: 8, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.80327169  1.48871995  1.22057055 16.57726752 12.51351609]
+Episode: 8, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.71344413  1.48004945  1.16933383 15.2428361  12.47685703]
+Episode: 8, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.50256005  1.36780125  0.99774828 14.6815057  12.13453327]
+Episode: 8, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.61642072  1.422704    1.07495907 14.16831942 11.9367645 ]
+Episode: 8, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 1.63878217  1.58831189  0.9562206   9.04336694 11.57320998]
+Episode 8/10 completed __________
+
+
+
+Episode: 9, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.37556655 21.8696867  19.54321811  9.46282209 95.64957339]
+Episode: 9, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.95073774  24.39612439  20.50066086  11.23028633 136.40086986]
+Episode: 9, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 37.27160388  22.17831544  17.96838038  10.74187529 113.47593509]
+Episode: 9, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.46071129  27.0747188   20.64271429  11.13986531 108.1126297 ]
+Episode: 9, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 40.23260775  27.55954168  19.1689263   11.40662484 113.24031035]
+Episode: 9, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.00143754  24.89054653  17.23532104   9.51254257 105.17040897]
+Episode: 9, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 39.46485711  25.13098845  14.94097286   8.14397625 103.25963857]
+Episode: 9, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.78112438 23.8999805  14.43479345  7.10087216 87.02682514]
+Episode: 9, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.42172498 24.71842998 12.50350693  6.78521919 79.70498276]
+Episode: 9, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.27005388  23.57080744  12.55106487   5.76029601 105.51642315]
+Episode: 9, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.27925554  24.3217528   12.47098489   5.66759345 103.54433403]
+Episode: 9, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 31.59277159  30.19627474  13.8218256    6.17432413 110.60055428]
+Episode: 9, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.12468003  30.46194074  15.83991012   6.85881236 127.10282954]
+Episode: 9, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.29830674  26.47798619  13.53171529   6.62167654 105.93023553]
+Episode: 9, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.3808744   25.74409602  13.832997     7.50493006 118.02031669]
+Episode: 9, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.77950256  24.80850433  13.39605207  10.09702606 115.58229316]
+Episode: 9, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.82786168  24.01815576  14.45647717  10.6246252  106.13905985]
+Episode: 9, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 24.98869072  22.82853925  12.31422411  10.30295921 111.09720769]
+Episode: 9, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.61838477  24.6481056   12.83063902  10.93084074 113.040051  ]
+Episode: 9, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.78295406  23.26969262  10.78976616   6.59917613 109.87784227]
+Episode: 9, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 28.08652095  27.30481687   9.9332802    6.93916361 106.1132283 ]
+Episode: 9, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.34641192  24.95876786   9.3897545    7.48828485 110.70034679]
+Episode: 9, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 25.69297325  25.95412887   8.83416344   7.45336112 117.73866407]
+Episode: 9, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 26.70639194  24.90459883   9.24381624   6.5182459  105.5181508 ]
+Episode: 9, Step: 25, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.00089817 27.48023546  9.3198623   5.81447589 94.66800457]
+Episode: 9, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.85940879 28.86333176  9.924492    5.7682777  93.63976286]
+Episode: 9, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.42394988 27.27032252  8.58809396  5.77830823 86.73629446]
+Episode: 9, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.17751441 38.52616923  9.42653795  7.74526439 82.42806894]
+Episode: 9, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [29.32419261 37.54098054 10.94965277  7.56812051 87.47387108]
+Episode: 9, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [34.61644805 40.57149797 12.05797457  8.91922993 87.55128051]
+Episode: 9, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.12170231 37.45357106 10.68425538  9.3174066  86.78320158]
+Episode: 9, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [42.89586427 36.82183183 10.75251261  9.34686059 97.43232902]
+Episode: 9, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 43.98684526  41.28262561  14.47568202  10.01568178 108.89542246]
+Episode: 9, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.17812468 42.37787811 14.0971431   9.68611418 95.20270874]
+Episode: 9, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.89752358 38.49870396 11.76865978  8.40576411 91.79927754]
+Episode: 9, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.8740506  37.04663792 11.71607384  8.76366203 90.09136117]
+Episode: 9, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [32.76150723 36.93572664 10.35058662  9.57633636 83.95997031]
+Episode: 9, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.30024568 38.06933582  9.2435694   9.67947752 87.17513347]
+Episode: 9, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 51.95466981  42.98927078   9.32663707  11.05829773 100.69185167]
+Episode: 9, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [50.91384856 42.61857879  7.88049725 10.32149354 85.58897219]
+Episode: 9, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [51.07456934 44.25804287  7.47898467 10.886896   73.3684548 ]
+Episode: 9, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [68.35551139 53.74908107  7.49665211 10.47625493 66.60203087]
+Episode: 9, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [75.60798352 60.82186404  8.5182881  11.60209886 52.82639481]
+Episode: 9, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [72.37275672 63.22752036  7.90303139 11.28093236 52.26126931]
+Episode: 9, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [81.70932637 65.13793804  9.22272212 11.35029742 56.86127235]
+Episode: 9, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [82.47737775 63.53107829 10.56032816 11.55438009 87.11209845]
+Episode: 9, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [80.3951021  76.96120512 11.76231693 12.15164658 99.99591609]
+Episode: 9, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [76.45034753 68.35008595  8.13499773 11.14922245 84.16020571]
+Episode: 9, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [68.24837678 66.46219711 11.28879892  9.57088554 81.71033472]
+Episode: 9, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [72.13660103 72.39566225 10.4182156   9.55160335 83.7541917 ]
+Episode: 9, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [69.96224451 82.24330206  9.94096256  9.5619649  82.97842712]
+Episode: 9, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [78.26032517 96.65134741 14.81513937  9.39345647 82.33053221]
+Episode: 9, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [43.33619716 52.21037294 15.78386092  8.04012189 79.74956476]
+Episode: 9, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [36.33239517 50.46813451 15.49934297  7.32063534 79.80344057]
+Episode: 9, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.74949049 75.07561461 18.21209768  5.15637033 90.04570744]
+Episode: 9, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.71711545 79.09246284 18.21727826  5.90100664 72.06955339]
+Episode: 9, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.90783562 79.13793397 15.14812723  5.67121546 69.01984453]
+Episode: 9, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.87700113 76.87400433 15.75154557  5.40863464 69.56762334]
+Episode: 9, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.00254415 90.28243215 16.83217984  6.02873131 77.33306736]
+Episode: 9, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.72000765 94.21470308 14.82143939  5.64945328 79.99691185]
+Episode: 9, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.77302987 94.18185831 15.12540059  4.93452447 79.87470841]
+Episode: 9, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.29731054 99.80187452 14.82512935  5.36942223 76.44797266]
+Episode: 9, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.78475181 104.34622998  15.44487178   5.74588394  83.14575882]
+Episode: 9, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 29.59542642 103.03099305  15.66567899   6.7832132  101.79766752]
+Episode: 9, Step: 65, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [27.90265617 96.51636282 16.61511821  5.78972897 72.49918235]
+Episode: 9, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.45885041 89.62475473 15.6811855   6.32536147 69.23305427]
+Episode: 9, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.6537817  80.92928981 15.49230711  5.5979917  63.88685515]
+Episode: 9, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.54004575 84.03880761 18.61627547  6.11603    94.71217575]
+Episode: 9, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.8727825  79.90722863 17.66214404  6.20769897 80.32771324]
+Episode: 9, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [49.23087213 91.18862652 19.59988575  6.22939459 83.22872335]
+Episode: 9, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [47.68360487 90.78603108 18.86623254  6.46194435 71.86709088]
+Episode: 9, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [50.27292569 97.1337352  17.95434678  6.06247226 77.79691596]
+Episode: 9, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [47.45763364 82.67620659 18.00685512  6.09971338 70.81874542]
+Episode: 9, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [51.90825743 85.19197884 17.35678736  6.54389537 73.32096391]
+Episode: 9, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [49.63336833 96.81782894 16.80498825  6.51417968 74.32584617]
+Episode: 9, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 45.89201125 123.35129986  16.9020247    6.80230048  78.25678725]
+Episode: 9, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 42.19375767 126.47827613  16.57594971   6.21551753  85.91666864]
+Episode: 9, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 59.60700212 130.25711797  16.25520424   6.83828522  96.32626274]
+Episode: 9, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 56.85554365 123.69624945  14.6775551    5.80121056  85.35204533]
+Episode: 9, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 53.90279325 108.5719953   15.17698522   5.97216621  78.5241272 ]
+Episode: 9, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.68284319 104.77460179  15.15678384   5.66993202  73.95006242]
+Episode: 9, Step: 82, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 48.25859044 105.8194403   14.02719676   5.65612177  73.02660369]
+Episode: 9, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [44.256389   96.90454481 12.62045671  4.64615264 70.10407977]
+Episode: 9, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 47.97146448 103.9518237   12.04846686   4.58361412  71.41300464]
+Episode: 9, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 48.78480566 101.97726248  12.9757058    4.40692449  76.8408133 ]
+Episode: 9, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [45.75457653 94.37207127 14.41361735  4.06893636 75.76123574]
+Episode: 9, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [41.4463443  90.31011056 16.08233802  4.37741909 85.11671812]
+Episode: 9, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [45.48357262 97.30665014 18.13583817  4.47507294 83.46930543]
+Episode: 9, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [39.48323218 96.55882336 17.69029819  5.76214452 81.37535778]
+Episode: 9, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 39.50769552 110.36022378  21.78687362   6.27503865  94.39388932]
+Episode: 9, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.76795758 113.73459237  21.47757833   6.31609892  63.23535866]
+Episode: 9, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 38.30542716 102.76838991  17.70614147   6.05163681  56.20882614]
+Episode: 9, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.09286667 90.94449412 18.28267295  6.57254837 64.16209763]
+Episode: 9, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [30.44527921 90.6459099  16.88409234  6.14827799 63.54619489]
+Episode: 9, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 33.03838118 115.42026701  18.07767629   6.35560328  72.92403482]
+Episode: 9, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 29.89416292 104.59875232  17.09615001   6.72468542  65.79356933]
+Episode: 9, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.74184343 105.80880716  16.7787378    6.34837937  56.70917376]
+Episode: 9, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 30.48546239 119.90202263  15.79351338   6.18084792  84.99363676]
+Episode: 9, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 29.16323444 109.56735644  15.61447368   5.81559549  70.04591129]
+Episode: 9, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 27.40174001 111.99240486  17.19568899   5.54657325  77.34604786]
+Episode 9/10 completed __________
+
+
+
+Episode: 10, Step: 1, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.59699266 19.85976749 18.6718302   8.75369691 94.96054663]
+Episode: 10, Step: 2, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 41.28915688  23.49652603  20.32515257   8.83125645 104.67721875]
+Episode: 10, Step: 3, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [37.16182473 23.22283521 16.78814356  7.89124828 90.17615238]
+Episode: 10, Step: 4, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.5675148  24.17829771 15.52706562  7.78950063 91.00919741]
+Episode: 10, Step: 5, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.07654356 25.1221598  13.16322174  7.15144698 93.0664664 ]
+Episode: 10, Step: 6, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.64919491 25.82843775 12.13092984  3.9195692  52.04338175]
+Episode: 10, Step: 7, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [35.91693123 27.82491726 14.67684987  4.34279062 53.68369328]
+Episode: 10, Step: 8, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.04455503 26.94798664 16.46905934  4.26119984 41.41055346]
+Episode: 10, Step: 9, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [33.46888525 26.2349964  16.12681025  4.30120928 36.42090082]
+Episode: 10, Step: 10, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.04247364 29.6872689  16.70815891  4.70853224 42.30708304]
+Episode: 10, Step: 11, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [40.85637717 25.8709416  15.00933347  4.15437423 38.14462244]
+Episode: 10, Step: 12, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.84023461 31.68708868 13.11338303  4.63077468 39.68984614]
+Episode: 10, Step: 13, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.33318339 29.94818508 12.1506003   4.73667345 38.77981055]
+Episode: 10, Step: 14, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.06673829 30.33157509 13.30785146  4.80009193 43.66819037]
+Episode: 10, Step: 15, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.33509667 33.77007536 15.92125515  5.25240232 46.27124973]
+Episode: 10, Step: 16, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.90347427 28.24835165 15.66359762  5.04336929 38.22026723]
+Episode: 10, Step: 17, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.89102174 27.78782162 15.23494037  4.92385708 37.46356963]
+Episode: 10, Step: 18, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.01361396 26.63793916 20.40051676  5.06718857 39.24680993]
+Episode: 10, Step: 19, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.36480327 27.92306466 22.78909599  3.8189779  41.43936223]
+Episode: 10, Step: 20, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [21.57317868 27.26397264 21.81654564  3.57140067 59.47476295]
+Episode: 10, Step: 21, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.43698029 25.81838907 20.78678886  3.4785237  61.45299978]
+Episode: 10, Step: 22, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.44419771 30.20190411 20.48837494  3.51720699 68.2048619 ]
+Episode: 10, Step: 23, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.41957362 27.05985079 21.31158481  3.04936007 66.50837521]
+Episode: 10, Step: 24, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.30093687 29.20001866 27.14197821  3.53512354 62.60303633]
+Episode: 10, Step: 25, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.01254581 43.01278629 29.46549037  3.90227484 72.76216261]
+Episode: 10, Step: 26, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.22135416 43.36873328 28.5336454   3.873874   69.46012404]
+Episode: 10, Step: 27, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [21.09684133 45.77193788 40.64914605  6.23549298 79.1157231 ]
+Episode: 10, Step: 28, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [23.24084783 45.19534983 44.94986676  5.31985172 94.92005792]
+Episode: 10, Step: 29, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [ 23.37018367  48.72289365  50.39829965   5.03410569 105.30156329]
+Episode: 10, Step: 30, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.82014875 48.96210332 43.13206236  4.8792174  44.46996367]
+Episode: 10, Step: 31, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.63876827 54.66156874 43.47496817  4.50622587 47.53809697]
+Episode: 10, Step: 32, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.88382908 60.46319826 46.20335621  4.2029467  45.09031579]
+Episode: 10, Step: 33, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.53623454 63.12800254 50.60295634  5.03358678 49.02694958]
+Episode: 10, Step: 34, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.49402156 59.86115469 46.76894499  4.50874553 46.94154999]
+Episode: 10, Step: 35, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.40509014 51.57971545 39.46367252  3.89021352 38.72802454]
+Episode: 10, Step: 36, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.88570872 49.67375205 40.11830351  3.50904907 33.81371237]
+Episode: 10, Step: 37, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.40589048 45.77608848 43.18962133  3.41558226 31.1716994 ]
+Episode: 10, Step: 38, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.25066819 45.46779499 42.86576776  3.5547383  33.99219741]
+Episode: 10, Step: 39, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.12159495 45.60395762 42.91172433  3.6853912  37.02040154]
+Episode: 10, Step: 40, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [28.41048391 54.49039196 44.04396765  3.98718328 39.16834005]
+Episode: 10, Step: 41, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [26.43930862 36.6141415  36.11547249  3.39715129 33.2258751 ]
+Episode: 10, Step: 42, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [25.25804468 32.91175872 30.65662746  3.25060513 29.61445685]
+Episode: 10, Step: 43, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.68993953 30.16206409 32.07894546  3.03926951 33.06279852]
+Episode: 10, Step: 44, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.94044073 29.73024316 32.48665227  2.9073365  34.26302149]
+Episode: 10, Step: 45, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [21.10702348 30.64653095 34.0017351   2.42763303 33.46130853]
+Episode: 10, Step: 46, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.32713149 32.43889292 36.47366631  2.72822825 37.68007073]
+Episode: 10, Step: 47, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.55398815 33.77383784 33.20001916  2.35546666 36.88474604]
+Episode: 10, Step: 48, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.9196285  38.10921432 33.40262512  2.55032984 35.18361026]
+Episode: 10, Step: 49, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.66797877 20.8738414  39.00526789  2.58443517 37.27237841]
+Episode: 10, Step: 50, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [21.78858819 24.03724091 41.13879293  2.72270524 39.79869316]
+Episode: 10, Step: 51, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.07627734 24.79279043 40.97804043  2.89053637 46.72623994]
+Episode: 10, Step: 52, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [24.43635454 24.47271228 36.23048682  2.69762345 44.76503512]
+Episode: 10, Step: 53, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.74607862 21.18626742 35.66074706  2.43878415 41.22918897]
+Episode: 10, Step: 54, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.95953401 19.24722334 32.3491178   2.33409636 36.98676585]
+Episode: 10, Step: 55, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.85983698 17.3382568  30.58941002  2.2924031  35.30041257]
+Episode: 10, Step: 56, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.10787163 18.16118565 34.20456699  2.35043277 36.43306223]
+Episode: 10, Step: 57, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.84579759 19.00760437 37.28219825  2.45751573 41.49207549]
+Episode: 10, Step: 58, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.52875982 20.66591349 35.42727135  2.41801182 47.04221404]
+Episode: 10, Step: 59, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.2832067  12.20938215 39.41993968  1.21535346 48.80383656]
+Episode: 10, Step: 60, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.76024304 10.7265879  38.51587968  1.11513461 50.13891421]
+Episode: 10, Step: 61, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.94370666 10.29093767 36.24826746  1.21016225 53.68077075]
+Episode: 10, Step: 62, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.76059919 10.55659249 18.82236699  1.25662102 50.2548062 ]
+Episode: 10, Step: 63, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.2725998  11.02872467 20.46794354  1.40242712 50.9428101 ]
+Episode: 10, Step: 64, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.26001011 11.07342841 18.71897386  1.36118602 45.90694425]
+Episode: 10, Step: 65, Seller_0: 0.0, Seller_1: -0.030279999999999998, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.16598016  9.77905825 19.29827067  1.26818678 44.25267416]
+Episode: 10, Step: 66, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.93187722 10.8031621  22.36057724  1.25223246 45.25610616]
+Episode: 10, Step: 67, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.89320364 10.0446394  23.62653338  1.13121119 44.32197461]
+Episode: 10, Step: 68, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.72103984 11.40172454 24.00198685  1.14512034 45.61826677]
+Episode: 10, Step: 69, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.18966517 11.85978987 25.75272147  1.20516234 44.03117561]
+Episode: 10, Step: 70, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.53627148 12.93938999 27.07934382  1.2683608  48.92607885]
+Episode: 10, Step: 71, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.85353913 15.40678248 29.19486406  1.30955254 47.83481674]
+Episode: 10, Step: 72, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.61836606 14.63091417 32.1778084   1.45004592 45.98765995]
+Episode: 10, Step: 73, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [10.16027299 13.77603951 32.20732758  1.41967079 41.21734296]
+Episode: 10, Step: 74, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.05504647 13.61976444 33.4837168   1.40953124 22.40935975]
+Episode: 10, Step: 75, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [11.98254318 12.86670876 33.44130654  1.40411358 23.45363389]
+Episode: 10, Step: 76, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [13.03460487 12.1568327  34.53773511  1.12914553 14.74780663]
+Episode: 10, Step: 77, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [12.91439992 12.77681182 31.59298898  1.05390461 13.60785747]
+Episode: 10, Step: 78, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.44048019 12.29186413 32.74424177  0.99536889 13.1685028 ]
+Episode: 10, Step: 79, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.7170371  11.33662654 30.36734509  1.07091639 11.26093136]
+Episode: 10, Step: 80, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [14.94300346 11.62248576 31.24323445  1.03010042 11.62200515]
+Episode: 10, Step: 81, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.23359107 12.19502045 28.33231596  0.93753821 13.36178238]
+Episode: 10, Step: 82, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.0368906  11.71926221 24.67255584  0.87005254 13.88684297]
+Episode: 10, Step: 83, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [15.28589426 10.41433427 25.30351739  0.83375447 13.5733699 ]
+Episode: 10, Step: 84, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.33312801 10.7717474  29.99100657  0.89179167 13.23470069]
+Episode: 10, Step: 85, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.49981149 10.03985563 29.14834291  0.87942331 12.65158717]
+Episode: 10, Step: 86, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.64062089  9.31592088 33.06294242  0.78736693 12.20035121]
+Episode: 10, Step: 87, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.982726    9.03679916 32.44480133  0.71282051 12.11165903]
+Episode: 10, Step: 88, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.5874715   8.52861418 28.82907484  0.65397441 12.46846712]
+Episode: 10, Step: 89, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.45119341  9.73987484 30.75060354  0.64323158 12.35542876]
+Episode: 10, Step: 90, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [17.82506746 11.085755   37.54251086  0.67599002 12.54166616]
+Episode: 10, Step: 91, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.40561673 11.150093   37.90289312  0.66599808 13.97096256]
+Episode: 10, Step: 92, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [16.99678335 10.27461522 32.26852987  0.57114515  9.53689914]
+Episode: 10, Step: 93, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [18.91132335 11.40422491 23.54588105  0.71233284  9.66229985]
+Episode: 10, Step: 94, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.87550578 11.0510301  21.61791491  0.79110541  9.4193792 ]
+Episode: 10, Step: 95, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.60679715 11.13396408 22.5094039   0.89066161 13.37750121]
+Episode: 10, Step: 96, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [22.77054495 12.5699844  26.26691978  0.93537804 14.06391652]
+Episode: 10, Step: 97, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.89720079 12.30772184 21.3322457   0.87781224 14.57393366]
+Episode: 10, Step: 98, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [20.25995862 12.49747128 21.62691333  0.8422961  13.61246511]
+Episode: 10, Step: 99, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.92796518 13.84314052 33.88118695  0.78368196 12.4425194 ]
+Episode: 10, Step: 100, Seller_0: 0.0, Seller_1: 0.0, Buyer_0: 0.0, Buyer_1: 0.0
+		 Current Gas Fees: 0.028, Current NFT Volumes: [19.69269308 14.05984738 35.96640425  0.76152876 12.04382779]
+Episode 10/10 completed __________
+
+
+
+Training completed!

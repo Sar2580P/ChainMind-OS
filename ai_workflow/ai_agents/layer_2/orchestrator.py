@@ -72,7 +72,6 @@ class OrchestratorLevel2(BaseModel):
         
         for expert_agent_name, expert_agent in self.registered_expert_agents.items():
             partial_bubbles: Dict = expert_agent.get_partially_designed_objective_queue()
-            print(partial_bubbles, "*******************************")
             for key, content in partial_bubbles.items():
                 yield decorate(content), expert_agent_name
         self.IS_PARTIAL_STAGE_COMPLETED = True

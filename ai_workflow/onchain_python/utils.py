@@ -1,5 +1,5 @@
 import numpy as np
-from typing import Tuple
+from typing import List
 import yaml
 
 def read_yaml(file_path):
@@ -11,7 +11,7 @@ def get_q_table_size_mb(q_table: np.ndarray) -> float:
     """Get the size of the Q-table in MB."""
     return q_table.nbytes / (1024 * 1024)
 
-def create_q_table(states_dim_tuples: Tuple, action_count: int) -> np.ndarray:
+def create_q_table(states_dim_tuples: List, action_count: int) -> np.ndarray:
     """
     Create and initialize the Q-table for an agent with separate state dimensions and actions in the last dimension.
 
@@ -24,7 +24,7 @@ def create_q_table(states_dim_tuples: Tuple, action_count: int) -> np.ndarray:
     - np.ndarray: Initialized Q-table with shape (state_dim_1, state_dim_2, ..., state_dim_n, action_count), dtype=np.int16.
     """
     # Create a tuple of state dimensions followed by action count
-    q_table_shape = states_dim_tuples + (action_count,)
+    q_table_shape = tuple(states_dim_tuples) + (action_count,)
 
     # Initialize Q-table with zeros, dtype=int16 to save memory
     q_table = np.zeros(q_table_shape, dtype=np.int16)
@@ -61,7 +61,8 @@ def get_gas_fee(curr_price: float, floor: float, ceiling: float, congestion_fact
     return round(max(gas_fee, floor * 0.01), 4)  # Ensure minimum fee
 
 
-def get_current_rarity_volume(curr_volumes: np.ndarray, volatility: float = 0.1, shock_prob: float = 0.05) -> np.ndarray:
+def get_current_rarity_volume(curr_volumes: np.ndarray, volatility: float = 0.1, 
+                              shock_prob: float = 0.05) -> np.ndarray:
     """
     Simulates stochastic NFT trading volume dynamics.
 
@@ -93,3 +94,21 @@ def get_current_rarity_volume(curr_volumes: np.ndarray, volatility: float = 0.1,
     # Ensure non-negative volumes and round to integers
     return np.maximum(new_volumes, 0)
 
+def discretize(value: float,ceil_value :float , floor_value :float , num_levels: int) -> int:
+    """
+    Discretizes a continuous value into a fixed number of levels.
+
+    Args:
+        value (float): The continuous value to discretize.
+        num_levels (int): The number of discrete levels to use.
+
+    Returns:
+        int: The discretized value (between 0 and num_levels-1).
+    """
+    # Normalize the value between 0 and 1
+    normalized_value = (value - floor_value) / (ceil_value - floor_value)
+    # Discretize the normalized value
+    return int(np.clip(normalized_value * num_levels, 0, num_levels - 1))
+
+# config = read_yaml('ai_workflow/onchain_python/config.yaml')
+# print(config['gas_fees_params'])

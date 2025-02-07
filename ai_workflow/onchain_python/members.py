@@ -4,8 +4,9 @@ from typing import Dict, Set, List
 import random  # To simulate gas fee changes over time
 import heapq
 import numpy as np
+from ai_workflow.onchain_python.utils import discretize
 
-NFT_MARKET: Dict[int, Set[BaseModel]] = {}
+NFT_MARKET: Dict[int, List[BaseModel]] = {}
 
 class NFTArtwork(BaseModel):
     nft_artwork_id: int
@@ -31,8 +32,8 @@ class NFTArtwork(BaseModel):
 
         # Add to new price entry
         if new_price_str not in NFT_MARKET:
-            NFT_MARKET[new_price_str] = set()
-        NFT_MARKET[new_price_str].add(self)
+            NFT_MARKET[new_price_str] = []
+        NFT_MARKET[new_price_str].append(self)
 
 
 
@@ -69,19 +70,29 @@ class Seller(BaseModel):
         """Update the seller's reward by adding the specified amount."""
         self.reward += reward
         
-    def get_curr_state(self, gas_fees:float) -> np.ndarray:
-        continuous_states = [gas_fees , self.nft.TimeListed, self.nft.RarityScore, self.nft.CurrPrice]
-        return np.array(continuous_states)
+    def get_curr_state(self, gas_fees:float, config) -> np.ndarray:
+        gas_discrete = discretize(gas_fees, config['gas_fees_params']['ceiling_gas_fees'], 
+                                  config['gas_fees_params']['floor_gas_fees'], config['gas_fees_params']['n_bins'])
+        
+        discrete_config = config['seller_discretization_params']
+        time_listed_discrete = discretize(self.nft.TimeListed, discrete_config['time_listed']['max'], 
+                                          discrete_config['time_listed']['min'], discrete_config['time_listed']['n_bins'])
+        rarity_score_discrete = discretize(self.nft.RarityScore, discrete_config['rarity_score']['max'],
+                                             discrete_config['rarity_score']['min'], discrete_config['rarity_score']['n_bins'])
+        curr_price_discrete = discretize(self.nft.CurrPrice, discrete_config['curr_price']['max'],
+                                                discrete_config['curr_price']['min'], discrete_config['curr_price']['n_bins'])
+        continuous_states = [gas_discrete, time_listed_discrete, rarity_score_discrete, curr_price_discrete]
+        return np.array(continuous_states).astype(np.int8)
     
     def get_action_name(self, action: int) -> str:
         if action<5:
-            return "increment"
+            return "increment", action
         elif action<10:
-            return "decrement"
+            return "decrement", action-5
         elif action==10:
-            return "hold"
+            return "hold" , 1
         elif action==11:
-            return "accept"
+            return "accept" , 1
         raise ValueError("Invalid action index provided.")
 
 
@@ -132,12 +143,22 @@ class Buyer(BaseModel):
         else:
             return False  # Not enough funds to buy the NFT
         
-    def get_curr_state(self, gas_fees:float, rarityScore: int , current_price:float) -> np.ndarray:
-        continuous_states = [gas_fees, rarityScore, self.AvailableFunds, current_price]
-        return np.array(continuous_states)
+    def get_curr_state(self, gas_fees:float, rarityScore: int , current_price:float, config) -> np.ndarray:
 
-
-
+        gas_discrete = discretize(gas_fees, config['gas_fees_params']['ceiling_gas_fees'], 
+                                  config['gas_fees_params']['floor_gas_fees'], config['gas_fees_params']['n_bins'])
+        
+        seller_discrete_config = config['seller_discretization_params']
+        rarity_score_discrete = discretize(rarityScore, seller_discrete_config['rarity_score']['max'],
+                                             seller_discrete_config['rarity_score']['min'], seller_discrete_config['rarity_score']['n_bins'])
+        curr_price_discrete = discretize(current_price, seller_discrete_config['curr_price']['max'],
+                                                seller_discrete_config['curr_price']['min'], seller_discrete_config['curr_price']['n_bins'])
+        
+        buyer_discrete_config = config['buyer_discretization_params']
+        available_funds_discrete = discretize(self.AvailableFunds, buyer_discrete_config['available_funds']['max'],
+                                                buyer_discrete_config['available_funds']['min'], buyer_discrete_config['available_funds']['n_bins'])
+        discrete_states = [gas_discrete, rarity_score_discrete, available_funds_discrete, curr_price_discrete]
+        return np.array(discrete_states).astype(np.int8)
 
 def calculate_seller_reward(seller:Seller, curr_gas_fees:float, transaction_occurred:bool, final_price:float=10)-> float:
     """Calculate the reward for the seller based on the transaction outcome."""

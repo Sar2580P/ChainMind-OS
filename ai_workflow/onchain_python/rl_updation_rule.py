@@ -21,13 +21,13 @@ def learn(q_table: np.ndarray, prev_state: Tuple[int, ...], action: int, reward:
     """
 
     # Get current Q-value
-    q_current = q_table[prev_state + (action,)]
+    q_current = q_table[tuple(prev_state) + (action,)]
 
     # Get next Q-value for the next state-action pair
-    q_next = q_table[next_state + (next_action,)]
+    q_next = q_table[tuple(next_state) + (next_action,)]
 
     # Compute SARSA update
-    q_table[prev_state + (action,)] = q_current + alpha * (reward + gamma * q_next - q_current)
+    q_table[tuple(prev_state) + (action,)] = q_current + alpha * (reward + gamma * q_next - q_current)
     
     return None
 
@@ -49,7 +49,6 @@ def take_action(q_table: np.ndarray, state: Tuple[int, ...], epsilon: float = 0.
     if np.random.rand() < epsilon:
         # Exploration: Choose a random action
         return np.random.randint(num_actions)
-    
     # Exploitation: Choose the action with the highest Q-value
     return np.argmax(q_table[state])
 
