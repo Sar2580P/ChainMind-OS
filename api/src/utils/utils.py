@@ -85,3 +85,12 @@ def read_code_json_file(file_name , agent_id):
     with open(file_path) as file:
         data = json.load(file)
     return data["full_code"]
+
+def read_nft_market_model_json_file():
+    curr_dir = os.getcwd()
+    file_path = os.path.join(curr_dir, "database" , "nft_market_model.json")
+    if not os.path.exists(file_path):
+        return []
+    with open(file_path) as file:
+        data = json.load(file)
+    return data

@@ -3,7 +3,8 @@ from src.utils.global_response import success_response, internal_server_error_re
 from ai_workflow.ai_agents.main import (layer_1_objective_identification, layer_feedback_objective_design, 
                                         layer_2_agent_work_planning, leayer_3_generate_codebase)
 from src.utils.utils import (read_json_file, get_all_agnets_id , read_code_json_file , update_json_file , 
-                             generate_random_id_from_uuid , get_current_time , save_file_as_json , read_file_as_str)
+                             generate_random_id_from_uuid , get_current_time , save_file_as_json , 
+                             read_file_as_str , read_nft_market_model_json_file)
 
 bp = Blueprint("agents", __name__)
 
@@ -107,5 +108,13 @@ def get_chat_history_route():
         agent_id = request.json.get("agent_id")
         response = read_json_file(agent_id)
         return success_response(response, "Successfully retrieved chat history")
+    except Exception as e:
+        return internal_server_error_response(str(e))
+
+@bp.route("nft_market_modelling", methods=["GET"])
+def nft_market_modelling_route():
+    try:
+        response = read_nft_market_model_json_file()
+        return success_response(response, "Successfully modelled NFT Market")
     except Exception as e:
         return internal_server_error_response(str(e))

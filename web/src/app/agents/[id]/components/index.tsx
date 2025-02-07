@@ -7,10 +7,11 @@ import AppContext from "@/contexts/AppContext";
 import { IoIosArrowRoundUp } from "react-icons/io";
 import { TbSwitchHorizontal } from "react-icons/tb";
 import { useState, useContext, useEffect } from "react";
+import NftMarketModelling from "./nftMarketModelling/NftMarketModelling";
 
 const AgentComponents = ({ id }: { id: string }) => {
   const { setNewAgentHandler } = useContext(AppContext);
-  const [isAccessible, setIsAccessible] = useState(false);
+  const [isAccessible, setIsAccessible] = useState(0);
 
   useEffect(() => {
     setNewAgentHandler(id);
@@ -20,10 +21,12 @@ const AgentComponents = ({ id }: { id: string }) => {
   return (
     <div className={classes["container"]}>
       <div className={`${classes["chat-code-container"]} scrollbar-hide`}>
-        {isAccessible ? (
+        {isAccessible == 0 ? (
+          <ChatWorkFlow agent_id={id} />
+        ) : isAccessible == 1 ? (
           <CodeWorkFlow agent_id={id} />
         ) : (
-          <ChatWorkFlow agent_id={id} />
+          <NftMarketModelling />
         )}
         <div className={classes["scroll-to-top"]}>
           <IoIosArrowRoundUp
@@ -32,7 +35,9 @@ const AgentComponents = ({ id }: { id: string }) => {
             }}
           />
         </div>
-        <TbSwitchHorizontal onClick={() => setIsAccessible(!isAccessible)} />
+        <TbSwitchHorizontal
+          onClick={() => setIsAccessible((prev) => (prev + 1) % 3)}
+        />
       </div>
       <div className={classes["agent-container"]}>
         <AgentWorkFlow agent_id={id} />
