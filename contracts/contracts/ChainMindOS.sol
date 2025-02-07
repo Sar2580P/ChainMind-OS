@@ -11,7 +11,7 @@ contract ChainMindOS {
         address owner;
         string[] agentObjectives;
         string[] briefContextOnEachObjective;
-        string[] techExpertise;
+        string[][] techExpertise;
         string[][] files;
         string[][] instructions;
     }
@@ -20,7 +20,7 @@ contract ChainMindOS {
         string memory _id,
         string[] memory _agentObjectives,
         string[] memory _briefContextOnEachObjective,
-        string[] memory _techExpertise,
+        string[][] memory _techExpertise,
         string[][] memory _files,
         string[][] memory _instructions
     ) public {
@@ -69,7 +69,7 @@ contract ChainMindOS {
                 address(0),
                 new string[](0),
                 new string[](0),
-                new string[](0),
+                new string[][](0),
                 new string[][](0),
                 new string[][](0)
             );

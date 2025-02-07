@@ -34,6 +34,14 @@ interface AgentDataTypes {
 
 const _DUMMY_AGENT_DATA: AgentDataTypes[] = [];
 
+interface DeployContractDataType {
+  objectives: string[];
+  brief_context_on_each_objective: string[];
+  tech_experts_for_objectives: string[][];
+  files: string[][];
+  code_instructions: string[][];
+}
+
 export {
   type UserType,
   _DUMMY_USER,
@@ -41,4 +49,5 @@ export {
   type CodeType,
   type AgentDataTypes,
   _DUMMY_AGENT_DATA,
+  type DeployContractDataType,
 };

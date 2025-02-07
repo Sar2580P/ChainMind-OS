@@ -75,3 +75,13 @@ def generate_random_id_from_uuid():
 
 def get_current_time():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+def read_code_json_file(file_name , agent_id):
+    curr_dir = os.getcwd()
+    file_path = os.path.join(curr_dir, "database" , agent_id, "generated_codes", file_name)
+    print("file_path_code", file_path)
+    if not os.path.exists(file_path):
+        return "File not found"
+    with open(file_path) as file:
+        data = json.load(file)
+    return data["full_code"]

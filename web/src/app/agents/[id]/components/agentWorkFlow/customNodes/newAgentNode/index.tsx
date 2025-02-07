@@ -70,29 +70,54 @@ const NewAgentNode = ({ id, data, isConnectable }: NewAgentNodeProps) => {
             <div className={classes["box"]}></div>
           )}
         </HoverCardTrigger>
-        <HoverCardContent className="w-80">
+        <HoverCardContent
+          style={
+            layer_id == "1"
+              ? {
+                  width: "320px",
+                }
+              : {
+                  width: "420px",
+                }
+          }
+        >
           <div className="flex justify-start space-x-4">
             <Avatar>
               <AvatarImage src="/robot/logo.png" />
               <AvatarFallback>AG</AvatarFallback>
             </Avatar>
-            <div className="space-y-1">
-              <h4 className="text-sm font-semibold">@{data["id"]}</h4>
+            <div className="space-y-1 mb-1">
+              <h4 className="text-base font-semibold">@{data["id"]}</h4>
               <div className="flex items-center">
-                <span className="text-xs text-muted-foreground">
+                <div className="text-base text-muted-foreground">
                   {data["about"]}
-                </span>
+                </div>
               </div>
               <div className="flex flex-col space-y-1 justify-start align-top">
-                {Object.keys(data["metadata"]).map((key) => (
+                {Object.keys(data["metadata"]).map((key, i) => (
                   <div
-                    key={key}
+                    key={i}
                     className="flex items-start justify-start flex-col"
                   >
-                    <span className="font-bold capitalize text-xs">{key}</span>
-                    <span className="text-xs text-muted-foreground pl-1">
-                      {data["metadata"][key]}
-                    </span>
+                    <div className="font-bold capitalize text-base">{key}</div>
+                    <div className="text-xs text-muted-foreground pl-1">
+                      {Array.isArray(data["metadata"][key])
+                        ? data["metadata"][key].map((item, index) => (
+                            <div
+                              key={item}
+                              className="text-sm pt-1"
+                              style={{
+                                wordBreak: "break-all",
+                              }}
+                            >
+                              <span className="text-muted-foreground font-semibold">
+                                {index + 1}.
+                              </span>
+                              {item}
+                            </div>
+                          ))
+                        : data["metadata"][key]}
+                    </div>
                   </div>
                 ))}
               </div>

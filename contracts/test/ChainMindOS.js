@@ -19,7 +19,7 @@ describe("ChainMindOS", function () {
       "agent1",
       ["objective1"],
       ["context1"],
-      ["expertise1"],
+      [["expertise1"]],
       [["file1"]],
       [["instruction1"]]
     );
@@ -34,7 +34,7 @@ describe("ChainMindOS", function () {
       "agent1",
       ["objective1"],
       ["context1"],
-      ["expertise1"],
+      [["expertise1"]],
       [["file1"]],
       [["instruction1"]]
     );
@@ -48,7 +48,7 @@ describe("ChainMindOS", function () {
       "agent1",
       ["objective1"],
       ["context1"],
-      ["expertise1"],
+      [["expertise1"]],
       [["file1"]],
       [["instruction1"]]
     );
@@ -63,7 +63,7 @@ describe("ChainMindOS", function () {
       "agent1",
       ["objective1"],
       ["context1"],
-      ["expertise1"],
+      [["expertise1"]],
       [["file1"]],
       [["instruction1"]]
     );
@@ -77,7 +77,7 @@ describe("ChainMindOS", function () {
       "agent1",
       ["objective1"],
       ["context1"],
-      ["expertise1"],
+      [["expertise1"]],
       [["file1"]],
       [["instruction1"]]
     );
@@ -86,7 +86,7 @@ describe("ChainMindOS", function () {
       "agent2",
       ["objective2"],
       ["context2"],
-      ["expertise2"],
+      [["expertise2"]],
       [["file2"]],
       [["instruction2"]]
     );

@@ -17,8 +17,11 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
   const { postResponse } = usePostResponse();
   const [loading, setLoading] = useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
-  const { setAgentDatasHandler, setAgentCurrentNodeAndEdgesHandler } =
-    useContext(AppContext);
+  const {
+    setAgentDatasHandler,
+    setAgentCurrentNodeAndEdgesHandler,
+    setDeployContractDataHandler,
+  } = useContext(AppContext);
   const { textareaRef, handleTextAreaSize } = useHandleTextAreaSize();
   const [isLayer1ORFeedback, setIsLayer1ORFeedback] = useState(true);
 
@@ -55,6 +58,15 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
       "layer_1_objective_identification"
     );
     if (response_layer_1) {
+      setDeployContractDataHandler("objectives", response_layer_1.objectives);
+      setDeployContractDataHandler(
+        "brief_context_on_each_objective",
+        response_layer_1.brief_context_on_each_objective
+      );
+      setDeployContractDataHandler(
+        "tech_experts_for_objectives",
+        response_layer_1.tech_experts_for_objectives
+      );
       const { Nodes, Edges } = CreateNodeAndEdges(response_layer_1, agent_id);
       setAgentCurrentNodeAndEdgesHandler(Nodes, Edges);
       const agent_answer_id = v4();

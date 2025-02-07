@@ -56,9 +56,9 @@ export function GetAllAgentprompt({ agent_id }: { agent_id: string }) {
           <CommandList>
             <CommandEmpty>No Ai Agent found.</CommandEmpty>
             <CommandGroup>
-              {ai_agents_ids.map((ai_agents_id) => (
+              {ai_agents_ids.map((ai_agents_id , index) => (
                 <CommandItem
-                  key={ai_agents_id}
+                  key={ai_agents_id + index}
                   value={ai_agents_id}
                   onSelect={() => {
                     setOpen(false);

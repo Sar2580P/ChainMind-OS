@@ -25,11 +25,11 @@ const CodeEditor = ({ agent_id }: { agent_id: string }) => {
       const interval = setInterval(() => {
         if (index <= fullCode.length) {
           editor.setValue(fullCode.substring(0, index));
-          index++;
+          index += 50;
         } else {
           clearInterval(interval);
         }
-      }, 20);
+      }, 100);
       return () => clearInterval(interval);
     }
   }, [code, isEditorReady]);
@@ -37,7 +37,7 @@ const CodeEditor = ({ agent_id }: { agent_id: string }) => {
   return (
     <Editor
       height="100vh"
-      defaultLanguage={code[0]?.language || "javascript"}
+      language={code[0]?.language || "sol"}
       theme="vs-dark"
       onMount={(editor) => {
         editorRef.current = editor;

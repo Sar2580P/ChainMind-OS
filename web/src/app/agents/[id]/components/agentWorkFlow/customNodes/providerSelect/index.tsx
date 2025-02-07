@@ -56,11 +56,11 @@ export default function ProviderSelect() {
           <FaPlus size={16} />
         </summary>
         <ul>
-          {Providers.map((provider) => (
+          {Providers.map((provider , index) => (
             <li
               // eslint-disable-next-line @typescript-eslint/no-explicit-any
               onClick={() => onProviderClick(provider as any)}
-              key={provider.type}
+              key={provider.type + index}
             >
               {provider.name}
             </li>

@@ -108,3 +108,24 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+ul {
+  list-style: circle;
+  padding-left: 1rem;
+}
+
+ul li {
+  padding: 0.15rem 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: Bold;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}

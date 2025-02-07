@@ -6,6 +6,7 @@ import {
   _DUMMY_AGENT_DATA,
   ChatType,
   CodeType,
+  DeployContractDataType,
 } from "@/types";
 import React, { useState } from "react";
 import { Edge, Node } from "@xyflow/react";
@@ -24,6 +25,19 @@ type AppContextType = {
 
   agentCurrentNodeAndEdges: { Nodes: Node[]; Edges: Edge[] };
   setAgentCurrentNodeAndEdgesHandler: (Nodes: Node[], Edges: Edge[]) => void;
+
+  updateCodehandler: (
+    agentId: string,
+    codeId: string,
+    language: string,
+    code: string
+  ) => void;
+
+  deployContractData: DeployContractDataType;
+  setDeployContractDataHandler: (
+    key: keyof DeployContractDataType,
+    value: unknown
+  ) => void;
 };
 
 const AppContext = React.createContext<AppContextType>({
@@ -36,6 +50,16 @@ const AppContext = React.createContext<AppContextType>({
 
   agentCurrentNodeAndEdges: { Nodes: [], Edges: [] },
   setAgentCurrentNodeAndEdgesHandler: () => {},
+
+  updateCodehandler: () => {},
+  deployContractData: {
+    objectives: [],
+    brief_context_on_each_objective: [],
+    tech_experts_for_objectives: [],
+    files: [],
+    code_instructions: [],
+  },
+  setDeployContractDataHandler: () => {},
 });
 
 type Props = {
@@ -100,6 +124,56 @@ export const AppContextProvider: React.FC<Props> = (props) => {
     });
   };
 
+  const updateCodehandler = (
+    agentId: string,
+    codeId: string,
+    language: string,
+    code: string
+  ) => {
+    setAgentDatas((prevState) => {
+      return prevState.map((agent) => {
+        if (agent.agentId === agentId) {
+          return {
+            ...agent,
+            codes: agent.codes.map((_code) => {
+              console.log(_code.id, codeId);
+              if (_code.id === codeId) {
+                return {
+                  ..._code,
+                  code: code,
+                  isActive: true,
+                  language: language,
+                };
+              }
+              return { ..._code, isActive: false };
+            }),
+          };
+        }
+        return agent;
+      });
+    });
+  };
+
+  const [deployContractData, setDeployContractData] =
+    useState<DeployContractDataType>({
+      objectives: [],
+      brief_context_on_each_objective: [],
+      tech_experts_for_objectives: [],
+      files: [],
+      code_instructions: [],
+    });
+  const setDeployContractDataHandler = (
+    key: keyof DeployContractDataType,
+    value: unknown
+  ) => {
+    setDeployContractData((prevState) => {
+      return {
+        ...prevState,
+        [key]: value,
+      };
+    });
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -112,6 +186,11 @@ export const AppContextProvider: React.FC<Props> = (props) => {
 
         agentCurrentNodeAndEdges,
         setAgentCurrentNodeAndEdgesHandler: setAgentCurrentNodeAndEdgesHandler,
+
+        updateCodehandler: updateCodehandler,
+
+        deployContractData,
+        setDeployContractDataHandler: setDeployContractDataHandler,
       }}
     >
       {props.children}

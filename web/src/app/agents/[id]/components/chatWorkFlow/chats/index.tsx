@@ -45,8 +45,8 @@ const Chats = ({ agent_id }: ChatsProps) => {
         ref={chatContainerRef}
         className="overflow-y-auto h-full scrollbar-hide w-full"
       >
-        {chats.map((chat: ChatType) => (
-          <Chat key={chat.id} chat={chat} />
+        {chats.map((chat: ChatType, index: number) => (
+          <Chat key={chat.id + index} chat={chat} />
         ))}
       </div>
     </CardContent>

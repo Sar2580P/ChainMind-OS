@@ -7,8 +7,24 @@ import { Button } from "@/components/ui/button";
 
 const AgentsButtons = ({ id, agent_id }: { id: string; agent_id: string }) => {
   const { postResponse } = usePostResponse();
-  const { agentCurrentNodeAndEdges, setAgentCurrentNodeAndEdgesHandler } =
-    useContext(AppContext);
+  const {
+    agentCurrentNodeAndEdges,
+    setAgentCurrentNodeAndEdgesHandler,
+    setAgentDatasHandler,
+    setDeployContractDataHandler,
+  } = useContext(AppContext);
+  const makeCodeArrayFromFiles = (files: string[]) => {
+    return files.map((file) => {
+      return {
+        id: file,
+        isActive: false,
+        language: file.split(".").pop() || "sol",
+        fileName: file,
+        code: "",
+        path: file,
+      };
+    });
+  };
 
   const handleWorkPlanning = async () => {
     const response = await postResponse(
@@ -32,6 +48,16 @@ const AgentsButtons = ({ id, agent_id }: { id: string; agent_id: string }) => {
         updatedNodes,
         agentCurrentNodeAndEdges.Edges
       );
+
+      const codeFiles = makeCodeArrayFromFiles(response.files);
+      const codeInstructions = response.code_instructions.map(
+        (instruction: string) => {
+          return instruction.substring(0, 45) + "...";
+        }
+      );
+      setAgentDatasHandler(agent_id, "codes", codeFiles);
+      setDeployContractDataHandler("files", [response.files]);
+      setDeployContractDataHandler("code_instructions", [codeInstructions]);
     }
   };
 

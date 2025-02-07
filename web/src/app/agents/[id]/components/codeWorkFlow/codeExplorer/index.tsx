@@ -5,24 +5,54 @@ import { FaFolder } from "react-icons/fa";
 import { useState, useContext } from "react";
 import { FaFolderOpen } from "react-icons/fa";
 import AppContext from "@/contexts/AppContext";
+import usePostResponse from "@/hooks/usePostResponse";
 
 interface FileNode {
   name: string;
   children?: FileNode[];
 }
 
-const FolderExplorer = ({ node }: { node: FileNode }) => {
+const FolderExplorer = ({
+  node,
+  _parent,
+  agent_id,
+}: {
+  node: FileNode;
+  _parent: string;
+  agent_id: string;
+}) => {
+  const { postResponse } = usePostResponse();
   const [isOpen, setIsOpen] = useState(true);
+  const { updateCodehandler, agentDatas } = useContext(AppContext);
+  console.log(agentDatas);
 
-  const toggleOpen = () => {
+  const handleToggleAndCodeReview = async (_parent: string) => {
     if (node.children) {
       setIsOpen(!isOpen);
+    } else {
+      const codePath =
+        _parent.split("_").slice(1).join("_").split(".")[0] + ".json";
+      console.log(codePath);
+      const response = await postResponse(
+        { file_name: codePath, agent_id },
+        "get_codebase_for_file"
+      );
+      const file_id = _parent.split("_").slice(1).join(":");
+      const file_lang = _parent.split("_").slice(1).join("_").split(".")[1];
+      console.log(response);
+      console.log(_parent.split("_").slice(1).join(":"), agent_id);
+      updateCodehandler(agent_id, file_id, file_lang, response);
     }
   };
 
   return (
     <div className={classes["folder-item"]}>
-      <div onClick={toggleOpen} className={classes["folder-name"]}>
+      <div
+        onClick={() => {
+          handleToggleAndCodeReview(_parent + node.name);
+        }}
+        className={classes["folder-name"]}
+      >
         {node.children ? (
           isOpen ? (
             <FaFolderOpen color="#fccc77" />
@@ -37,7 +67,12 @@ const FolderExplorer = ({ node }: { node: FileNode }) => {
       {isOpen && node.children && (
         <div className={classes["folder-children"]}>
           {node.children.map((child, index) => (
-            <FolderExplorer key={index} node={child} />
+            <FolderExplorer
+              key={index}
+              node={child}
+              _parent={_parent + node.name + "_"}
+              agent_id={agent_id}
+            />
           ))}
         </div>
       )}
@@ -50,6 +85,7 @@ const CodeExplorer = ({ agent_id }: { agent_id: string }) => {
   const codes =
     agentDatas.find((agent) => agent.agentId === agent_id)?.codes || [];
   const all_paths = codes.map((code) => code.path);
+
   const makeFileTree = (paths: string[]) => {
     const root: FileNode = { name: "src" };
     paths.forEach((path) => {
@@ -69,19 +105,11 @@ const CodeExplorer = ({ agent_id }: { agent_id: string }) => {
     });
     return root;
   };
-  console.log(all_paths);
-  const _FOLDER = makeFileTree([
-    "contracts:interfaces:IOracle.sol",
-    "contracts:Agent.sol",
-    "scripts:deploy.ts",
-    "scripts:index.ts",
-    "test:Agent.test.ts",
-    "package.json",
-  ]);
+  const _FOLDER = makeFileTree(all_paths);
 
   return (
     <div className={classes["container"]} key={agent_id}>
-      <FolderExplorer node={_FOLDER} />
+      <FolderExplorer node={_FOLDER} _parent="" agent_id={agent_id} />
     </div>
   );
 };

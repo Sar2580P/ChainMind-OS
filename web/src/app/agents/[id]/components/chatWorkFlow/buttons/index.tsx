@@ -1,10 +1,13 @@
 "use client";
+import { useContext } from "react";
 import configData from "@/config/config.json";
+import AppContext from "@/contexts/AppContext";
 import { Button } from "@/components/ui/button";
 import { useReadContract, useWriteContract } from "wagmi";
 import { CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const Buttons = ({ agent_id }: { agent_id: string }) => {
+  const { deployContractData } = useContext(AppContext);
   const { data: agentDetails } = useReadContract({
     abi: configData.abi,
     address: configData.contractAddress.localhost as `0x${string}`,
@@ -15,6 +18,8 @@ const Buttons = ({ agent_id }: { agent_id: string }) => {
   const { writeContractAsync: writeContractAsyncDeployAgent } =
     useWriteContract();
   const handleDeployAgent = async () => {
+    console.log("Deploying agent");
+    console.log(deployContractData);
     await writeContractAsyncDeployAgent(
       {
         abi: configData.abi,
@@ -22,16 +27,11 @@ const Buttons = ({ agent_id }: { agent_id: string }) => {
         functionName: "createAiAgent",
         args: [
           agent_id,
-          ["fee payments"],
-          ["To ensure transparency and automation in fee payments"],
-          ["DeFi_expert", "DAO_expert"],
-          [["contracts:dao:dao.sol", "contracts:interfaces:idao.sol"]],
-          [
-            [
-              "Create a DAO contract in contracts:dao:dao.sol...",
-              "Implement the idao interface in contracts:inte...",
-            ],
-          ],
+          deployContractData.objectives,
+          deployContractData.brief_context_on_each_objective,
+          deployContractData.tech_experts_for_objectives,
+          deployContractData.files,
+          deployContractData.code_instructions,
         ],
       },
       {

@@ -17,7 +17,7 @@ const Chat = ({ chat }: ChatProps) => {
           <span className="font-semibold text-gray-200">
             {chat.isAgent ? <FaRobot size={20} /> : <FaRegUser size={20} />}
           </span>{" "}
-          <Markdown className="text-gray-400">{chat.message}</Markdown>
+          <Markdown className="text-gray-50 text-base">{chat.message}</Markdown>
         </CardDescription>
         <div className="absolute bottom-1 right-2 text-xs font-bold text-gray-400">
           {new Date(chat.createdAt).toLocaleDateString("en-GB", {

@@ -2,8 +2,8 @@ from flask import Blueprint, request
 from src.utils.global_response import success_response, internal_server_error_response
 from ai_workflow.ai_agents.main import (layer_1_objective_identification, layer_feedback_objective_design, 
                                         layer_2_agent_work_planning, leayer_3_generate_codebase)
-from src.utils.utils import (save_file_as_json, read_file_as_str, update_json_file,
-                             generate_random_id_from_uuid, get_current_time, read_json_file , get_all_agnets_id)
+from src.utils.utils import (read_json_file, get_all_agnets_id , read_code_json_file , update_json_file , 
+                             generate_random_id_from_uuid , get_current_time , save_file_as_json , read_file_as_str)
 
 bp = Blueprint("agents", __name__)
 
@@ -94,8 +94,9 @@ def leayer_3_generate_codebase_route():
 def get_codebase_for_file_route():
     try:
         agent_id = request.json.get("agent_id")
-        file_name = "generated_codes/" + request.json.get("file_name")
-        response = read_file_as_str(file_name, agent_id)
+        file_name = request.json.get("file_name")
+        print("file_name", file_name + " " + agent_id)
+        response = read_code_json_file(file_name, agent_id)
         return success_response(response, "Successfully retrieved codebase for file")
     except Exception as e:
         return internal_server_error_response(str(e))

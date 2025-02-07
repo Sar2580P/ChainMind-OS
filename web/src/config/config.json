@@ -58,9 +58,9 @@
           "type": "string[]"
         },
         {
-          "internalType": "string[]",
+          "internalType": "string[][]",
           "name": "_techExpertise",
-          "type": "string[]"
+          "type": "string[][]"
         },
         {
           "internalType": "string[][]",
@@ -111,9 +111,9 @@
               "type": "string[]"
             },
             {
-              "internalType": "string[]",
+              "internalType": "string[][]",
               "name": "techExpertise",
-              "type": "string[]"
+              "type": "string[][]"
             },
             {
               "internalType": "string[][]",
@@ -174,9 +174,9 @@
               "type": "string[]"
             },
             {
-              "internalType": "string[]",
+              "internalType": "string[][]",
               "name": "techExpertise",
-              "type": "string[]"
+              "type": "string[][]"
             },
             {
               "internalType": "string[][]",
@@ -224,9 +224,9 @@
               "type": "string[]"
             },
             {
-              "internalType": "string[]",
+              "internalType": "string[][]",
               "name": "techExpertise",
-              "type": "string[]"
+              "type": "string[][]"
             },
             {
               "internalType": "string[][]",
