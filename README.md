@@ -186,7 +186,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Sarvagya Porwal - [@sarp0424]([https://twitter.com/](https://x.com/sarp0424))
+Sarvagya Porwal - [@sarp0424](https://x.com/sarp0424)
 
 Project Link: [https://github.com/Sar2580P/ChainMind-OS](https://github.com/Sar2580P/ChainMind-OS)
 
