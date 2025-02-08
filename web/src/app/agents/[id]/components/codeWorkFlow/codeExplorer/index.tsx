@@ -31,16 +31,16 @@ const FolderExplorer = ({
       setIsOpen(!isOpen);
     } else {
       const codePath =
-        _parent.split("_").slice(1).join("_").split(".")[0] + ".json";
+        _parent.split("#").slice(1).join("#").split(".")[0] + ".json";
       console.log(codePath);
       const response = await postResponse(
         { file_name: codePath, agent_id },
         "get_codebase_for_file"
       );
-      const file_id = _parent.split("_").slice(1).join(":");
-      const file_lang = _parent.split("_").slice(1).join("_").split(".")[1];
+      const file_id = _parent.split("#").slice(1).join(":");
+      const file_lang = _parent.split("#").slice(1).join("_").split(".")[1];
       console.log(response);
-      console.log(_parent.split("_").slice(1).join(":"), agent_id);
+      console.log(_parent.split("#").slice(1).join(":"), agent_id);
       updateCodehandler(agent_id, file_id, file_lang, response);
     }
   };
@@ -70,7 +70,7 @@ const FolderExplorer = ({
             <FolderExplorer
               key={index}
               node={child}
-              _parent={_parent + node.name + "_"}
+              _parent={_parent + node.name + "#"}
               agent_id={agent_id}
             />
           ))}
