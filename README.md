@@ -38,7 +38,13 @@ The future of agents is here! Create your own agent and start your journey to th
 ### Built With
 
 - [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
+- [![Hardhat][hardhat.js]][hardhat-url]
+- [![Solidity][solidity.js]][solidity-url]
+- [![Python][python.js]][python-url]
+- [![Rust][rust]][rust-url]
+- [![Ethereum][ethereum.js]][ethereum-url]
+- [![SePolia][sepolia]][sepolia-url]
+- [![Arbitrum][arbitrum]][arbitrum-url]
 
 <!-- Constituents -->
 
@@ -54,80 +60,115 @@ Ai-powered agents are the future of the digital world.
 
 4. **Ai Agents:**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- USAGE EXAMPLES -->
 
-## Problems We Solve
+## Problems We Solve 🚀
 
 Our solution likely addresses several key challenges in blockchain systems by leveraging an agent-driven approach. Here's a detailed problem overview:
 
 ---
 
-**1. User-Expert Collaboration Challenges**  
-- **Problem:** Blockchain adoption is hindered by the complexity of aligning user requirements with technical implementations, often requiring significant expertise. Users may not fully understand design parameters, leading to incomplete or ineffective solutions.  
-- **Solution:** Our agent-driven framework bridges the gap between users and experts, dynamically allocating tasks to specialized agents who define design parameters, interact with users for clarity, and automate decision-making for efficient solution development.
+### 1️⃣ User-Expert Collaboration Challenges 🤝
+
+- **🛑 Problem:** Blockchain adoption is hindered by the complexity of aligning user requirements with technical implementations, often requiring significant expertise. Users may not fully understand design parameters, leading to incomplete or ineffective solutions.
+
+- **✅ Solution:** Our agent-driven framework bridges the gap between users and experts, dynamically allocating tasks to specialized agents who define design parameters, interact with users for clarity, and automate decision-making for efficient solution development.
 
 ---
 
-**2. Fragmented Development Processes**  
-- **Problem:** Traditional blockchain solutions often rely on disjointed development cycles, resulting in inefficiencies, redundant work, and delays. Objectives are rarely addressed in a unified and modular manner.  
-- **Solution:** By breaking down user objectives into modular tasks, each handled by domain-specific agents, our solution ensures a seamless transition from requirement gathering to code architecture planning and implementation, optimizing workflows across all stages.
+### 2️⃣ Fragmented Development Processes 🔄
+
+- **🛑 Problem:** Traditional blockchain solutions often rely on disjointed development cycles, resulting in inefficiencies, redundant work, and delays. Objectives are rarely addressed in a unified and modular manner.
+
+- **✅ Solution:** By breaking down user objectives into modular tasks, each handled by domain-specific agents, our solution ensures a seamless transition from requirement gathering to code architecture planning and implementation, optimizing workflows across all stages.
 
 ---
 
-**3. Lack of Transparent Governance Mechanisms**  
-- **Problem:** Decentralized applications often struggle with establishing transparent and verifiable governance processes, leaving room for disputes and inefficiencies in policy enforcement.  
-- **Solution:** The system introduces decentralized governance protocols to enable transparent decision-making, ensuring that all stakeholders have verifiable input while maintaining a fair, tamper-proof policy enforcement mechanism.
+### 3️⃣ Lack of Transparent Governance Mechanisms ⚖
+
+- **🛑 Problem:** Decentralized applications often struggle with establishing transparent and verifiable governance processes, leaving room for disputes and inefficiencies in policy enforcement.
+
+- **✅ Solution:** The system introduces decentralized governance protocols to enable transparent decision-making, ensuring that all stakeholders have verifiable input while maintaining a fair, tamper-proof policy enforcement mechanism.
 
 ---
 
-**4. Inefficient Code Implementation for Complex Objectives**  
-- **Problem:** Developing smart contracts for multifaceted objectives is resource-intensive and prone to errors, especially when integrating multiple blockchain layers.  
-- **Solution:** Our agentic system delegates code implementation to specialized smart-contract experts, ensuring that codebases are optimized, modular, and securely integrated into the broader architecture.
+### 4️⃣ Inefficient Code Implementation for Complex Objectives 💻
+
+- **🛑 Problem:** Developing smart contracts for multifaceted objectives is resource-intensive and prone to errors, especially when integrating multiple blockchain layers.
+
+- **✅ Solution:** Our agentic system delegates code implementation to specialized smart-contract experts, ensuring that codebases are optimized, modular, and securely integrated into the broader architecture.
 
 ---
 
-**5. Scalability and Compatibility Limitations**  
-- **Problem:** Existing solutions struggle with cross-chain compatibility, limiting the ability of users to interact seamlessly across different blockchain ecosystems.  
-- **Solution:** By leveraging advanced interoperability protocols, our system ensures that users can operate across chains effortlessly, enabling a unified and scalable approach to blockchain adoption.
+### 5️⃣ Scalability and Compatibility Limitations 🌐
+
+- **🛑 Problem:** Existing solutions struggle with cross-chain compatibility, limiting the ability of users to interact seamlessly across different blockchain ecosystems.
+
+- **✅ Solution:** By leveraging advanced interoperability protocols, our system ensures that users can operate across chains effortlessly, enabling a unified and scalable approach to blockchain adoption.
 
 ---
 
-## 🛠️ **How Our Agentic Workflow Operates**  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-1. **User Prompt and Objective Identification 🤔✨**  
-   - The user begins by entering their use case as a prompt.  
-   - An **Objective Identification Agent** kicks in to uncover the user's goals and aspirations related to blockchain.  
-   - It assigns each identified objective to a team of **domain-specific experts** selected from an expert pool.  
+## 🏆 **Why Choose Our Agentic Workflow?**
 
-2. **Expert Analysis and Feedback Loop 🧑‍💻🔍**  
-   - Each assigned expert dives into their respective objective.  
-   - They analyze what **technical design settings** are required, determine what can be inferred from the user's input, and identify gaps.  
-   - For missing parameters, they loop back to the user for feedback, ensuring a **complete and accurate objective design**.  
+- ✨ **AI-Powered Efficiency:** Automated **collaboration of expert agents**.
 
-3. **Architecture Planning and Structuring 🏗️📂**  
-   - Once the objectives are finalized, the **Architecture Planning Agent** takes charge.  
-   - It drafts the **codebase structure**, outlining:  
-     - File arrangements  
-     - Directory structure  
-     - A clear description of each file’s purpose  
-   - This ensures a well-organized and scalable solution.  
+- 🔄 **Iterative Refinement:** **Real-time feedback loops** for accuracy.
 
-4. **Code Implementation by Coder Agent 💻🤖**  
-   - The **Coder Agent** steps in to handle the heavy lifting.  
-   - It meticulously writes and finalizes the code, weaving the agents' collaborative efforts into a blockchain solution tailored to the user's use case.  
+- 🛡 **Scalability & Precision:** Structured architecture for **long-term growth**.
+
+- 🚀 **End-to-End Blockchain Excellence!**
+
+- 🔥 **Empower your blockchain vision with AI-driven automation!** 🔥
+
+---
+
+## 🛠️ **How Our Agentic Workflow Operates**
+
+1. **User Prompt and Objective Identification 🤔✨**
+
+   - The user begins by entering their use case as a prompt.
+   - An **Objective Identification Agent** kicks in to uncover the user's goals and aspirations related to blockchain.
+   - It assigns each identified objective to a team of **domain-specific experts** selected from an expert pool.
+
+2. **Expert Analysis and Feedback Loop 🧑‍💻🔍**
+
+   - Each assigned expert dives into their respective objective.
+   - They analyze what **technical design settings** are required, determine what can be inferred from the user's input, and identify gaps.
+   - For missing parameters, they loop back to the user for feedback, ensuring a **complete and accurate objective design**.
+
+3. **Architecture Planning and Structuring 🏗️📂**
+
+   - Once the objectives are finalized, the **Architecture Planning Agent** takes charge.
+   - It drafts the **codebase structure**, outlining:
+     - File arrangements
+     - Directory structure
+     - A clear description of each file’s purpose
+   - This ensures a well-organized and scalable solution.
+
+4. **Code Implementation by Coder Agent 💻🤖**
+   - The **Coder Agent** steps in to handle the heavy lifting.
+   - It meticulously writes and finalizes the code, weaving the agents' collaborative efforts into a blockchain solution tailored to the user's use case.
 
 This agentic process ensures **seamless collaboration**, **iterative refinement**, and a robust end-to-end blockchain solution for every user! 🚀
+
 ---
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
-**1. Expansion of specialized target-oriented agents to dynamically adapt and personalize solutions for users, leveraging reinforcement learning and domain expertise.**  
+1. Expansion of specialized target-oriented agents to dynamically adapt and personalize solutions for users, leveraging reinforcement learning and domain expertise.
 
-**2. Creation of a thriving community of AI agents with a dynamic hierarchy tree, personalized for every user and evolving in real time.**  
+2. Creation of a thriving community of AI agents with a dynamic hierarchy tree, personalized for every user and evolving in real time.
 
-**3. Focus on reasoning explainability and off-LLM solutions through online learning agents inspired by reinforcement learning principles.**  
+3. Focus on reasoning explainability and off-LLM solutions through online learning agents inspired by reinforcement learning principles.
 
 ---
+
 ### Setup Instructions
 
 1. Clone the repository:
@@ -186,9 +227,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Sarvagya Porwal - [@sarp0424](https://x.com/sarp0424)
+- Sarvagya Porwal - [@sarp0424](https://x.com/sarp0424)
 
-Project Link: [https://github.com/Sar2580P/ChainMind-OS](https://github.com/Sar2580P/ChainMind-OS)
+- Shivam Kumar - [shivam6862](https://github.com/shivam6862)
+
+- Project Link: [https://github.com/Sar2580P/ChainMind-OS](https://github.com/Sar2580P/ChainMind-OS)
 
 ## Acknowledgments
 
@@ -214,5 +257,17 @@ Thank you for inspiring us and pushing us to reach our full potential. We are tr
 [product-screenshot]: images/home.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[hardhat.js]: https://img.shields.io/badge/Hardhat-20232A?style=for-the-badge&logo=hardhat&logoColor=61DAFB
+[hardhat-url]: https://hardhat.org/
+[solidity.js]: https://img.shields.io/badge/Solidity-20232A?style=for-the-badge&logo=solidity&logoColor=61DAFB
+[solidity-url]: https://soliditylang.org/
+[python.js]: https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=python&logoColor=61DAFB
+[python-url]: https://www.python.org/
+[rust]: https://img.shields.io/badge/Rust-20232A?style=for-the-badge&logo=rust&logoColor=61DAFB
+[rust-url]: https://doc.rust-lang.org/book/
+[ethereum.js]: https://img.shields.io/badge/Ethereum-20232A?style=for-the-badge&logo=ethereum&logoColor=61DAFB
+[ethereum-url]: https://ethereum.org/
+[sepolia]: https://img.shields.io/badge/SePolia-20232A?style=for-the-badge&logo=sepolia&logoColor=61DAFB
+[sepolia-url]: https://sepolia.com/
+[arbitrum]: https://img.shields.io/badge/Arbitrum-20232A?style=for-the-badge&logo=arbitrum&logoColor=61DAFB
+[arbitrum-url]: https://arbitrum.com/
