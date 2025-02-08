@@ -13,11 +13,12 @@ const Buttons = ({ agent_id }: { agent_id: string }) => {
     useWriteContract();
   const handleDeployAgent = async () => {
     console.log("Deploying agent");
+    console.log("Address : ", configData.contractAddress.sepolia);
     console.log(deployContractData);
     await writeContractAsyncDeployAgent(
       {
         abi: configData.abi,
-        address: configData.contractAddress.localhost as `0x${string}`,
+        address: configData.contractAddress.sepolia as `0x${string}`,
         functionName: "createAiAgent",
         args: [
           agent_id,

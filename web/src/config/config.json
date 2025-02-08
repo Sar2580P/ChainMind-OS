@@ -1,6 +1,8 @@
 {
   "contractAddress": {
-    "localhost": "0x_YOUR_CONTRACT_ADDRESS"
+    "localhost": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "sepolia": "0xA9049312D8fA2F42555AdCc04343F1B54c84AEc0",
+    "arbitrumsepolia": "0x9221146c6900f72d5bcB5ba578ff4A738bE1165E"
   },
   "abi": [
     {
