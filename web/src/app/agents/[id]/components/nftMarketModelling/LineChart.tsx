@@ -71,7 +71,7 @@ const LineChart = ({
       },
     },
     animation: {
-      duration: 20000,
+      duration: 0,
     },
   };
 
