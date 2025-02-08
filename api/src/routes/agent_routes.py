@@ -22,9 +22,9 @@ def layer_1_objective_identification_route():
         agent_id = request.json.get("new_agent_id")
         print(USER_PROMPT + " " + agent_id)
         update_json_file(agent_id, {"id" : generate_random_id_from_uuid() , "isAgent" :False, "message" : USER_PROMPT , "createdAt" : get_current_time()})
-        response = layer_1_objective_identification(USER_PROMPT, agent_id)
-        update_json_file(agent_id, {"id" : generate_random_id_from_uuid() , "isAgent" :True, "message" : "Layer 1 Objective Identification had been sent and all the agent needs to do is to respond from the user's end" , "createdAt" : get_current_time()})
-        return success_response(response, "Successfully identified objectives")
+        response , markdown_text = layer_1_objective_identification(USER_PROMPT, agent_id)
+        update_json_file(agent_id, {"id" : generate_random_id_from_uuid() , "isAgent" :True, "message" : markdown_text , "createdAt" : get_current_time()})
+        return success_response({"agent_data" : response, "markdown_text" : markdown_text}, "Successfully identified objectives")
     except Exception as e:
         return internal_server_error_response(str(e))
 

@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from ai_workflow.return_schema import ObjectiveExtraction_Level1, CodePlanner_Level3
+from ai_workflow.return_schema import ObjectiveExtraction_Level1, CodePlanner_Level3, decorate_objective
 from ai_workflow.ai_agents.layer_2.orchestrator import OrchestratorLevel2
 from ai_workflow.ai_agents.agentic_land.dao_expert import DAOExpert
 from ai_workflow.ai_agents.agentic_land.base_expert import BaseExpert
@@ -69,10 +69,10 @@ def layer_1_objective_identification(USER_PROMPT: str , agent_id: str ):
                                                                         "domain_experts": config['available_experts'],
                                                                         "max_experts_per_objective": config['layer_0_params']['max_experts_per_objective']})
     print(f"Identified User Objectives...")
-    print(user_objectives.data)
     print("_"*50)
     orchestrator.initial_plan = user_objectives.data
-    return save_file_as_json('layer_1_objective_identification.json', agent_id, user_objectives.data)
+    markdown_text = decorate_objective(user_objectives.data)
+    return save_file_as_json('layer_1_objective_identification.json', agent_id, user_objectives.data), markdown_text
 
 def layer_feedback_objective_design(user_objectives_dict , agent_id: str):
     print(user_objectives_dict)
@@ -85,15 +85,12 @@ def layer_feedback_objective_design(user_objectives_dict , agent_id: str):
     print("_"*50)
 
     gen = orchestrator.fill_missing_design_params()
-    print(gen , "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
     while True:
         try:
             (markdown_info_request, simple_info_request), expert_agent_name = next(gen)
             save_file_as_json('layer_feedback_objective_design.txt', agent_id, markdown_info_request)
             print("_"*50)
-            print("Waiting for user response..." )
-            print(markdown_info_request)
-            
+            print("Waiting for user response..." )            
             start_time = time.time()
             while read_file_as_str('user_response_layer_feedback_objective_design.txt', agent_id) == None and time.time() - start_time < 60:
                 time.sleep(10)
@@ -116,12 +113,6 @@ def layer_2_agent_work_planning(agent_id: str, id: str):
     assigned_expert_name = orchestrator.initial_plan.tech_experts_for_objectives[int(objective_idx)-1][int(assigned_expert_idx)-1]
     
     solution_code_design:CodePlanner_Level3 = orchestrator.planning_codebase_workflow(objective, assigned_expert_name)
-    # design_json = solution_code_design.model_dump_json()
-    
-    # for expert_agent_name, objectives_code_design_queue in solution_code_design_list.items():
-    #     solution_code_design_dict[expert_agent_name] = []
-    #     while not objectives_code_design_queue.empty():
-    #         solution_code_design_dict[expert_agent_name].append(objectives_code_design_queue.get())
     
     print("Codebase planning stage completed.")
     return save_file_as_json(f'layer_2_agent_work_planning_{id}.json', agent_id, solution_code_design)
@@ -135,23 +126,3 @@ def leayer_3_generate_codebase(agent_id: str , solution_code_design_dict:Dict):
     coder.generate_code_parallel(code_design=code_design , agent_id = agent_id)
         
     return "Codebase generation stage completed."
-
-
-# USER_PROMPT = '''
-#  a voting system for administrative decisions.
-# I want a step-by-step plan on how blockchain can help us, along with the required technology stack and execution plan.
-# '''
-
-# agent_id = "test_agent_id"
-# response = layer_1_objective_identification(USER_PROMPT, agent_id)
-# print(response)
-# print("_"*50)
-# response = layer_feedback_objective_design(response, agent_id)
-# print("Partial_design_objective:" , dao_expert.get_partially_designed_objective_queue())
-
-# id = "agent_2_1_1"
-# response = layer_2_agent_work_planning(agent_id, id)
-# print(response)
-
-
-

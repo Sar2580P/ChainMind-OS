@@ -9,6 +9,7 @@ from typing import List, Dict
 from pydantic import BaseModel
 from typing import List, Dict
 
+
 def decorate(obj: BaseModel):
     # Use the recommended model_fields attribute to get model's fields
     attributes = obj.model_fields  # This gives the field names as keys in Pydantic V2
@@ -72,6 +73,18 @@ class ObjectiveExtraction_Level1(BaseModel):
             )
         return self
 
+def decorate_objective(obj: ObjectiveExtraction_Level1):
+    markdown_decorated_string = '''Hello, happy to help you with your objectives. Below are the objectives identified from your input:\n\n'''
+    objectives, brief_context_on_each_objective, tech_experts_for_objectives = obj.objectives, \
+                                                                                obj.brief_context_on_each_objective, \
+                                                                                obj.tech_experts_for_objectives
+    
+    for objective, brief_context, experts in zip(objectives, brief_context_on_each_objective, 
+                                                 tech_experts_for_objectives):
+        markdown_decorated_string += f"### Objective: {objective}\n"
+        markdown_decorated_string += f"**Context**: {brief_context}\n"
+        markdown_decorated_string += f"**Experts**: {', '.join(experts)}\n\n"
+    return markdown_decorated_string
 
 class DenseFiller_Level2(BaseModel):
     objective: str 

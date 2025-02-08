@@ -50,14 +50,16 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
       },
     ]);
     handleTextAreaSize();
-    const response_layer_1 = await postResponse(
+    const response_layer_1_data = await postResponse(
       {
         new_agent_id: agent_id,
         USER_PROMPT: curr_user_question,
       },
       "layer_1_objective_identification"
     );
-    if (response_layer_1) {
+    if (response_layer_1_data) {
+      const response_layer_1 = response_layer_1_data.agent_data;
+      const markdown_text = response_layer_1_data.markdown_text;
       setDeployContractDataHandler("objectives", response_layer_1.objectives);
       setDeployContractDataHandler(
         "brief_context_on_each_objective",
@@ -74,8 +76,7 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
         {
           id: agent_answer_id,
           isAgent: true,
-          message:
-            "Layer 1 Objective Identification had been sent and all the agent needs to do is to respond from the user's end",
+          message: markdown_text,
           createdAt: new Date().toISOString(),
         },
       ]);
