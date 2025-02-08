@@ -101,7 +101,7 @@ const AskQuestion = ({ agent_id }: { agent_id: string }) => {
     } else {
       setLoading(false);
     }
-    console.log(response_layer_1);
+    console.log(response_layer_1_data);
   };
 
   const startPolling = () => {

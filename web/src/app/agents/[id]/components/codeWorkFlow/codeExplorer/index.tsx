@@ -31,7 +31,7 @@ const FolderExplorer = ({
       setIsOpen(!isOpen);
     } else {
       const codePath =
-        _parent.split("#").slice(1).join("#").split(".")[0] + ".json";
+        _parent.split("#").slice(1).join("_").split(".")[0] + ".json";
       console.log(codePath);
       const response = await postResponse(
         { file_name: codePath, agent_id },
