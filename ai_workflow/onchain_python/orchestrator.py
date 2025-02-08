@@ -1,75 +1,52 @@
 import random
 from typing import List, Tuple, Dict
 from ai_workflow.onchain_python.members import Buyer, Seller, NFTArtwork , calculate_buyer_reward, calculate_seller_reward
+import numpy as np
 
 class Orchestrator:
     @staticmethod
-    def step(buyers: List[Tuple[float, 'Buyer']], seller: 'Seller', 
-             nft: 'NFTArtwork', action: Dict[str, int], 
+    def step(buyers: List['Buyer'], buyer_action: List, seller: 'Seller', 
+             nft: 'NFTArtwork', seller_action: Dict[str, int], 
              curr_gas_fees:float, current_rarity_volume:float) -> Tuple[List[float], float]:
-                                                                
-        """
-        Simulates one step of interaction between a list of buyers and a seller for a particular NFT.
-
-        Parameters:
-        - buyers: List of tuples containing (bid_price, buyer_instance)
-        - seller: Seller object
-        - nft: NFTArtwork object
-        - action: Dictionary containing seller's action:
-          {"increment": value} | {"decrement": value} | {"hold": 1}
-
-        Returns:
-        - Tuple of buyer rewards (list), seller reward (float), updated NFT price (float)
-        """
+        # STEP-1 : Let the seller take the action first
+        nft.TimeListed += 1
+        buyers_rewards = np.zeros(len(buyers))
+        if "increase" in seller_action:
+            level = seller_action["increase"]
+            seller.increase_price(level)
+        elif "decrease" in seller_action:
+            level = seller_action["decrease"]
+            seller.decrease_price(level)
+        elif "hold" in seller_action:
+            return buyers_rewards, calculate_seller_reward(seller, curr_gas_fees, False) ,False
         
-        # Initialize rewards
-        buyer_rewards = []
-        for _, buyer_instance in buyers:
-            buyer_rewards.append(0.0)  
-        seller_reward = 0.0
-
-        # Handle Seller's "hold" action:
-        if "hold" in action.keys():
+        # STEP-2 : Let the buyers take the action
+        best_buyer_idx, best_bid = -1, nft.CurrPrice
+        
+        for idx, (buyer, action) in enumerate(zip(buyers, buyer_action)):
+            print(action, "**************")
+            action_name, action_value = list(action.items())[0]
+            if action_name=="hold":
+                continue
+            elif action_name=="place_bid":
+                bid_price = Buyer.place_bid(nft.CurrPrice, action_value)
+                if bid_price > best_bid and bid_price <= buyer.AvailableFunds:
+                    best_buyer_idx, best_bid = idx, bid_price
+            elif action_name=="buy":
+                if nft.CurrPrice <= buyer.AvailableFunds and best_buyer_idx==-1:
+                    best_buyer_idx = idx
+            
+        # STEP-3 : Process the transaction
+        if best_buyer_idx != -1:
+            buyer = buyers[best_buyer_idx]
+            buyer.AvailableFunds -= best_bid
+            buyer_reward = calculate_buyer_reward(best_bid, curr_gas_fees, nft.RarityScore, current_rarity_volume)
+            buyers_rewards[best_buyer_idx] = buyer_reward
+            seller_reward = calculate_seller_reward(seller, curr_gas_fees, True, best_bid)
+            return buyers_rewards, seller_reward, True
+                    
+        else: 
             seller_reward = calculate_seller_reward(seller, curr_gas_fees, False)
-            seller.reward += seller_reward
-
-            # No price change for "hold" action, no transaction happens
-            return buyer_rewards, seller_reward
-
-        # Handle Seller's "increase" or "decrease" actions:
-        elif "increment" in action:
-            percentage_change = action["increment"]
-            seller.increase_price(percentage_change)
-        elif "decrement" in action:
-            percentage_change = action["decrement"]
-            seller.decrease_price(percentage_change)
-
-        # Update NFT price after seller's action
-        updated_price = nft.CurrPrice
-
-        # Handle the buyers' bids
-        max_bidder = None
-        for idx, (bid_price, buyer_instance) in enumerate(buyers):
-            if bid_price >= updated_price:
-                if max_bidder is None or bid_price > max_bidder[0]:
-                    max_bidder = (idx, bid_price, buyer_instance)
-
-        if max_bidder:
-            # Process the transaction with the highest bidder
-            idx, buyer_bid_price, buyer_instance = max_bidder
-            buyer_instance.AvailableFunds -= buyer_bid_price  # Deduct buyer funds
-            buyer_reward = calculate_buyer_reward(buyer_bid_price, curr_gas_fees, 
-                                                  nft.RarityScore, current_rarity_volume)
-            buyer_rewards[idx] = buyer_reward
-            seller_reward = calculate_seller_reward(seller, curr_gas_fees, True , buyer_bid_price)
-
-            # Update the market and reward (if needed)
-            Orchestrator.update_market_state(nft)
-
-        return buyer_rewards, seller_reward
-
-    @staticmethod
-    def update_market_state(buyer):
-        """Update the market state after a transaction"""
-        # Placeholder for updating global market (e.g., removing NFTs from the market)
-        pass
+            return buyers_rewards, seller_reward, False
+        
+        

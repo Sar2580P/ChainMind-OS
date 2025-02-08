@@ -64,8 +64,8 @@ def train(config_path:str):
         vol_config = config['nft_volume_params']
         curr_nft_volume = vol_config['initial_nft_volumes']
         
-        episode_tracker.gas_fees.append(curr_gas_fees)
-        episode_tracker.rarity_volume_traded.append(curr_nft_volume)
+        # episode_tracker.gas_fees.append(curr_gas_fees)
+        # episode_tracker.rarity_volume_traded.append(curr_nft_volume)
 
         for step in range(train_config['Episode_length']):
             # Update gas fees
@@ -88,29 +88,36 @@ def train(config_path:str):
                                           for buyer in buyers]
                     
                     # STEP-1 : let buyers take action
-                    buyer_bids = [(take_action(buyers_q_table[buyer.BuyerID], curr_buyers_states[buyer.BuyerID],
+                    buyer_actions_idx = [(take_action(buyers_q_table[buyer.BuyerID], curr_buyers_states[buyer.BuyerID],
                                                train_config['epsilon']), buyer) for buyer in buyers]
+                    buyer_actions = [{buyer.get_action_name(action)[0]: buyer.get_action_name(action)[1]} for action, buyer in buyer_actions_idx]
                     # STEP-2 : let owner of NFT take action(seller)
-                    seller_action = take_action(sellers_q_table[nft.SellerID], curr_seller_state , train_config['epsilon'])
-                    action_name, action_code = seller.get_action_name(seller_action)
-                    action = {action_name: action_code}
+                    seller_action_idx = take_action(sellers_q_table[nft.SellerID], curr_seller_state , train_config['epsilon'])
+                    action_name, action_code = seller.get_action_name(seller_action_idx)
+                    seller_action = {action_name: action_code}
                     # STEP-3 : interact via Orchestrator
                     rarity_volume = curr_nft_volume[nft.RarityScore]
-                    rewards_buyers, reward_seller = Orchestrator.step(buyer_bids, seller, nft, action, 
+                    rewards_buyers, reward_seller, is_nft_sold = Orchestrator.step(buyers, buyer_actions, seller, nft, seller_action, 
                                                                       curr_gas_fees=curr_gas_fees, 
                                                                       current_rarity_volume=rarity_volume)
                     
+                    # remove the nft from the market
+                    if is_nft_sold:
+                        NFT_MARKET[price].remove(nft)
+                        if len(NFT_MARKET[price])==0:
+                            NFT_MARKET.pop(price)
+                            
                     # STEP-4 : Update Q-tables using SARSA
-                    for idx, (buyer, reward) in enumerate(zip(buyers, rewards_buyers)):
+                    for idx, (buyer, reward, action_idx) in enumerate(zip(buyers, rewards_buyers , buyer_actions_idx)):
                         buyer.total_rewards_achieved += reward
                         new_buyer_state = buyer.get_curr_state(curr_gas_fees, nft.RarityScore , nft.CurrPrice, config)
-                        action_taken = buyer_bids[buyers.index(buyer)][0]
+                        action_taken = action_idx[0]
                         next_action = take_action(buyers_q_table[buyer.BuyerID], new_buyer_state, train_config['epsilon'])
                         learn(buyers_q_table[buyer.BuyerID], curr_buyers_states[idx] , action_taken, reward, new_buyer_state, 
                               next_action, train_config['alpha'], train_config['gamma'])
                         
                     # Update seller Q-table
-                    action_taken = seller_action
+                    action_taken = seller_action_idx
                     new_seller_state = seller.get_curr_state(gas_fees=curr_gas_fees, config=config)
                     next_action = take_action(sellers_q_table[nft.SellerID], new_seller_state, train_config['epsilon'])
                     seller.reward += reward_seller
@@ -118,7 +125,7 @@ def train(config_path:str):
                           reward_seller, new_seller_state, next_action, 
                           train_config['alpha'], train_config['gamma'])
                     
-                    # log rewards of the agents
+                    # log rewards of the seller agents
                     key = 'Seller_'+str(nft.SellerID)
                     seller_rewards[key] = reward_seller
                     if key not in episode_tracker.seller_rewards.keys():
@@ -129,13 +136,14 @@ def train(config_path:str):
                         key = 'Buyer_'+str(buyer.BuyerID)
                         if key not in buyer_rewards:
                             buyer_rewards[key] = 0
-                        buyer_rewards['Buyer_'+str(buyer.BuyerID)] += buyer.total_rewards_achieved
-                        if key not in episode_tracker.buyer_rewards.keys():
-                            episode_tracker.buyer_rewards[key] = []
-                        episode_tracker.buyer_rewards[key].append(rewards_buyers[idx])
+                        buyer_rewards['Buyer_'+str(buyer.BuyerID)] += rewards_buyers[idx]
             
             episode_tracker.gas_fees.append(float(curr_gas_fees))
             episode_tracker.rarity_volume_traded.append(curr_nft_volume.tolist())     
+            for buyer in buyers:
+                if not episode_tracker.buyer_rewards.get('Buyer_'+str(buyer.BuyerID)):
+                    episode_tracker.buyer_rewards['Buyer_'+str(buyer.BuyerID)] = []
+                episode_tracker.buyer_rewards['Buyer_'+str(buyer.BuyerID)].append(buyer_rewards['Buyer_'+str(buyer.BuyerID)])
                    
             # Log the rewards of the agents
             seller_rewards_ = ", ".join([f"{k}: {v}" for k, v in seller_rewards.items()])
@@ -148,7 +156,7 @@ def train(config_path:str):
         episode_tracks.append(episode_tracker.model_dump())
         
     # saving the results to json
-    with open("on_chain_.json", "w") as f:
+    with open("database/nft_market_model.json", "w") as f:
         json.dump(episode_tracks, f, indent=4)  # indent=4 makes it more readable
     print("Training completed!")
 

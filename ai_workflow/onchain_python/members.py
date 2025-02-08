@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 from sortedcontainers import SortedDict
-from typing import Dict, Set, List
+from typing import Dict, Set, List, ClassVar
 import random  # To simulate gas fee changes over time
 import heapq
 import numpy as np
@@ -109,47 +109,36 @@ class Buyer(BaseModel):
     BuyerID: int
     AvailableFunds: float = Field(..., ge=0, description="Total funds available for purchase.")
     total_rewards_achieved: float = Field(default=0.0, description="Total rewards the buyer has accumulated.")
+    max_percentage_decrease: ClassVar[float] = 10.0  # Class attribute
     
     # Max-heap to store NFTs as (-price, nft_object) for efficient access to the most expensive NFTs
-    nft_track_list: list = []  # List of tuples (-price, nft_object)
-
-    def update_nft_track_list(self):
-        """Update the track-list for affordable NFTs, maintaining it as a max-heap."""
-        # Remove NFTs from track-list that are now out of the buyer's budget
-        self.nft_track_list = [item for item in self.nft_track_list if item[0] <= -self.AvailableFunds]
-
-        # Rebuild the heap by adding eligible NFTs that the buyer can afford
-        for price, nft_set in NFT_MARKET.items():
-            if price <= self.AvailableFunds:  # Check if the NFT is affordable
-                for nft in nft_set:
-                    heapq.heappush(self.nft_track_list, (-price, nft))  # Push each NFT with negated price for max-heap
-
-        # Reheapify to maintain heap properties
-        heapq.heapify(self.nft_track_list)
-
-    def remove_nft_from_track_list(self, nft: NFTArtwork):
-        """Remove an NFT from the track-list when it is bought or removed."""
-        # Lazy removal by filtering out the NFT object from the heap
-        self.nft_track_list = [item for item in self.nft_track_list if item[1] != nft]
-        # Reheapify after removal to maintain heap properties
-        heapq.heapify(self.nft_track_list)
-
-    def buy_nft(self, nft: NFTArtwork, price: float, reward: float):
-        """Buyer buys the NFT, decreases available funds, and updates total rewards."""
-        if self.AvailableFunds >= price:
-            # Decrease available funds after the purchase
-            self.AvailableFunds -= price
-            # Update total rewards
-            self.total_rewards_achieved += reward
-            # Remove NFT from the track-list since it was bought
-            self.remove_nft_from_track_list(nft)
-            # Also, remove the NFT from the global market listing
-            NFT_MARKET[price].remove(nft)
-            if not NFT_MARKET[price]:  # Clean up empty sets in nft_market
-                del NFT_MARKET[price]
-            return True  # Indicating successful purchase
-        else:
-            return False  # Not enough funds to buy the NFT
+    nft_track: List[BaseModel] = Field(default=[], description="Tracking nft")  # List of tuples (-price, nft_object)
+    nft_art_ids: Set[int] = Field(default=set(), description="Set of NFT artwork IDs the buyer owns.")
+        
+    @classmethod
+    def get_max_decrease(cls) -> float:
+        return cls.max_percentage_decrease  # Accessing class variable
+    
+    @staticmethod
+    def place_bid(nft_price , decrease_level:int):
+        """Place a bid on the NFT by decreasing the price by a certain percentage."""
+        # chunk the range of (1, max_decrease) into (decrease_level) equal parts
+        # then select a random percentage from the selected chunk
+        max_decrease = Buyer.get_max_decrease()
+        min_percent = 1 + (decrease_level * (max_decrease) / 5)
+        max_percent = min(min_percent + (max_decrease-1) / 5, max_decrease)
+        percentage = random.uniform(min_percent, max_percent)
+        bid_price = round(nft_price * (1 - percentage / 100), 2)
+        return bid_price
+        
+    def get_action_name(self, action: int) -> str:
+        if action<5:
+            return "place_bid", action
+        elif action==5:
+            return "hold" , 1
+        elif action==6:
+            return "accept" , 1
+        raise ValueError("Invalid action index provided.")
         
     def get_curr_state(self, gas_fees:float, rarityScore: int , current_price:float, config) -> np.ndarray:
 
@@ -170,20 +159,20 @@ class Buyer(BaseModel):
 
 def calculate_seller_reward(seller:Seller, curr_gas_fees:float, transaction_occurred:bool, final_price:float=10)-> float:
     """Calculate the reward for the seller based on the transaction outcome."""
-    if transaction_occurred:
+    if not transaction_occurred:
         # Reward the seller with a fraction of the current gas fees
-        return -1e-2 * seller.nft.TimeListed  # 0.01% of the current gas fees as reward
+        return -1e-5 * seller.nft.TimeListed  # 0.01% of the current gas fees as reward
     else:
         # Penalize the seller for not making a transaction
-        return (final_price-seller.nft.BasePrice) - 1e-2 * seller.nft.TimeListed - 1e-2 * curr_gas_fees  - 1e-2 * seller.nft.RarityScore 
+        return (final_price-seller.nft.BasePrice) - 1e-5 * seller.nft.TimeListed - 1e-3 * curr_gas_fees  - 1e-2 * seller.nft.RarityScore 
 
 def calculate_buyer_reward(buyer_bid_price:float , curr_gas_fees, RarityScore, rarity_volume)-> float:
     resale_price = get_resale_price(RarityScore, rarity_volume)
-    return (resale_price - buyer_bid_price) - 1e-2 * curr_gas_fees
+    return (resale_price - buyer_bid_price) - 1e-3 * curr_gas_fees
 
 def get_resale_price(RarityScore, rarity_volume):
     '''
     I want it as a function of rarityScore and the volume traded for that rarityScore...
     Volume traded can also be a simulation, like that of gas fees
     '''
-    return rarity_volume * RarityScore
+    return 1e-5 * rarity_volume * RarityScore

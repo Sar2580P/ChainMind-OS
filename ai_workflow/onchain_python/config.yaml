@@ -1,5 +1,5 @@
 train_params: 
-  Episode_length : 10
+  Episode_length : 50
   N_episodes : 2
   epsilon: 0.1
   alpha: 0.1
@@ -45,13 +45,13 @@ gas_fees_params:
 
 nft_volume_params: 
   initial_nft_volumes:   # Initial NFT volumes for rarity scores (1-5)
-    - 40
-    - 20
-    - 20
-    - 10
-    - 100
-  volatility : 0.1
-  shock_prob : 0.1
+    - 4000
+    - 880
+    - 10000
+    - 800
+    - 90
+  volatility : 0.07
+  shock_prob : 0.03
 
 state_dim_sellers : 
   - 5
@@ -70,34 +70,34 @@ Num_buyers : 2
 
 buyers_config:
   - BuyerID: 0
-    AvailableFunds: 10
+    AvailableFunds: 57
     total_rewards_achieved: 0
   
   - BuyerID: 1
-    AvailableFunds: 100
+    AvailableFunds: 86
     total_rewards_achieved: 0
-
+    
 sellers_config:
   - NFT_config:
       NFT_params:
         nft_artwork_id: 0
-        BasePrice: 10
-        CurrPrice: 10
+        BasePrice: 64
+        CurrPrice: 64
         RarityScore: 3
         TimeListed: 0
       SellerID: 0
       pricing_variability_level : 5
-      max_percentage_change : 20
+      max_percentage_change : 10
       reward : 0
   - NFT_config:
       NFT_params:
-        nft_artwork_id: 0
-        BasePrice: 10
-        CurrPrice: 10
-        RarityScore: 3
+        nft_artwork_id: 1
+        BasePrice: 78
+        CurrPrice: 78
+        RarityScore: 4
         TimeListed: 0
       SellerID: 1
       pricing_variability_level : 5
-      max_percentage_change : 20
+      max_percentage_change : 10
       reward : 0
 
