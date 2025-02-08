@@ -1,3 +1,4 @@
+"use client";
 import { v4 } from "uuid";
 import Link from "next/link";
 import classes from "./index.module.css";

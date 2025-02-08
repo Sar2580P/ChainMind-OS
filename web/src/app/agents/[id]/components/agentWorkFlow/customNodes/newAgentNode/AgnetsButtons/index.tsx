@@ -1,11 +1,16 @@
 "use clinet";
 import React from "react";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import AppContext from "@/contexts/AppContext";
-import usePostResponse from "@/hooks/usePostResponse";
 import { Button } from "@/components/ui/button";
+import LoadingComponent from "@/components/loading";
+import usePostResponse from "@/hooks/usePostResponse";
 
 const AgentsButtons = ({ id, agent_id }: { id: string; agent_id: string }) => {
+  const [loading, setLoading] = useState({
+    workPlanning: false,
+    generateCode: false,
+  });
   const { postResponse } = usePostResponse();
   const {
     agentCurrentNodeAndEdges,
@@ -27,6 +32,7 @@ const AgentsButtons = ({ id, agent_id }: { id: string; agent_id: string }) => {
   };
 
   const handleWorkPlanning = async () => {
+    setLoading((loading) => ({ ...loading, workPlanning: true }));
     const response = await postResponse(
       { id, agent_id },
       "layer_2_agent_work_planning"
@@ -59,9 +65,11 @@ const AgentsButtons = ({ id, agent_id }: { id: string; agent_id: string }) => {
       setDeployContractDataHandler("files", [response.files]);
       setDeployContractDataHandler("code_instructions", [codeInstructions]);
     }
+    setLoading((loading) => ({ ...loading, workPlanning: false }));
   };
 
   const handleGenerateCode = async () => {
+    setLoading((loading) => ({ ...loading, generateCode: true }));
     const data = agentCurrentNodeAndEdges.Nodes.filter(
       (node) => node.id.toLowerCase() === id.toLowerCase()
     );
@@ -71,16 +79,53 @@ const AgentsButtons = ({ id, agent_id }: { id: string; agent_id: string }) => {
       { agent_id, solution_code_design_list },
       "leayer_3_generate_codebase"
     );
+    setLoading((loading) => ({ ...loading, generateCode: false }));
     console.log(response);
   };
 
   return (
     <div className="flex justify-center align-middle gap-2 mt-2">
-      <Button className="w-32" variant={"default"} onClick={handleWorkPlanning}>
+      <Button
+        className="w-32"
+        variant={"default"}
+        onClick={handleWorkPlanning}
+        style={{
+          position: "relative",
+        }}
+        disabled={loading.workPlanning}
+      >
         Work Planning
+        <div className="absolute right-50 top-50">
+          {loading.workPlanning && (
+            <LoadingComponent
+              height="20px"
+              size="16px"
+              width="50px"
+              alignItems="center"
+            />
+          )}
+        </div>
       </Button>
-      <Button className="w-32" variant={"outline"} onClick={handleGenerateCode}>
+      <Button
+        className="w-32"
+        variant={"outline"}
+        onClick={handleGenerateCode}
+        style={{
+          position: "relative",
+        }}
+        disabled={loading.generateCode}
+      >
         Generate Code
+        <div className="absolute right-50 top-50">
+          {loading.generateCode && (
+            <LoadingComponent
+              height="20px"
+              size="16px"
+              width="50px"
+              alignItems="center"
+            />
+          )}
+        </div>
       </Button>
     </div>
   );

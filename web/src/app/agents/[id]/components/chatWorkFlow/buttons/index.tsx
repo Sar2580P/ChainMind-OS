@@ -1,20 +1,14 @@
 "use client";
 import { useContext } from "react";
+import { useWriteContract } from "wagmi";
 import configData from "@/config/config.json";
 import AppContext from "@/contexts/AppContext";
 import { Button } from "@/components/ui/button";
-import { useReadContract, useWriteContract } from "wagmi";
 import { CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const Buttons = ({ agent_id }: { agent_id: string }) => {
   const { deployContractData } = useContext(AppContext);
-  const { data: agentDetails } = useReadContract({
-    abi: configData.abi,
-    address: configData.contractAddress.localhost as `0x${string}`,
-    functionName: "getAllAiAgents",
-    args: [],
-  });
-  console.log("BloackChain_agentDetails", agentDetails);
+
   const { writeContractAsync: writeContractAsyncDeployAgent } =
     useWriteContract();
   const handleDeployAgent = async () => {
