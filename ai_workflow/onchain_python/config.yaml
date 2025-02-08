@@ -1,8 +1,8 @@
 train_params: 
-  Episode_length : 50
-  N_episodes : 2
-  epsilon: 0.1
-  alpha: 0.1
+  Episode_length : 200
+  N_episodes : 50
+  epsilon: 0.4
+  alpha: 0.5
   gamma: 0.99
 
 action_count_buyer : 7
@@ -37,10 +37,10 @@ buyer_discretization_params:
     n_bins: 5
 
 gas_fees_params: 
-  initial_gas_fees: 1.4
-  ceiling_gas_fees: 4
-  floor_gas_fees: 1.4
-  congestion_factor : 0.1
+  initial_gas_fees: 50
+  ceiling_gas_fees: 700
+  floor_gas_fees: 20
+  congestion_factor : 1.5
   n_bins: 5
 
 nft_volume_params: 
@@ -81,8 +81,8 @@ sellers_config:
   - NFT_config:
       NFT_params:
         nft_artwork_id: 0
-        BasePrice: 64
-        CurrPrice: 64
+        BasePrice: 23
+        CurrPrice: 23
         RarityScore: 3
         TimeListed: 0
       SellerID: 0
@@ -92,8 +92,8 @@ sellers_config:
   - NFT_config:
       NFT_params:
         nft_artwork_id: 1
-        BasePrice: 78
-        CurrPrice: 78
+        BasePrice: 80
+        CurrPrice: 80
         RarityScore: 4
         TimeListed: 0
       SellerID: 1

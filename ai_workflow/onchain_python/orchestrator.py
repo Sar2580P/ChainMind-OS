@@ -24,7 +24,6 @@ class Orchestrator:
         best_buyer_idx, best_bid = -1, nft.CurrPrice
         
         for idx, (buyer, action) in enumerate(zip(buyers, buyer_action)):
-            print(action, "**************")
             action_name, action_value = list(action.items())[0]
             if action_name=="hold":
                 continue

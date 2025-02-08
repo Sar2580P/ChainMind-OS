@@ -157,9 +157,9 @@ def train(config_path:str):
         
     # saving the results to json
     with open("database/nft_market_model.json", "w") as f:
-        json.dump(episode_tracks, f, indent=4)  # indent=4 makes it more readable
+        json.dump(episode_tracks[-2:], f, indent=4)  # indent=4 makes it more readable
     print("Training completed!")
 
-# if __name__=="__main__":
-#     train(config_path='ai_workflow/onchain_python/config.yaml')
+if __name__=="__main__":
+    train(config_path='ai_workflow/onchain_python/config.yaml')
     

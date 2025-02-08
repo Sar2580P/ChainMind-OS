@@ -33,33 +33,34 @@ def create_q_table(states_dim_tuples: List, action_count: int) -> np.ndarray:
 
 def get_gas_fee(curr_price: float, floor: float, ceiling: float, congestion_factor: float = 1.0) -> float:
     """
-    Simulates gas fees as a function of NFT price and market conditions.
+    Simulates gas fees as a function of NFT price and market conditions, with proper scaling.
 
     Args:
         curr_price (float): Current price of the NFT.
-        support (float): Lower bound for gas fee scaling.
+        floor (float): Lower bound for gas fee scaling.
         ceiling (float): Upper bound for gas fee scaling.
         congestion_factor (float, optional): Multiplier for network congestion (default = 1.0).
 
     Returns:
-        float: Simulated gas fee.
+        float: Scaled simulated gas fee.
     """
-    # Normalize price impact on gas fee
+    # Normalize price impact on gas fee (scaled between 0 and 1)
     price_factor = np.clip((curr_price - floor) / (ceiling - floor), 0, 1)
 
-    # Simulate network congestion (random multiplier)
-    congestion = np.random.uniform(0.8, 1.2) * congestion_factor
+    # Simulate network congestion (random variation)
+    congestion = np.random.uniform(0.8, 1.5) * congestion_factor
 
     # Introduce market volatility (random fluctuations)
-    volatility = np.random.uniform(-0.05, 0.05)  # ±5% random noise
+    volatility = np.random.uniform(-0.2, 0.2) * price_factor
 
-    # Compute gas fee
-    base_fee = floor * 0.02  # 2% of support price as minimum fee
-    dynamic_fee = price_factor * (ceiling * 0.05)  # Up to 5% of ceiling price
-    gas_fee = base_fee + (dynamic_fee * congestion) + (dynamic_fee * volatility)
+    # Compute base and dynamic gas fees (scaled properly)
+    base_fee = floor * 0.05  # 5% of floor price as minimum fee
+    dynamic_fee = price_factor * (ceiling * 0.1)  # Up to 10% of ceiling price
 
-    return round(max(gas_fee, floor * 0.01), 4)  # Ensure minimum fee
+    # Compute final gas fee with scaling
+    gas_fee = (base_fee + dynamic_fee) * (1 + congestion + volatility)
 
+    return round(max(gas_fee, base_fee), 4)  # Ensure minimum fee is dynamically adjusted
 
 def get_current_rarity_volume(curr_volumes: np.ndarray, volatility: float = 0.1, 
                               shock_prob: float = 0.05) -> np.ndarray:
