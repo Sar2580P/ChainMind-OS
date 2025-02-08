@@ -15,6 +15,14 @@ const Buttons = ({ agent_id }: { agent_id: string }) => {
     console.log("Deploying agent");
     console.log("Address : ", configData.contractAddress.sepolia);
     console.log(deployContractData);
+    const brief_context_on_each_objective =
+      deployContractData.brief_context_on_each_objective.map((item) =>
+        item.substring(0, 32)
+      );
+    console.log(
+      "brief_context_on_each_objective_contract",
+      brief_context_on_each_objective
+    );
     await writeContractAsyncDeployAgent(
       {
         abi: configData.abi,
@@ -23,7 +31,7 @@ const Buttons = ({ agent_id }: { agent_id: string }) => {
         args: [
           agent_id,
           deployContractData.objectives,
-          deployContractData.brief_context_on_each_objective,
+          brief_context_on_each_objective,
           deployContractData.tech_experts_for_objectives,
           deployContractData.files,
           deployContractData.code_instructions,

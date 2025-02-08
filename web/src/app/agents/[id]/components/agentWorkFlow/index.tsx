@@ -29,7 +29,7 @@ const edgeTypes = {
   "custom-edge": CustomEdge,
 };
 
-let call_only_once: number = 1;
+let last_agent_id: string = "new";
 
 const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
@@ -100,10 +100,11 @@ const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
         agent_id
       );
       console.log("BloackChain_agentDetails", Nodes, Edges);
-      if (call_only_once++ == 1) {
+      if (last_agent_id != agent_id) {
         setAgentCurrentNodeAndEdgesHandler(Nodes, Edges);
         const codeFiles = makeCodeArrayFromFiles(agentDetails.files[0]);
         setAgentDatasHandler(agent_id, "codes", codeFiles);
+        last_agent_id = agent_id;
       }
     }
   }

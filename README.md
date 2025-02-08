@@ -52,13 +52,16 @@ The future of agents is here! Create your own agent and start your journey to th
 
 Ai-powered agents are the future of the digital world.
 
-1. **Web:**
+1. **Web:** The UI for the user to interact with the agents and the system code.
 
-2. **Api:**
+2. **Api:** The backend for the web app to interact with the llm-based agents using pydantic-ai and groq.
 
-3. **Smart Contracts:**
+3. **Contracts:** The smart contracts for the agents to interact with the blockchain.
 
-4. **Ai Agents:**
+   - [**Ethereum Sepolia Testnet Deployed Address**](https://sepolia.etherscan.io/address/0xA9049312D8fA2F42555AdCc04343F1B54c84AEc0)
+   - [**Arbitrum Sepolia Testnet Deployed Address**](https://sepolia.arbiscan.io/address/0x9221146c6900f72d5bcB5ba578ff4A738bE1165E)
+
+4. **Ai Agents:** The agents that interact with the user and the system to provide the best possible solution.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
