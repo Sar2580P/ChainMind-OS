@@ -70,6 +70,9 @@ const LineChart = ({
         },
       },
     },
+    animation: {
+      duration: 20000,
+    },
   };
 
   return (
