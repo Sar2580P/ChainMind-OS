@@ -54,15 +54,15 @@ AI-Powered Agents: Shaping the Future of the Digital World
 
 1. **Contracts:** Enabling AI agents to interact with blockchain networks through deployed smart contracts on:
 
-   - [Nethermind](https://www.nethermind.io/): Develop an AI agent that interacts with Ethereum via the [Sepolia testnet](https://sepolia.etherscan.io/address/0xA9049312D8fA2F42555AdCc04343F1B54c84AEc0).
+   - [Nethermind](https://www.nethermind.io/): Develop an LLM based AI agent that interacts with Ethereum via the [Sepolia testnet](https://sepolia.etherscan.io/address/0xA9049312D8fA2F42555AdCc04343F1B54c84AEc0).
    - [Arbitrum](https://docs.arbitrum.io/for-devs/dev-tools-and-resources/chain-info): Build cutting-edge AI agent applications leveraging the [Arbitrum testnet](https://sepolia.arbiscan.io/address/0x9221146c6900f72d5bcB5ba578ff4A738bE1165E).
    - [Coinbase](https://github.com/Sar2580P/ChainMind-OS): Create a viral consumer AI application for the Coinbase ecosystem.
 
 2. **Api:** Powering LLM-driven agents through Pydantic-AI and Groq, with reinforcement learning support.
 
-   - [Pydantic-ai](https://ai.pydantic.dev/agents/): Develop AI agents for seamless interaction between users and the system.
+   - [Pydantic-ai](https://ai.pydantic.dev/agents/): Develop LLM based AI agents for seamless interaction between users and the system.
    - [Groq](https://console.groq.com/docs/text-chat): Implement a structured query system for AI agents.
-   - [RL rust and python](https://docs.arbitrum.io/stylus-by-example/basic_examples/hello_world): Used to Train reinforcement learning agents for blockchain-based interactions.
+   - RL [rust](https://github.com/Sar2580P/ChainMind-OS/tree/main/onchain_ai_agents) and [python](https://github.com/Sar2580P/ChainMind-OS/tree/main/ai_workflow/onchain_python): Used to Train reinforcement learning agents for blockchain-based interactions.
 
 3. **Web:** The UI for the user to interact with the ai agents using next.js, wagmi and rainbowkit.
 

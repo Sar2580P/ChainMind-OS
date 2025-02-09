@@ -65,7 +65,7 @@ This agentic process ensures **seamless collaboration**, **iterative refinement*
 
 **URL:** `/layer_feedback_objective_design/`
 **Method:** `POST`
-**Description:** Designs objectives based on user feedback.
+**Description:** Designs objectives based on feedback get llm respons fro user using pooling.
 
 ---
 
@@ -73,7 +73,7 @@ This agentic process ensures **seamless collaboration**, **iterative refinement*
 
 **URL:** `/check_layer_feedback_objective_design/`
 **Method:** `POST`
-**Description:** Checks the feedback objective design.
+**Description:** Updates the objectives based on feedback from the user.
 
 ---
 
@@ -81,7 +81,7 @@ This agentic process ensures **seamless collaboration**, **iterative refinement*
 
 **URL:** `/layer_2_agent_work_planning/`
 **Method:** `POST`
-**Description:** Plans the workflow for the AI agent.
+**Description:** Plans the workflow for the AI agent of a specific objective.
 
 ---
 
@@ -89,7 +89,7 @@ This agentic process ensures **seamless collaboration**, **iterative refinement*
 
 **URL:** `/leayer_3_generate_codebase/`
 **Method:** `POST`
-**Description:** Generates the codebase for the AI agent.
+**Description:** Generates the codebase for the AI agent of a specific objective.
 
 ---
 
@@ -97,7 +97,7 @@ This agentic process ensures **seamless collaboration**, **iterative refinement*
 
 **URL:** `/get_codebase_for_file/`
 **Method:** `POST`
-**Description:** Retrieves the codebase for a specific file.
+**Description:** Retrieves the codebase for a specific file of the user's AI agent.
 
 ---
 
