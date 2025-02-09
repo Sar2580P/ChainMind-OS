@@ -74,7 +74,7 @@ const AgentWorkFlow = ({ agent_id }: { agent_id: string }) => {
 
   const { data: agentDetails } = useReadContract({
     abi: configData.abi,
-    address: configData.contractAddress.sepolia as `0x${string}`,
+    address: configData.contractAddress.arbitrumsepolia as `0x${string}`,
     functionName: "getAiAgentById",
     args: [agent_id],
   }) as {

@@ -26,6 +26,7 @@ import {
   moonbaseAlpha,
   celoAlfajores,
   mantleTestnet,
+  arbitrumSepolia,
 } from "wagmi/chains";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
@@ -51,6 +52,7 @@ const config = getDefaultConfig({
     moonbaseAlpha,
     celoAlfajores,
     mantleTestnet,
+    arbitrumSepolia,
   ],
   ssr: true,
 });
