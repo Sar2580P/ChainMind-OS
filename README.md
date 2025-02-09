@@ -37,6 +37,8 @@ The future of agents is here! Create your own agent and start your journey to th
 
 ### Built With
 
+- [![Nethermind][Nethermind]][Nethermind-url]
+- [![Arbitrum][arbitrum]][arbitrum-url]
 - [![Next][Next.js]][Next-url]
 - [![Hardhat][hardhat.js]][hardhat-url]
 - [![Solidity][solidity.js]][solidity-url]
@@ -44,7 +46,6 @@ The future of agents is here! Create your own agent and start your journey to th
 - [![Rust][rust]][rust-url]
 - [![Ethereum][ethereum.js]][ethereum-url]
 - [![SePolia][sepolia]][sepolia-url]
-- [![Arbitrum][arbitrum]][arbitrum-url]
 
 <!-- Constituents -->
 
@@ -280,3 +281,5 @@ Thank you for inspiring us and pushing us to reach our full potential. We are tr
 [sepolia-url]: https://sepolia.com/
 [arbitrum]: https://img.shields.io/badge/Arbitrum-20232A?style=for-the-badge&logo=arbitrum&logoColor=61DAFB
 [arbitrum-url]: https://arbitrum.com/
+[Nethermind]: https://img.shields.io/badge/Nethermind-20232A?style=for-the-badge&logo=nethermind&logoColor=61DAFB
+[Nethermind-url]: https://www.nethermind.io/
