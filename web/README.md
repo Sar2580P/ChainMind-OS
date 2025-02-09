@@ -7,6 +7,7 @@ The future of agents is here! Create your own agent and start your journey to th
 ## Snapshot
 
 ![Home](/images/home.png)
+![Appflow](/images/appflow%20.png)
 ![chatworkflow](/images/chatworkflow.png)
 ![codeworkflow](/images/codeworkflow.png)
 ![NftMarketModelling](/images/NftMarketModelling.png)

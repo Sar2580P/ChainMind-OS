@@ -163,6 +163,10 @@ Our solution likely addresses several key challenges in blockchain systems by le
    - The **Coder Agent** steps in to handle the heavy lifting.
    - It meticulously writes and finalizes the code, weaving the agents' collaborative efforts into a blockchain solution tailored to the user's use case.
 
+![Appflow](/images/appflow%20.png)
+
+- **[For More Web Snapshot](/web/)**
+
 This agentic process ensures **seamless collaboration**, **iterative refinement**, and a robust end-to-end blockchain solution for every user! 🚀
 
 ---
