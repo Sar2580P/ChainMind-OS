@@ -45,14 +45,6 @@ This agentic process ensures **seamless collaboration**, **iterative refinement*
 
 ## Endpoints
 
-### Get All Agents
-
-**URL:** `/`
-**Method:** `GET`
-**Description:** Retrieves all agent IDs.
-
----
-
 ### Layer 1 Objective Identification
 
 **URL:** `/layer_1_objective_identification/`

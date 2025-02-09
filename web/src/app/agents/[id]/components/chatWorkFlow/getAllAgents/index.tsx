@@ -1,6 +1,11 @@
 "use client";
 import { cn } from "@/lib/utils";
 import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import {
   Command,
   CommandEmpty,
   CommandGroup,
@@ -8,45 +13,42 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import { useEffect, useState } from "react";
+import { useReadContract } from "wagmi";
 import { useRouter } from "next/navigation";
+import configData from "@/config/config.json";
 import { Button } from "@/components/ui/button";
-import useGetResponse from "@/hooks/useGetResponse";
 import { Check, ChevronsUpDown } from "lucide-react";
 
 export function GetAllAgentprompt({ agent_id }: { agent_id: string }) {
   const router = useRouter();
-  const [open, setOpen] = useState(false);
-  const { getResponse } = useGetResponse();
-  const [ai_agents_ids, setAiAgentsIds] = useState<string[]>([]);
-
-  useEffect(() => {
-    const fetchAiAgentsIds = async () => {
-      const response = await getResponse("");
-      if (response) setAiAgentsIds(response.agents);
-    };
-    fetchAiAgentsIds();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  console.log(ai_agents_ids);
-  console.log("value");
+  const { data: allAgentDetails } = useReadContract({
+    abi: configData.abi,
+    address: configData.contractAddress.arbitrumsepolia as `0x${string}`,
+    functionName: "getAllAiAgents",
+    args: [],
+  }) as {
+    data: {
+      id: string;
+      agentObjectives: string[];
+      briefContextOnEachObjective: string[];
+      techExpertise: string[][];
+      files: string[][];
+      instructions: string[][];
+    }[];
+  };
+  const ai_agents_ids = Array.isArray(allAgentDetails)
+    ? allAgentDetails.map((agent) => agent.id)
+    : [];
 
   return (
-    <Popover open={open} onOpenChange={setOpen}>
+    <Popover>
       <PopoverTrigger asChild>
         <Button
           variant="outline"
           role="combobox"
-          aria-expanded={open}
           className="w-[150px] justify-between text-zinc-900 pl-2 cursor-pointer"
         >
-          {agent_id.substring(0, 10)}...
+          All Ai Agents
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
@@ -54,14 +56,13 @@ export function GetAllAgentprompt({ agent_id }: { agent_id: string }) {
         <Command>
           <CommandInput placeholder="Search ai agent..." />
           <CommandList>
-            <CommandEmpty>No Ai Agent found.</CommandEmpty>
+            <CommandEmpty>No Ai Agent Deployed.</CommandEmpty>
             <CommandGroup>
-              {ai_agents_ids.map((ai_agents_id , index) => (
+              {ai_agents_ids.map((ai_agents_id, index) => (
                 <CommandItem
                   key={ai_agents_id + index}
                   value={ai_agents_id}
                   onSelect={() => {
-                    setOpen(false);
                     router.push(`/agents/${ai_agents_id}`);
                   }}
                 >
